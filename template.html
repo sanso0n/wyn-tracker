@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WYN AD Tracker</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --panel: #1e293b;
+    --panel-2: #243049;
+    --border: #334155;
+    --text: #e2e8f0;
+    --text-dim: #94a3b8;
+    --accent: #f59e0b;
+    --accent-2: #fbbf24;
+    --green: #22c55e;
+    --red: #ef4444;
+    --orange: #f97316;
+    --yellow: #eab308;
+    --blue: #3b82f6;
+    --purple: #a855f7;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+  body { min-height: 100vh; }
+  header {
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    border-bottom: 1px solid var(--border);
+    padding: 20px 24px;
+  }
+  header h1 { margin: 0; font-size: 24px; letter-spacing: 0.5px; }
+  header .sub { color: var(--text-dim); font-size: 13px; margin-top: 4px; }
+  header .badge { display: inline-block; background: var(--accent); color: #1e293b; padding: 2px 10px; border-radius: 999px; font-weight: 700; font-size: 12px; margin-left: 8px; }
+  nav.tabs {
+    display: flex;
+    gap: 4px;
+    padding: 0 16px;
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    overflow-x: auto;
+  }
+  nav.tabs button {
+    background: transparent; color: var(--text-dim); border: 0;
+    padding: 14px 18px; cursor: pointer; font-size: 14px;
+    border-bottom: 3px solid transparent; font-weight: 600;
+    white-space: nowrap;
+  }
+  nav.tabs button.active { color: var(--accent-2); border-bottom-color: var(--accent); }
+  nav.tabs button:hover:not(.active) { color: var(--text); }
+
+  main { padding: 20px; max-width: 1280px; margin: 0 auto; }
+  .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 18px; margin-bottom: 16px; }
+  .panel h2 { margin: 0 0 12px 0; font-size: 16px; color: var(--accent-2); }
+
+  /* KPIs */
+  .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+  .kpi { background: var(--panel-2); border: 1px solid var(--border); border-radius: 10px; padding: 14px; }
+  .kpi .label { color: var(--text-dim); font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .kpi .value { font-size: 22px; font-weight: 700; margin-top: 4px; color: var(--accent-2); }
+  .kpi .small { font-size: 12px; color: var(--text-dim); margin-top: 2px; }
+
+  /* Zone bars */
+  .zone-row { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--border); }
+  .zone-row:last-child { border-bottom: 0; }
+  .zone-label { width: 150px; font-size: 14px; }
+  .zone-bar { flex: 1; background: var(--panel-2); height: 14px; border-radius: 7px; overflow: hidden; }
+  .zone-bar-fill { height: 100%; background: var(--accent); }
+  .zone-count { width: 50px; text-align: right; color: var(--text-dim); font-variant-numeric: tabular-nums; }
+
+  /* Search */
+  .search-box {
+    display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap;
+  }
+  .search-box input, .search-box select {
+    background: var(--panel-2); color: var(--text); border: 1px solid var(--border);
+    padding: 10px 12px; border-radius: 8px; font-size: 14px;
+    flex: 1; min-width: 180px;
+  }
+  .search-box input:focus, .search-box select:focus { outline: none; border-color: var(--accent); }
+
+  /* Ranking table */
+  .table-wrap { overflow-x: auto; }
+  table.ranking { width: 100%; border-collapse: collapse; font-size: 14px; }
+  table.ranking th, table.ranking td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+  table.ranking th { background: var(--panel-2); font-weight: 600; color: var(--text-dim); text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; position: sticky; top: 0; }
+  table.ranking tbody tr { cursor: pointer; transition: background 0.1s; }
+  table.ranking tbody tr:hover { background: var(--panel-2); }
+  .rank-cell { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--accent-2); width: 50px; }
+  .pts-cell { font-variant-numeric: tabular-nums; text-align: right; font-weight: 600; }
+  .pct-cell { font-variant-numeric: tabular-nums; text-align: right; }
+  .pct-pos { color: var(--green); }
+  .pct-neg { color: var(--red); }
+  .coffer-badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 700; }
+  .coffer-100 { background: rgba(34,197,94,0.15); color: var(--green); }
+  .coffer-80 { background: rgba(234,179,8,0.15); color: var(--yellow); }
+  .coffer-50 { background: rgba(249,115,22,0.15); color: var(--orange); }
+  .coffer-low { background: rgba(239,68,68,0.15); color: var(--red); }
+  .country-pill { font-size: 12px; color: var(--text-dim); }
+
+  /* Modal */
+  .modal-backdrop {
+    display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.75);
+    z-index: 100; justify-content: center; align-items: flex-start; padding: 20px; overflow-y: auto;
+  }
+  .modal-backdrop.open { display: flex; }
+  .modal {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 14px;
+    max-width: 720px; width: 100%; margin: 20px auto; padding: 22px; position: relative;
+  }
+  .modal h2 { margin-top: 0; }
+  .modal .close {
+    position: absolute; top: 12px; right: 14px; background: transparent; border: 0;
+    color: var(--text-dim); font-size: 28px; cursor: pointer; line-height: 1;
+  }
+  .modal .close:hover { color: var(--text); }
+  .modal-header { display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; margin-bottom: 14px; }
+  .modal-header h2 { margin: 0; }
+  .modal-header .country { color: var(--text-dim); font-size: 13px; }
+  .modal-header .zone { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--panel-2); }
+
+  .stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; margin-bottom: 14px; }
+  .stat { background: var(--panel-2); padding: 10px 12px; border-radius: 8px; }
+  .stat .label { color: var(--text-dim); font-size: 11px; text-transform: uppercase; }
+  .stat .value { font-weight: 700; font-size: 16px; margin-top: 2px; }
+
+  /* Daily breakdown */
+  .daily { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; margin-bottom: 14px; }
+  .day-cell { background: var(--panel-2); border-radius: 8px; padding: 10px 6px; text-align: center; }
+  .day-cell .d-name { font-size: 11px; color: var(--text-dim); }
+  .day-cell .d-pts { font-weight: 700; margin-top: 4px; font-size: 13px; }
+  .day-cell .d-rank { font-size: 11px; color: var(--text-dim); margin-top: 2px; }
+  .day-cell.best { background: rgba(34,197,94,0.15); border: 1px solid rgba(34,197,94,0.4); }
+  .day-cell.worst { background: rgba(239,68,68,0.15); border: 1px solid rgba(239,68,68,0.4); }
+
+  .insight {
+    background: var(--panel-2); border-left: 3px solid var(--accent);
+    padding: 8px 12px; border-radius: 6px; margin-bottom: 6px; font-size: 14px;
+  }
+  .insight.positive { border-left-color: var(--green); }
+  .insight.warning { border-left-color: var(--yellow); }
+  .insight.critical { border-left-color: var(--red); }
+  .insight.pattern { border-left-color: var(--blue); }
+  .insight.improvement { border-left-color: var(--purple); }
+
+  /* Heatmap */
+  .heatmap { display: grid; gap: 2px; font-size: 11px; }
+  .heatmap-row { display: grid; grid-template-columns: 160px repeat(6, 1fr); gap: 2px; align-items: center; }
+  .heatmap-row .name { padding: 4px 6px; color: var(--text-dim); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .hm-cell { padding: 6px 2px; text-align: center; border-radius: 3px; font-weight: 600; color: #0f172a; font-variant-numeric: tabular-nums; }
+  .hm-cell.g9 { background: #22c55e; }
+  .hm-cell.g8 { background: #4ade80; }
+  .hm-cell.g7 { background: #84cc16; }
+  .hm-cell.g6 { background: #a3e635; }
+  .hm-cell.g5 { background: #eab308; }
+  .hm-cell.g4 { background: #facc15; color: #0f172a; }
+  .hm-cell.g3 { background: #f97316; }
+  .hm-cell.g2 { background: #ef4444; color: #fff; }
+  .hm-cell.g1 { background: #b91c1c; color: #fff; }
+  .hm-cell.g0 { background: #7f1d1d; color: #fecaca; }
+  .hm-cell.gNA { background: #334155; color: #64748b; }
+
+  /* Team evolution bars */
+  .day-bar-row { display: grid; grid-template-columns: 90px 1fr 110px 90px; gap: 10px; align-items: center; padding: 6px 0; font-size: 13px; border-bottom: 1px solid var(--border); }
+  .day-bar-row:last-child { border-bottom: 0; }
+  .day-bar-label { color: var(--text-dim); }
+  .day-bar-track { background: var(--panel-2); height: 18px; border-radius: 4px; position: relative; overflow: visible; }
+  .day-bar-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-2)); border-radius: 4px; }
+  .day-bar-mark {
+    position: absolute; top: -3px; bottom: -3px; width: 3px;
+    background: #f8fafc; border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(15,23,42,0.9), 0 0 4px rgba(0,0,0,0.5);
+    transform: translateX(-1.5px);
+    z-index: 2;
+  }
+  .day-bar-value { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+  .day-bar-delta { text-align: right; font-variant-numeric: tabular-nums; font-size: 12px; }
+  .delta-pos { color: var(--green); }
+  .delta-neg { color: var(--red); }
+  .delta-neu { color: var(--text-dim); }
+
+  /* Big metric cards (Block A) */
+  .big-card { background: var(--panel-2); border: 1px solid var(--border); border-radius: 10px; padding: 14px; }
+  .big-card .big-label { color: var(--text-dim); font-size: 12px; text-transform: uppercase; letter-spacing: 0.4px; }
+  .big-card .big-value { font-size: 24px; font-weight: 700; margin-top: 4px; color: var(--accent-2); }
+  .big-card .big-deltas { display: grid; gap: 4px; margin-top: 8px; font-size: 12px; }
+  .big-card .big-deltas .row { display: flex; justify-content: space-between; }
+  .big-card .big-deltas .lbl { color: var(--text-dim); }
+
+  /* History narrative cards */
+  .cycle-card { background: var(--panel-2); border: 1px solid var(--border); border-radius: 10px; padding: 14px; margin-bottom: 12px; }
+  .cycle-card h3 { margin: 0 0 6px 0; font-size: 15px; color: var(--accent-2); }
+  .cycle-card .status-pill { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 11px; margin-left: 6px; font-weight: 600; }
+  .status-closed { background: rgba(148,163,184,0.2); color: var(--text-dim); }
+  .status-progress { background: rgba(34,197,94,0.15); color: var(--green); }
+  .cycle-narrative { font-size: 13px; color: var(--text); margin: 8px 0; line-height: 1.5; }
+  .cycle-weeks { display: grid; gap: 4px; margin-top: 8px; }
+  .cycle-week { display: grid; grid-template-columns: 70px 1fr 80px 80px 70px; gap: 8px; font-size: 12px; padding: 4px 0; align-items: center; }
+  .cycle-week .wk-num { color: var(--text-dim); font-weight: 600; }
+  .cycle-week .wk-rival { font-size: 12px; }
+  .cycle-week .wk-pts { text-align: right; font-variant-numeric: tabular-nums; }
+  .cycle-week .wk-cof { text-align: right; font-variant-numeric: tabular-nums; color: var(--text-dim); }
+  .result-w { background: rgba(34,197,94,0.2); color: var(--green); padding: 1px 7px; border-radius: 4px; font-weight: 700; font-size: 11px; text-align: center; }
+  .result-l { background: rgba(239,68,68,0.2); color: var(--red); padding: 1px 7px; border-radius: 4px; font-weight: 700; font-size: 11px; text-align: center; }
+  .result-na { color: var(--text-dim); font-size: 11px; text-align: center; }
+  .estimate-note { font-size: 11px; color: var(--text-dim); font-style: italic; margin-top: 6px; }
+
+  /* Coffers tables */
+  table.coffers-table th, table.coffers-table td { text-align: center; padding: 6px 8px; }
+  table.coffers-table th { font-size: 11px; }
+  table.coffers-table td.name-cell { text-align: left; font-weight: 500; white-space: nowrap; max-width: 200px; overflow: hidden; text-overflow: ellipsis; }
+  table.coffers-table td.empty-day { color: var(--text-dim); opacity: 0.4; }
+  table.coffers-table td.total-cell { font-weight: 700; font-variant-numeric: tabular-nums; }
+  table.coffers-table .pct-good { color: var(--green); }
+  table.coffers-table .pct-mid  { color: var(--yellow); }
+  table.coffers-table .pct-bad  { color: var(--red); }
+  table.coffers-table tbody tr:hover { background: var(--panel-2); }
+  table.coffers-table td.day-cell { font-variant-numeric: tabular-nums; }
+  .cof-9 { background: rgba(34,197,94,0.18); color: var(--green); font-weight: 700; }
+  .cof-low { background: rgba(239,68,68,0.15); color: var(--red); font-weight: 700; }
+  .heatmap-header { display: grid; grid-template-columns: 160px repeat(6, 1fr); gap: 2px; margin-bottom: 4px; }
+  .heatmap-header div { text-align: center; font-size: 11px; color: var(--text-dim); text-transform: uppercase; padding: 4px 0; }
+  .heatmap-header div:first-child { text-align: left; padding-left: 6px; }
+
+  .legend { display: flex; gap: 12px; margin-top: 10px; flex-wrap: wrap; font-size: 12px; color: var(--text-dim); }
+  .legend-item { display: flex; align-items: center; gap: 4px; }
+  .legend-sq { width: 14px; height: 14px; border-radius: 3px; }
+
+  footer { text-align: center; color: var(--text-dim); font-size: 12px; padding: 24px 16px; }
+
+  @media (max-width: 640px) {
+    .daily { grid-template-columns: repeat(3, 1fr); }
+    table.ranking th:nth-child(4), table.ranking td:nth-child(4) { display: none; }
+    .heatmap-row, .heatmap-header { grid-template-columns: 110px repeat(6, 1fr); }
+    .heatmap-row .name { font-size: 11px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>WYN AD Tracker <span class="badge" id="hdr-badge">GG Mayo · W1</span></h1>
+  <div class="sub" id="hdr-sub">Cargando…</div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button class="active" data-tab="dashboard">📊 Dashboard</button>
+  <button data-tab="ranking">🏆 Ranking</button>
+  <button data-tab="zones">🌍 Zonas horarias</button>
+  <button data-tab="coffers">📦 Cofres</button>
+</nav>
+
+<main>
+  <section id="tab-dashboard" class="tab-panel">
+    <div class="kpi-grid panel">
+      <div class="kpi"><div class="label">Puntos totales</div><div class="value" id="kpi-total">—</div><div class="small">Equipo completo</div></div>
+      <div class="kpi"><div class="label">Jugadores</div><div class="value" id="kpi-players">—</div><div class="small">en la semana</div></div>
+      <div class="kpi"><div class="label">Media / jugador</div><div class="value" id="kpi-avg">—</div><div class="small">puntos</div></div>
+      <div class="kpi"><div class="label">Top jugador</div><div class="value" id="kpi-top">—</div><div class="small" id="kpi-top-pts">—</div></div>
+      <div class="kpi"><div class="label">Cofres ganados</div><div class="value" id="kpi-coffers">—</div><div class="small">de posibles</div></div>
+      <div class="kpi"><div class="label">% con 100% cofres</div><div class="value" id="kpi-perfect">—</div><div class="small">jugadores</div></div>
+    </div>
+
+    <div class="panel">
+      <h2>Esta semana vs el histórico</h2>
+      <div class="kpi-grid" id="block-a"></div>
+      <div class="estimate-note" id="baseline-note"></div>
+    </div>
+
+    <div class="panel">
+      <h2>Puntos por día — equipo</h2>
+      <p style="color:var(--text-dim);font-size:12px;margin:0 0 10px 0;">Barra = puntos del equipo este día. Línea vertical = media histórica (n=N). A la derecha, comparación con esa media.</p>
+      <div id="block-b"></div>
+    </div>
+
+    <div class="panel">
+      <h2>Cofres del equipo · semana actual</h2>
+      <div class="kpi-grid" id="block-c-cards"></div>
+      <div style="margin-top: 12px;">
+        <p style="color:var(--text-dim);font-size:12px;margin:0 0 6px 0;">% de jugadores que completaron los 9 cofres cada día (verde = ≥70%, rojo = ≤35%):</p>
+        <div id="block-c-green"></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Top 10 jugadores</h2>
+      <div class="table-wrap">
+        <table class="ranking" id="top10-table">
+          <thead><tr><th>#</th><th>Jugador</th><th>País</th><th class="pts-cell">Puntos</th><th class="pct-cell">vs media</th><th>Cofres</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Distribución por zona horaria</h2>
+      <div id="zones-bars"></div>
+    </div>
+
+    <div class="panel">
+      <h2>Histórico</h2>
+      <div id="history-cycles"></div>
+    </div>
+  </section>
+
+  <section id="tab-ranking" class="tab-panel" style="display:none">
+    <div class="panel">
+      <div class="search-box">
+        <input id="search" type="text" placeholder="Buscar por nombre o país…">
+        <select id="filter-zone">
+          <option value="">Todas las franjas</option>
+          <option value="EU_W">🇪🇺 Europa Occ. (UTC 0/+1)</option>
+          <option value="EU_ME">🌍 Europa E. / África / OM (+2/+3)</option>
+          <option value="ASIA">🌏 Asia-Pacífico (+5/+10)</option>
+          <option value="AMER">🌎 América (−8/−3)</option>
+          <option value="UNKNOWN">❓ Desconocida</option>
+        </select>
+        <select id="filter-coffers">
+          <option value="">Todos los cofres</option>
+          <option value="100">100% (perfectos)</option>
+          <option value="80">≥80%</option>
+          <option value="50">&lt;50%</option>
+        </select>
+      </div>
+      <div class="table-wrap">
+        <table class="ranking" id="rank-table">
+          <thead><tr>
+            <th>#</th><th>Jugador</th><th>País</th>
+            <th class="pts-cell">Puntos</th>
+            <th class="pct-cell">vs media</th>
+            <th>Cofres</th>
+            <th>Zona</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="small" id="rank-count" style="color:var(--text-dim); margin-top:8px; font-size:12px;"></div>
+    </div>
+  </section>
+
+  <section id="tab-zones" class="tab-panel" style="display:none">
+    <div class="panel">
+      <h2>Jugadores por franja horaria</h2>
+      <p style="color:var(--text-dim);font-size:13px;margin-top:0;">Agrupados por <b>franja horaria operativa</b>, no por continente. El cierre del AD es a las 04:00 de Madrid: Asia-Pacífico ya tiene su día cerrado a esa hora (crítico); América aún tiene la tarde por delante; Europa Occ. y el grupo Europa E./África/OM cierran al amanecer.</p>
+      <div id="zones-detail"></div>
+    </div>
+  </section>
+
+  <section id="tab-coffers" class="tab-panel" style="display:none">
+    <div class="panel" id="coffers-accumulated-panel" style="display:none">
+      <h2 id="coffers-accumulated-title">Acumulado del ciclo</h2>
+      <p style="color:var(--text-dim);font-size:13px;margin-top:0;">Cofres ganados a lo largo de las semanas jugadas del ciclo. Las celdas vacías indican que esa semana aún no se ha cerrado para ese jugador.</p>
+      <div class="search-box"><input id="coffers-acc-search" type="text" placeholder="Filtrar jugadores…"></div>
+      <div class="table-wrap"><table class="ranking coffers-table" id="coffers-acc-table"></table></div>
+    </div>
+
+    <div class="panel">
+      <h2 id="coffers-week-title">Cofres · semana en curso</h2>
+      <p style="color:var(--text-dim);font-size:13px;margin-top:0;">Cofres ganados por jugador y por día. Las celdas Lun-Sáb se rellenarán a medida que vayas introduciendo los datos diarios. La columna <b>Total semanal</b> viene del Excel.</p>
+      <div class="search-box"><input id="coffers-week-search" type="text" placeholder="Filtrar jugadores…"></div>
+      <div class="table-wrap"><table class="ranking coffers-table" id="coffers-week-table"></table></div>
+    </div>
+  </section>
+</main>
+
+<div class="modal-backdrop" id="modal-backdrop">
+  <div class="modal" id="modal">
+    <button class="close" id="modal-close">&times;</button>
+    <div class="modal-header">
+      <h2 id="m-name">—</h2>
+      <span class="country" id="m-country"></span>
+      <span class="zone" id="m-zone"></span>
+    </div>
+    <div class="stat-row">
+      <div class="stat"><div class="label">Ranking</div><div class="value" id="m-rank">—</div></div>
+      <div class="stat"><div class="label">Puntos</div><div class="value" id="m-pts">—</div></div>
+      <div class="stat"><div class="label">vs media</div><div class="value" id="m-vs">—</div></div>
+      <div class="stat"><div class="label">Cofres</div><div class="value" id="m-coffers">—</div></div>
+    </div>
+
+    <h3 style="margin:14px 0 8px 0; font-size:14px; color:var(--accent-2)">Desglose diario</h3>
+    <div class="daily" id="m-daily"></div>
+
+    <h3 style="margin:14px 0 8px 0; font-size:14px; color:var(--accent-2)">Análisis</h3>
+    <div class="stat-row">
+      <div class="stat"><div class="label">Mejor día</div><div class="value" id="m-best">—</div></div>
+      <div class="stat"><div class="label">Peor día</div><div class="value" id="m-worst">—</div></div>
+      <div class="stat"><div class="label">Media diaria</div><div class="value" id="m-avg">—</div></div>
+      <div class="stat"><div class="label">Volatilidad</div><div class="value" id="m-vol">—</div></div>
+    </div>
+
+    <h3 style="margin:14px 0 8px 0; font-size:14px; color:var(--accent-2)">Insights</h3>
+    <div id="m-insights"></div>
+  </div>
+</div>
+
+<footer>
+  WYN AD Tracker · Datos de <span id="ft-week">—</span> · Generado el <span id="ft-date">—</span>
+</footer>
+
+<script>
+/* WYN_DATA_PLACEHOLDER */
+/* WYN_HISTORY_PLACEHOLDER */
+
+(function(){
+  const D = window.WYN_DATA;
+  const H = window.WYN_HISTORY;
+  if(!D || !D.players){
+    document.querySelector('main').innerHTML = '<div class="panel" style="text-align:center;color:var(--red)">Error: no se encontraron datos incrustados.</div>';
+    return;
+  }
+
+  // ---- helpers ----
+  const fmt = n => n==null ? '—' : Number(n).toLocaleString('es-ES');
+  const fmtShort = n => {
+    if(n==null) return '—';
+    if(Math.abs(n) >= 1e9) return (n/1e9).toFixed(2)+'B';
+    if(Math.abs(n) >= 1e6) return (n/1e6).toFixed(1)+'M';
+    if(Math.abs(n) >= 1e3) return (n/1e3).toFixed(1)+'K';
+    return String(n);
+  };
+  const cofferClass = pct => {
+    if(pct >= 100) return 'coffer-100';
+    if(pct >= 80) return 'coffer-80';
+    if(pct >= 50) return 'coffer-50';
+    return 'coffer-low';
+  };
+  const ZONE_LABEL = {
+    'EU_W':    '🇪🇺 Europa Occ. (UTC 0/+1)',
+    'EU_ME':   '🌍 Europa E. / África / OM (UTC +2/+3)',
+    'ASIA':    '🌏 Asia-Pacífico (UTC +5/+10)',
+    'AMER':    '🌎 América (UTC −8/−3)',
+    'UNKNOWN': '❓ Desconocida'
+  };
+  const ZONE_ORDER = ['EU_W','EU_ME','ASIA','AMER','UNKNOWN'];
+  const zoneLabel = z => ZONE_LABEL[z] || '❓ Desconocida';
+  const pctCell = (n) => {
+    if(n==null) return '<td class="pct-cell">—</td>';
+    const cls = n>=0 ? 'pct-pos' : 'pct-neg';
+    const sign = n>=0 ? '+' : '';
+    return `<td class="pct-cell ${cls}">${sign}${n.toFixed(0)}%</td>`;
+  };
+
+  // ---- header ----
+  document.getElementById('hdr-badge').textContent =
+    (D.cycleId||'').replace(/_/g,' ') + ' · W' + (D.weekNumber||'?');
+  document.getElementById('hdr-sub').textContent =
+    'vs ' + (D.rival||'?') + '  ·  ' + (D.competitionDates?.startDate||'') + ' → ' + (D.competitionDates?.endDate||'');
+  document.getElementById('ft-week').textContent = (D.weekId||'').replace(/_/g,' ');
+  document.getElementById('ft-date').textContent = new Date().toLocaleDateString('es-ES');
+
+  // ---- KPIs ----
+  const meta = D.metadata || {};
+  document.getElementById('kpi-total').textContent = fmtShort(meta.totalPoints);
+  document.getElementById('kpi-players').textContent = meta.totalPlayers || D.players.length;
+  document.getElementById('kpi-avg').textContent = fmtShort(meta.avgPoints);
+  const top = D.players[0];
+  document.getElementById('kpi-top').textContent = top ? top.gameName : '—';
+  document.getElementById('kpi-top-pts').textContent = top ? fmtShort(top.points) + ' pts' : '';
+  const cofGained = D.players.reduce((a,p)=>a+(p.coffers?.gained||0),0);
+  const cofPoss = D.players.reduce((a,p)=>a+(p.coffers?.possible||0),0);
+  document.getElementById('kpi-coffers').textContent = cofGained + ' / ' + cofPoss;
+  const perfect = D.players.filter(p => (p.coffers?.percentage||0) >= 100).length;
+  document.getElementById('kpi-perfect').textContent = perfect + ' (' + Math.round(perfect/D.players.length*100) + '%)';
+
+  // ---- Top 10 ----
+  const top10Body = document.querySelector('#top10-table tbody');
+  D.players.slice(0,10).forEach(p => {
+    const tr = document.createElement('tr');
+    tr.innerHTML =
+      '<td class="rank-cell">'+p.rank+'</td>' +
+      '<td>'+escapeHtml(p.gameName)+'</td>' +
+      '<td><span class="country-pill">'+escapeHtml(p.country||'—')+'</span></td>' +
+      '<td class="pts-cell">'+fmt(p.points)+'</td>' +
+      pctCell(p.vsAverage?.percentage) +
+      '<td><span class="coffer-badge '+cofferClass(p.coffers?.percentage||0)+'">'+(p.coffers?.gained||0)+'/'+(p.coffers?.possible||0)+'</span></td>';
+    tr.addEventListener('click', ()=>openPlayer(p));
+    top10Body.appendChild(tr);
+  });
+
+  // ---- Block A / B / C / D — team evolution & history ----
+  (function buildEvolution(){
+    if(!H || !H.baseline){
+      document.getElementById('block-a').innerHTML = '<div style="color:var(--text-dim);font-size:13px">Sin histórico cargado.</div>';
+      return;
+    }
+    const days = ['Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
+    const baseline = H.baseline;
+    const cycles = H.cycles || [];
+    // Find current week and previous-week-same-position
+    let currentWeek = null, prevWeek = null, sameSlotPrior = null;
+    let allWeeks = [];
+    cycles.forEach(c => c.weeks.forEach(w => allWeeks.push({...w, cycleLabel:c.label, division:c.division, cycleId:c.cycleId})));
+    // Current week: match by D.cycleId + D.weekNumber (exact, unambiguous).
+    currentWeek = allWeeks.find(w => w.cycleId === D.cycleId && w.weekNumber === D.weekNumber)
+               || allWeeks[allWeeks.length-1];
+    const currentIdx = allWeeks.indexOf(currentWeek);
+    if(currentIdx > 0) prevWeek = allWeeks[currentIdx-1];
+    // Same slot prior cycle: same weekNumber, different cycle
+    sameSlotPrior = allWeeks.find(w => w !== currentWeek && w.weekNumber === currentWeek.weekNumber && w.cycleId !== currentWeek.cycleId);
+
+    const cw = currentWeek;
+    function pctDelta(a,b){ if(a==null||b==null||b===0) return null; return (a/b - 1) * 100; }
+    function ppDelta(a,b){ if(a==null||b==null) return null; return (a-b)*100; }
+    function fmtPct(v, mode){
+      if(v==null) return '<span class="delta-neu">—</span>';
+      const cls = mode==='lowerIsBetter' ? (v<=0?'delta-pos':'delta-neg') : (v>=0?'delta-pos':'delta-neg');
+      const arrow = v>=0 ? '▲' : '▼';
+      const unit = mode==='pp' ? ' pp' : ' %';
+      return `<span class="${cls}">${arrow} ${v>=0?'+':''}${v.toFixed(1)}${unit}</span>`;
+    }
+
+    // --- Block A cards ---
+    const blockA = document.getElementById('block-a');
+    function deltaRow(lbl, val, mode){
+      return `<div class="row"><span class="lbl">${lbl}</span>${fmtPct(val, mode)}</div>`;
+    }
+    // 1) Puntos del equipo
+    const ptsDeltaPrev = prevWeek ? pctDelta(cw.totalPoints, prevWeek.totalPoints) : null;
+    const ptsDeltaSlot = sameSlotPrior ? pctDelta(cw.totalPoints, sameSlotPrior.totalPoints) : null;
+    const ptsDeltaBase = pctDelta(cw.totalPoints, baseline.avgTotalPoints);
+    blockA.innerHTML += `<div class="big-card">
+      <div class="big-label">Puntos del equipo</div>
+      <div class="big-value">${fmtShort(cw.totalPoints)}</div>
+      <div class="big-deltas">
+        ${prevWeek ? deltaRow('vs '+prevWeek.cycleLabel.replace('Group ','')+' S'+prevWeek.weekNumber, ptsDeltaPrev) : ''}
+        ${sameSlotPrior ? deltaRow('vs '+sameSlotPrior.cycleLabel.replace('Group ','')+' S'+sameSlotPrior.weekNumber+' (mismo slot)', ptsDeltaSlot) : ''}
+        ${deltaRow('vs media (n='+baseline.n+')', ptsDeltaBase)}
+      </div>
+    </div>`;
+    // 2) % verde semana
+    const gDeltaPrev = prevWeek ? ppDelta(cw.avgPctGreenWeek, prevWeek.avgPctGreenWeek) : null;
+    const gDeltaSlot = sameSlotPrior ? ppDelta(cw.avgPctGreenWeek, sameSlotPrior.avgPctGreenWeek) : null;
+    const gDeltaBase = ppDelta(cw.avgPctGreenWeek, baseline.avgPctGreenWeek);
+    blockA.innerHTML += `<div class="big-card">
+      <div class="big-label">% verde (semana)</div>
+      <div class="big-value">${(cw.avgPctGreenWeek*100).toFixed(1)}%</div>
+      <div class="big-deltas">
+        ${prevWeek ? deltaRow('vs '+prevWeek.cycleLabel.replace('Group ','')+' S'+prevWeek.weekNumber, gDeltaPrev, 'pp') : ''}
+        ${sameSlotPrior ? deltaRow('vs '+sameSlotPrior.cycleLabel.replace('Group ','')+' S'+sameSlotPrior.weekNumber, gDeltaSlot, 'pp') : ''}
+        ${deltaRow('vs media (n='+baseline.n+')', gDeltaBase, 'pp')}
+      </div>
+    </div>`;
+    // 3) 💎 perdidos
+    const dDeltaPrev = prevWeek ? ppDelta(cw.diamondsLostPct, prevWeek.diamondsLostPct) : null;
+    const dDeltaSlot = sameSlotPrior ? ppDelta(cw.diamondsLostPct, sameSlotPrior.diamondsLostPct) : null;
+    const dDeltaBase = ppDelta(cw.diamondsLostPct, baseline.avgDiamondsLostPct);
+    function fmtPpLower(v){
+      if(v==null) return '<span class="delta-neu">—</span>';
+      const cls = v<=0 ? 'delta-pos' : 'delta-neg';
+      const arrow = v>=0 ? '▲' : '▼';
+      return `<span class="${cls}">${arrow} ${v>=0?'+':''}${v.toFixed(1)} pp</span>`;
+    }
+    blockA.innerHTML += `<div class="big-card">
+      <div class="big-label">💎 perdidos (% de posibles)</div>
+      <div class="big-value">${(cw.diamondsLostPct*100).toFixed(1)}%</div>
+      <div class="big-deltas">
+        ${prevWeek ? `<div class="row"><span class="lbl">vs ${prevWeek.cycleLabel.replace('Group ','')} S${prevWeek.weekNumber}</span>${fmtPpLower(dDeltaPrev)}</div>` : ''}
+        ${sameSlotPrior ? `<div class="row"><span class="lbl">vs ${sameSlotPrior.cycleLabel.replace('Group ','')} S${sameSlotPrior.weekNumber}</span>${fmtPpLower(dDeltaSlot)}</div>` : ''}
+        <div class="row"><span class="lbl">vs media (n=${baseline.n})</span>${fmtPpLower(dDeltaBase)}</div>
+      </div>
+    </div>`;
+
+    document.getElementById('baseline-note').textContent =
+      'Media histórica = ' + baseline.sourceWeeks.join(' · ') + ' (n=' + baseline.n + '). Cuando haya 8 semanas con datos completos, se cambiará automáticamente a media móvil 8.';
+
+    // --- Block B: puntos por día con barra + marca de media ---
+    const bb = document.getElementById('block-b');
+    const maxPts = Math.max(...days.map(d => Math.max(cw.byDay[d].points||0, baseline.avgPointsPerDay[d]||0)));
+    days.forEach(d => {
+      const cur = cw.byDay[d].points || 0;
+      const avg = baseline.avgPointsPerDay[d] || 0;
+      const delta = pctDelta(cur, avg);
+      const wPct = (cur/maxPts)*100;
+      const mPct = (avg/maxPts)*100;
+      const row = document.createElement('div');
+      row.className = 'day-bar-row';
+      row.innerHTML =
+        `<div class="day-bar-label">${d}</div>` +
+        `<div class="day-bar-track"><div class="day-bar-fill" style="width:${wPct}%"></div><div class="day-bar-mark" style="left:${mPct}%" title="Media n=${baseline.n}"></div></div>` +
+        `<div class="day-bar-value">${fmtShort(cur)}</div>` +
+        `<div class="day-bar-delta">${fmtPct(delta)}</div>`;
+      bb.appendChild(row);
+    });
+
+    // --- Block C: cofres del equipo, semana actual ---
+    const cc = document.getElementById('block-c-cards');
+    cc.innerHTML = `
+      <div class="kpi"><div class="label">💎 perdidos / posibles</div><div class="value">${fmtShort(cw.diamondsLost)} / ${fmtShort(cw.diamondsPossible)}</div><div class="small">${(cw.diamondsLostPct*100).toFixed(1)}% perdido</div></div>
+      <div class="kpi"><div class="label">Cofres perd. / jug. / día</div><div class="value">${(cw.avgCoffersLostPerPlayer||0).toFixed(2)}</div><div class="small">media de la semana</div></div>
+      <div class="kpi"><div class="label">% verde promedio</div><div class="value">${(cw.avgPctGreenWeek*100).toFixed(1)}%</div><div class="small">jugadores con los 9 cofres</div></div>
+    `;
+    // Per-day green
+    const cg = document.getElementById('block-c-green');
+    days.forEach(d => {
+      const cur = cw.byDay[d].pctGreen || 0;
+      const avg = baseline.avgPctGreenPerDay[d] || 0;
+      const delta = ppDelta(cur, avg);
+      const row = document.createElement('div');
+      row.className = 'day-bar-row';
+      row.innerHTML =
+        `<div class="day-bar-label">${d}</div>` +
+        `<div class="day-bar-track"><div class="day-bar-fill" style="width:${cur*100}%"></div><div class="day-bar-mark" style="left:${avg*100}%" title="Media n=${baseline.n}"></div></div>` +
+        `<div class="day-bar-value">${(cur*100).toFixed(0)}%</div>` +
+        `<div class="day-bar-delta">${fmtPct(delta, 'pp')}</div>`;
+      cg.appendChild(row);
+    });
+
+    // --- Block D: histórico narrado ---
+    const hc = document.getElementById('history-cycles');
+    cycles.forEach(c => {
+      const card = document.createElement('div');
+      card.className = 'cycle-card';
+      const pill = c.status === 'in_progress'
+        ? '<span class="status-pill status-progress">en curso</span>'
+        : '<span class="status-pill status-closed">cerrado</span>';
+      let weeksHtml = '';
+      c.weeks.forEach(w => {
+        const res = w.result === 'W' ? '<div class="result-w">GANADO</div>'
+                  : w.result === 'L' ? '<div class="result-l">PERDIDO</div>'
+                  : '<div class="result-na">—</div>';
+        weeksHtml += `<div class="cycle-week">
+          <div class="wk-num">S${w.weekNumber}</div>
+          <div class="wk-rival">vs ${escapeHtml(w.rival)}</div>
+          <div class="wk-pts">${fmtShort(w.totalPoints)}</div>
+          <div class="wk-cof">💎 ${w.diamondsLostPct!=null?(w.diamondsLostPct*100).toFixed(1)+'%':'—'}</div>
+          ${res}
+        </div>`;
+      });
+      card.innerHTML = `
+        <h3>${escapeHtml(c.label)}${pill}</h3>
+        <div class="cycle-narrative">${escapeHtml(c.narrative||'')}</div>
+        <div class="cycle-weeks">${weeksHtml}</div>
+      `;
+      hc.appendChild(card);
+    });
+  })();
+
+  // ---- Zone bars (dashboard) ----
+  const zones = meta.playersByZone || {};
+  const zonesContainer = document.getElementById('zones-bars');
+  const maxZ = Math.max(1, ...Object.values(zones));
+  ZONE_ORDER.forEach(z => {
+    if(!zones[z]) return;
+    const count = zones[z]||0;
+    const row = document.createElement('div');
+    row.className = 'zone-row';
+    row.innerHTML =
+      '<div class="zone-label">'+zoneLabel(z)+'</div>' +
+      '<div class="zone-bar"><div class="zone-bar-fill" style="width:'+(count/maxZ*100)+'%"></div></div>' +
+      '<div class="zone-count">'+count+'</div>';
+    zonesContainer.appendChild(row);
+  });
+
+  // ---- Zones detail tab ----
+  const zonesDetail = document.getElementById('zones-detail');
+  ZONE_ORDER.forEach(z => {
+    const players = D.players.filter(p => p.timezone?.zone === z);
+    if(!players.length) return;
+    const div = document.createElement('div');
+    div.style.marginBottom = '18px';
+    const isCritical = z === 'ASIA';
+    div.innerHTML = '<h3 style="margin:0 0 8px 0; font-size:15px; color:'+(isCritical?'var(--red)':'var(--accent-2)')+'">'+zoneLabel(z)+' — '+players.length+' jugadores'+(isCritical?' (cierra antes que Madrid)':'')+'</h3>';
+    const tw = document.createElement('div');
+    tw.className = 'table-wrap';
+    const table = document.createElement('table');
+    table.className = 'ranking';
+    table.innerHTML =
+      '<thead><tr><th>#</th><th>Jugador</th><th>País</th><th class="pts-cell">Puntos</th><th>Cofres</th></tr></thead>';
+    const tb = document.createElement('tbody');
+    players.forEach(p => {
+      const tr = document.createElement('tr');
+      tr.innerHTML =
+        '<td class="rank-cell">'+p.rank+'</td>' +
+        '<td>'+escapeHtml(p.gameName)+'</td>' +
+        '<td><span class="country-pill">'+escapeHtml(p.country||'—')+'</span></td>' +
+        '<td class="pts-cell">'+fmt(p.points)+'</td>' +
+        '<td><span class="coffer-badge '+cofferClass(p.coffers?.percentage||0)+'">'+Math.round(p.coffers?.percentage||0)+'%</span></td>';
+      tr.addEventListener('click', ()=>openPlayer(p));
+      tb.appendChild(tr);
+    });
+    table.appendChild(tb);
+    tw.appendChild(table);
+    div.appendChild(tw);
+    zonesDetail.appendChild(div);
+  });
+
+  // ---- Ranking tab ----
+  const rankTbody = document.querySelector('#rank-table tbody');
+  function renderRanking(){
+    const q = document.getElementById('search').value.trim().toLowerCase();
+    const zf = document.getElementById('filter-zone').value;
+    const cf = document.getElementById('filter-coffers').value;
+    rankTbody.innerHTML = '';
+    let n = 0;
+    D.players.forEach(p => {
+      if(q){
+        const hay = (p.gameName+' '+(p.country||'')).toLowerCase();
+        if(!hay.includes(q)) return;
+      }
+      if(zf && p.timezone?.zone !== zf) return;
+      const cp = p.coffers?.percentage || 0;
+      if(cf === '100' && cp < 100) return;
+      if(cf === '80'  && cp < 80) return;
+      if(cf === '50'  && cp >= 50) return;
+      n++;
+      const tr = document.createElement('tr');
+      tr.innerHTML =
+        '<td class="rank-cell">'+p.rank+'</td>' +
+        '<td>'+escapeHtml(p.gameName)+'</td>' +
+        '<td><span class="country-pill">'+escapeHtml(p.country||'—')+'</span></td>' +
+        '<td class="pts-cell">'+fmt(p.points)+'</td>' +
+        pctCell(p.vsAverage?.percentage) +
+        '<td><span class="coffer-badge '+cofferClass(cp)+'">'+Math.round(cp)+'%</span></td>' +
+        '<td style="font-size:12px;color:var(--text-dim)">'+zoneLabel(p.timezone?.zone)+'</td>';
+      tr.addEventListener('click', ()=>openPlayer(p));
+      rankTbody.appendChild(tr);
+    });
+    document.getElementById('rank-count').textContent = n + ' de ' + D.players.length + ' jugadores';
+  }
+  document.getElementById('search').addEventListener('input', renderRanking);
+  document.getElementById('filter-zone').addEventListener('change', renderRanking);
+  document.getElementById('filter-coffers').addEventListener('change', renderRanking);
+  renderRanking();
+
+  // ---- Coffers tab: weekly + accumulated tables ----
+  (function buildCoffersTab(){
+    // Coffers per day per player come from D.cofferDaily (real data from the user).
+    // Structure expected:
+    //   D.cofferDaily = {
+    //     S1: { 'PlayerName': { Lunes: 9, Martes: 8, ... }, ... },
+    //     S2: { ... }
+    //   }
+    // If absent, all daily cells render empty and only the weekly total is shown.
+    const dayCols = [
+      ['Monday','Lun'],['Tuesday','Mar'],['Wednesday','Mié'],
+      ['Thursday','Jue'],['Friday','Vie'],['Saturday','Sáb']
+    ];
+    const cofferDaily = (D.cofferDaily) || {};
+
+    // Helper: color class for percentage
+    function pctClass(pct){
+      if(pct >= 90) return 'pct-good';
+      if(pct >= 60) return 'pct-mid';
+      return 'pct-bad';
+    }
+    function cellForDay(value){
+      // value: null/undefined → empty placeholder; number 0..9 → coloured
+      if(value == null || value === '') return '<td class="day-cell empty-day">—</td>';
+      const n = Number(value);
+      const cls = (n===9) ? 'cof-9' : (n<=2 ? 'cof-low' : '');
+      return '<td class="day-cell '+cls+'">'+n+'</td>';
+    }
+
+    // -------- Tabla 1: semana en curso (siempre se muestra) --------
+    document.getElementById('coffers-week-title').textContent =
+      'Cofres · S' + (D.weekNumber||'?') + (D.rival ? ' vs ' + D.rival : '');
+    const wkTable = document.getElementById('coffers-week-table');
+    const wkHead = '<thead><tr><th style="text-align:left">#</th><th style="text-align:left">Jugador</th>'
+      + dayCols.map(d=>'<th>'+d[1]+'</th>').join('')
+      + '<th>Total</th><th>%</th></tr></thead>';
+    const currentWeekKey = 'S' + (D.weekNumber||1);
+    const cofWeek = cofferDaily[currentWeekKey] || {};
+    function renderWeekTable(){
+      const q = (document.getElementById('coffers-week-search').value||'').trim().toLowerCase();
+      let rows = '';
+      // Order by total semanal desc (Cofres — Ranking) → already in p.coffers.percentage
+      const ordered = D.players.slice().sort((a,b) => (b.coffers?.percentage||0) - (a.coffers?.percentage||0));
+      ordered.forEach((p, idx) => {
+        if(q && !p.gameName.toLowerCase().includes(q)) return;
+        const perDay = cofWeek[p.gameName] || {};
+        let cells = '<td style="text-align:left">'+(idx+1)+'</td>';
+        cells += '<td class="name-cell">'+escapeHtml(p.gameName)+'</td>';
+        dayCols.forEach(([en, es]) => {
+          // Map ES day labels to our keys (we accept either Lun/Lunes etc.)
+          const v = perDay[en] ?? perDay[es] ?? perDay[ {Lun:'Lunes',Mar:'Martes','Mié':'Miércoles',Jue:'Jueves',Vie:'Viernes','Sáb':'Sábado'}[es] ];
+          cells += cellForDay(v);
+        });
+        const total = p.coffers?.gained ?? 0;
+        const poss  = p.coffers?.possible ?? 54;
+        const pct   = p.coffers?.percentage ?? 0;
+        cells += '<td class="total-cell">'+total+' / '+poss+'</td>';
+        cells += '<td class="total-cell '+pctClass(pct)+'">'+Math.round(pct)+'%</td>';
+        rows += '<tr>'+cells+'</tr>';
+      });
+      wkTable.innerHTML = wkHead + '<tbody>'+rows+'</tbody>';
+      // Click row to open player modal
+      wkTable.querySelectorAll('tbody tr').forEach((tr, i) => {
+        const name = tr.querySelector('.name-cell')?.textContent;
+        const p = D.players.find(x => x.gameName === name);
+        if(p) tr.style.cursor='pointer', tr.addEventListener('click', ()=>openPlayer(p));
+      });
+    }
+    document.getElementById('coffers-week-search').addEventListener('input', renderWeekTable);
+    renderWeekTable();
+
+    // -------- Tabla 2: acumulado del ciclo (solo si hay más de una semana con datos) --------
+    const accPanel = document.getElementById('coffers-accumulated-panel');
+    const weekly = D.weeklyCoffers; // optional: [{ weekNumber, rival, perPlayer: {name: {gained, possible}}}]
+    if(weekly && weekly.length > 1){
+      accPanel.style.display = '';
+      document.getElementById('coffers-accumulated-title').textContent =
+        'Acumulado del ciclo · ' + weekly.length + ' semanas';
+      const accTable = document.getElementById('coffers-acc-table');
+      const weekNums = weekly.map(w => w.weekNumber).sort((a,b)=>a-b);
+      const head = '<thead><tr><th style="text-align:left">#</th><th style="text-align:left">Jugador</th>'
+        + weekNums.map(n => '<th>S'+n+'</th>').join('')
+        + '<th>Total ciclo</th><th>%</th></tr></thead>';
+      // collect all players across all weeks
+      const allNames = new Set();
+      weekly.forEach(w => Object.keys(w.perPlayer||{}).forEach(n=>allNames.add(n)));
+      // also include current week players
+      D.players.forEach(p => allNames.add(p.gameName));
+      function renderAcc(){
+        const q = (document.getElementById('coffers-acc-search').value||'').trim().toLowerCase();
+        // Build rows
+        const rowsData = [...allNames].map(name => {
+          let gained = 0, poss = 0;
+          const perWeek = {};
+          weekNums.forEach(n => {
+            const w = weekly.find(x => x.weekNumber === n);
+            const e = w?.perPlayer?.[name];
+            if(e){ perWeek[n] = e; gained += e.gained||0; poss += e.possible||0; }
+          });
+          return {name, perWeek, gained, poss, pct: poss ? gained/poss*100 : 0};
+        }).sort((a,b) => b.pct - a.pct);
+        let rows = '';
+        rowsData.forEach((r, idx) => {
+          if(q && !r.name.toLowerCase().includes(q)) return;
+          let cells = '<td style="text-align:left">'+(idx+1)+'</td>';
+          cells += '<td class="name-cell">'+escapeHtml(r.name)+'</td>';
+          weekNums.forEach(n => {
+            const e = r.perWeek[n];
+            cells += e ? '<td class="day-cell">'+e.gained+'/'+e.possible+'</td>'
+                       : '<td class="day-cell empty-day">—</td>';
+          });
+          cells += '<td class="total-cell">'+r.gained+' / '+r.poss+'</td>';
+          cells += '<td class="total-cell '+pctClass(r.pct)+'">'+Math.round(r.pct)+'%</td>';
+          rows += '<tr>'+cells+'</tr>';
+        });
+        accTable.innerHTML = head + '<tbody>'+rows+'</tbody>';
+      }
+      document.getElementById('coffers-acc-search').addEventListener('input', renderAcc);
+      renderAcc();
+    }
+  })();
+
+  // ---- Tabs ----
+  document.querySelectorAll('nav.tabs button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('nav.tabs button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      document.querySelectorAll('.tab-panel').forEach(p => p.style.display = 'none');
+      document.getElementById('tab-' + btn.dataset.tab).style.display = '';
+    });
+  });
+
+  // ---- Player modal ----
+  function openPlayer(p){
+    document.getElementById('m-name').textContent = p.gameName;
+    document.getElementById('m-country').textContent = p.country || '';
+    document.getElementById('m-zone').textContent = zoneLabel(p.timezone?.zone);
+    document.getElementById('m-rank').textContent = '#' + p.rank;
+    document.getElementById('m-pts').textContent = fmt(p.points);
+    const vs = p.vsAverage?.percentage;
+    const vsEl = document.getElementById('m-vs');
+    vsEl.textContent = vs==null ? '—' : (vs>=0?'+':'') + vs.toFixed(0) + '%';
+    vsEl.style.color = vs>=0 ? 'var(--green)' : 'var(--red)';
+    const cof = p.coffers || {};
+    document.getElementById('m-coffers').textContent = (cof.gained||0)+' / '+(cof.possible||0)+' ('+Math.round(cof.percentage||0)+'%)';
+
+    const daily = document.getElementById('m-daily');
+    daily.innerHTML = '';
+    const bestDay = p.dayAnalysis?.bestDay?.dayNumber;
+    const worstDay = p.dayAnalysis?.worstDay?.dayNumber;
+    (p.dailyBreakdown||[]).forEach(d => {
+      const div = document.createElement('div');
+      let cls = 'day-cell';
+      if(d.dayNumber === bestDay) cls += ' best';
+      else if(d.dayNumber === worstDay) cls += ' worst';
+      div.className = cls;
+      const cofTxt = d.cofferGained==null ? '' : (' · 📦'+d.cofferGained);
+      div.innerHTML =
+        '<div class="d-name">'+d.dayName+'</div>' +
+        '<div class="d-pts">'+fmtShort(d.points)+'</div>' +
+        '<div class="d-rank">#'+d.rank+cofTxt+'</div>';
+      daily.appendChild(div);
+    });
+
+    const da = p.dayAnalysis || {};
+    document.getElementById('m-best').textContent = da.bestDay ? translateDay(da.bestDay.day) : '—';
+    document.getElementById('m-worst').textContent = da.worstDay ? translateDay(da.worstDay.day) : '—';
+    document.getElementById('m-avg').textContent = fmtShort(da.averageDaily);
+    document.getElementById('m-vol').textContent = da.volatility==null ? '—' : da.volatility.toFixed(1) + '%';
+
+    const ins = document.getElementById('m-insights');
+    ins.innerHTML = '';
+    (p.insights||[]).forEach(i => {
+      const div = document.createElement('div');
+      div.className = 'insight ' + (i.type||'');
+      div.textContent = (i.icon ? i.icon+' ' : '') + i.message;
+      ins.appendChild(div);
+    });
+    if(!(p.insights||[]).length){
+      ins.innerHTML = '<div class="insight" style="color:var(--text-dim)">Sin insights destacados</div>';
+    }
+
+    document.getElementById('modal-backdrop').classList.add('open');
+  }
+  function translateDay(en){
+    return {Monday:'Lunes',Tuesday:'Martes',Wednesday:'Miércoles',Thursday:'Jueves',Friday:'Viernes',Saturday:'Sábado'}[en] || en;
+  }
+  document.getElementById('modal-close').addEventListener('click', closeModal);
+  document.getElementById('modal-backdrop').addEventListener('click', e => {
+    if(e.target.id === 'modal-backdrop') closeModal();
+  });
+  document.addEventListener('keydown', e => { if(e.key === 'Escape') closeModal(); });
+  function closeModal(){ document.getElementById('modal-backdrop').classList.remove('open'); }
+
+  function escapeHtml(s){
+    return String(s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+})();
+</script>
+</body>
+</html>
