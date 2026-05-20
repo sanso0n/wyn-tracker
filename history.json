@@ -2,10 +2,10 @@
   "cycles": [
     {
       "cycleId": "Diamond_Group_Abril",
-      "label": "Diamond Group Abril",
+      "label": "Diamond Group April",
       "division": "Diamond",
       "status": "closed",
-      "narrative": "Subida a Diamond. Perdimos las cuatro semanas del ciclo y descendimos a Gold. Total acumulado: 16.46 B pts.",
+      "narrative": "A four-week campaign at the top division. Lost all four weeks, demoted back to Gold. Total: 16.46 B pts.",
       "weeks": [
         {
           "weekNumber": 1,
@@ -207,10 +207,10 @@
     },
     {
       "cycleId": "Gold_Group_Mayo",
-      "label": "Gold Group Mayo",
+      "label": "Gold Group May",
       "division": "Gold",
       "status": "in_progress",
-      "narrative": "Vuelta a Gold tras Diamond Abril sin victorias. S1 vs OM3N perdida.",
+      "narrative": "Back to Gold after a winless Diamond run. Week 1 vs OM3N lost.",
       "weeks": [
         {
           "weekNumber": 1,
@@ -768,10 +768,10 @@
   ],
   "baseline": {
     "sourceWeeks": [
-      "Abril S1",
-      "Abril S2",
-      "Abril S3",
-      "Abril S4"
+      "April S1",
+      "April S2",
+      "April S3",
+      "April S4"
     ],
     "n": 4,
     "avgTotalPoints": 4115845374.25,
