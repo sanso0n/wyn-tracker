@@ -28,7 +28,7 @@
       "Friday",
       "Saturday"
     ],
-    "generatedAt": "2026-05-22T06:40:58"
+    "generatedAt": "2026-05-24T10:14:16"
   },
   "players": [
     {
@@ -49,7 +49,7 @@
         "gained": 53,
         "possible": 54,
         "percentage": 98.15,
-        "rank": 23
+        "rank": 22
       },
       "dayAnalysis": {
         "bestDay": {
@@ -1327,10 +1327,10 @@
         "percentage": 88.8
       },
       "coffers": {
-        "gained": 54,
+        "gained": 0,
         "possible": 54,
-        "percentage": 100,
-        "rank": 12
+        "percentage": 0,
+        "rank": 100
       },
       "dayAnalysis": {
         "bestDay": {
@@ -1404,11 +1404,6 @@
       ],
       "insights": [
         {
-          "type": "positive",
-          "icon": "✅",
-          "message": "Perfect coffers (100%)"
-        },
-        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Saturday"
@@ -1433,7 +1428,7 @@
         "gained": 54,
         "possible": 54,
         "percentage": 100,
-        "rank": 13
+        "rank": 12
       },
       "dayAnalysis": {
         "bestDay": {
@@ -1536,7 +1531,7 @@
         "gained": 54,
         "possible": 54,
         "percentage": 100,
-        "rank": 14
+        "rank": 13
       },
       "dayAnalysis": {
         "bestDay": {
@@ -1639,7 +1634,7 @@
         "gained": 54,
         "possible": 54,
         "percentage": 100,
-        "rank": 15
+        "rank": 14
       },
       "dayAnalysis": {
         "bestDay": {
@@ -1742,7 +1737,7 @@
         "gained": 50,
         "possible": 54,
         "percentage": 92.59,
-        "rank": 40
+        "rank": 39
       },
       "dayAnalysis": {
         "bestDay": {
@@ -1840,7 +1835,7 @@
         "gained": 53,
         "possible": 54,
         "percentage": 98.15,
-        "rank": 24
+        "rank": 23
       },
       "dayAnalysis": {
         "bestDay": {
@@ -1938,7 +1933,7 @@
         "gained": 54,
         "possible": 54,
         "percentage": 100,
-        "rank": 16
+        "rank": 15
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2041,7 +2036,7 @@
         "gained": 54,
         "possible": 54,
         "percentage": 100,
-        "rank": 17
+        "rank": 16
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2144,7 +2139,7 @@
         "gained": 53,
         "possible": 54,
         "percentage": 98.15,
-        "rank": 25
+        "rank": 24
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2242,7 +2237,7 @@
         "gained": 54,
         "possible": 54,
         "percentage": 100,
-        "rank": 18
+        "rank": 17
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2345,7 +2340,7 @@
         "gained": 54,
         "possible": 54,
         "percentage": 100,
-        "rank": 19
+        "rank": 18
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2448,7 +2443,7 @@
         "gained": 51,
         "possible": 54,
         "percentage": 94.44,
-        "rank": 37
+        "rank": 36
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2546,7 +2541,7 @@
         "gained": 53,
         "possible": 54,
         "percentage": 98.15,
-        "rank": 26
+        "rank": 25
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2644,7 +2639,7 @@
         "gained": 53,
         "possible": 54,
         "percentage": 98.15,
-        "rank": 27
+        "rank": 26
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2742,7 +2737,7 @@
         "gained": 53,
         "possible": 54,
         "percentage": 98.15,
-        "rank": 28
+        "rank": 27
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2840,7 +2835,7 @@
         "gained": 53,
         "possible": 54,
         "percentage": 98.15,
-        "rank": 29
+        "rank": 28
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2938,7 +2933,7 @@
         "gained": 54,
         "possible": 54,
         "percentage": 100,
-        "rank": 20
+        "rank": 19
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3041,7 +3036,7 @@
         "gained": 54,
         "possible": 54,
         "percentage": 100,
-        "rank": 21
+        "rank": 20
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3144,7 +3139,7 @@
         "gained": 52,
         "possible": 54,
         "percentage": 96.3,
-        "rank": 33
+        "rank": 32
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3242,7 +3237,7 @@
         "gained": 52,
         "possible": 54,
         "percentage": 96.3,
-        "rank": 34
+        "rank": 33
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3340,7 +3335,7 @@
         "gained": 48,
         "possible": 54,
         "percentage": 88.89,
-        "rank": 47
+        "rank": 46
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3438,7 +3433,7 @@
         "gained": 53,
         "possible": 54,
         "percentage": 98.15,
-        "rank": 30
+        "rank": 29
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3536,7 +3531,7 @@
         "gained": 54,
         "possible": 54,
         "percentage": 100,
-        "rank": 22
+        "rank": 21
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3639,7 +3634,7 @@
         "gained": 51,
         "possible": 54,
         "percentage": 94.44,
-        "rank": 38
+        "rank": 37
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3737,7 +3732,7 @@
         "gained": 53,
         "possible": 54,
         "percentage": 98.15,
-        "rank": 31
+        "rank": 30
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3835,7 +3830,7 @@
         "gained": 49,
         "possible": 54,
         "percentage": 90.74,
-        "rank": 45
+        "rank": 44
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3933,7 +3928,7 @@
         "gained": 48,
         "possible": 54,
         "percentage": 88.89,
-        "rank": 48
+        "rank": 47
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4031,7 +4026,7 @@
         "gained": 50,
         "possible": 54,
         "percentage": 92.59,
-        "rank": 41
+        "rank": 40
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4129,7 +4124,7 @@
         "gained": 44,
         "possible": 54,
         "percentage": 81.48,
-        "rank": 69
+        "rank": 68
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4227,7 +4222,7 @@
         "gained": 42,
         "possible": 54,
         "percentage": 77.78,
-        "rank": 80
+        "rank": 79
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4325,7 +4320,7 @@
         "gained": 52,
         "possible": 54,
         "percentage": 96.3,
-        "rank": 35
+        "rank": 34
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4423,7 +4418,7 @@
         "gained": 46,
         "possible": 54,
         "percentage": 85.19,
-        "rank": 58
+        "rank": 57
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4521,7 +4516,7 @@
         "gained": 53,
         "possible": 54,
         "percentage": 98.15,
-        "rank": 32
+        "rank": 31
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4619,7 +4614,7 @@
         "gained": 52,
         "possible": 54,
         "percentage": 96.3,
-        "rank": 36
+        "rank": 35
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4717,7 +4712,7 @@
         "gained": 51,
         "possible": 54,
         "percentage": 94.44,
-        "rank": 39
+        "rank": 38
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4815,7 +4810,7 @@
         "gained": 43,
         "possible": 54,
         "percentage": 79.63,
-        "rank": 75
+        "rank": 74
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4913,7 +4908,7 @@
         "gained": 50,
         "possible": 54,
         "percentage": 92.59,
-        "rank": 42
+        "rank": 41
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5011,7 +5006,7 @@
         "gained": 49,
         "possible": 54,
         "percentage": 90.74,
-        "rank": 46
+        "rank": 45
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5109,7 +5104,7 @@
         "gained": 50,
         "possible": 54,
         "percentage": 92.59,
-        "rank": 43
+        "rank": 42
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5207,7 +5202,7 @@
         "gained": 50,
         "possible": 54,
         "percentage": 92.59,
-        "rank": 44
+        "rank": 43
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5305,7 +5300,7 @@
         "gained": 45,
         "possible": 54,
         "percentage": 83.33,
-        "rank": 61
+        "rank": 60
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5403,7 +5398,7 @@
         "gained": 47,
         "possible": 54,
         "percentage": 87.04,
-        "rank": 54
+        "rank": 53
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5501,7 +5496,7 @@
         "gained": 48,
         "possible": 54,
         "percentage": 88.89,
-        "rank": 49
+        "rank": 48
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5599,7 +5594,7 @@
         "gained": 48,
         "possible": 54,
         "percentage": 88.89,
-        "rank": 50
+        "rank": 49
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5697,7 +5692,7 @@
         "gained": 48,
         "possible": 54,
         "percentage": 88.89,
-        "rank": 51
+        "rank": 50
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5795,7 +5790,7 @@
         "gained": 44,
         "possible": 54,
         "percentage": 81.48,
-        "rank": 70
+        "rank": 69
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5893,7 +5888,7 @@
         "gained": 48,
         "possible": 54,
         "percentage": 88.89,
-        "rank": 52
+        "rank": 51
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5991,7 +5986,7 @@
         "gained": 44,
         "possible": 54,
         "percentage": 81.48,
-        "rank": 71
+        "rank": 70
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6089,7 +6084,7 @@
         "gained": 45,
         "possible": 54,
         "percentage": 83.33,
-        "rank": 62
+        "rank": 61
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6187,7 +6182,7 @@
         "gained": 44,
         "possible": 54,
         "percentage": 81.48,
-        "rank": 72
+        "rank": 71
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6285,7 +6280,7 @@
         "gained": 47,
         "possible": 54,
         "percentage": 87.04,
-        "rank": 55
+        "rank": 54
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6383,7 +6378,7 @@
         "gained": 44,
         "possible": 54,
         "percentage": 81.48,
-        "rank": 73
+        "rank": 72
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6481,7 +6476,7 @@
         "gained": 46,
         "possible": 54,
         "percentage": 85.19,
-        "rank": 59
+        "rank": 58
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6579,7 +6574,7 @@
         "gained": 48,
         "possible": 54,
         "percentage": 88.89,
-        "rank": 53
+        "rank": 52
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6677,7 +6672,7 @@
         "gained": 38,
         "possible": 54,
         "percentage": 70.37,
-        "rank": 86
+        "rank": 85
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6775,7 +6770,7 @@
         "gained": 45,
         "possible": 54,
         "percentage": 83.33,
-        "rank": 63
+        "rank": 62
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6873,7 +6868,7 @@
         "gained": 45,
         "possible": 54,
         "percentage": 83.33,
-        "rank": 64
+        "rank": 63
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6971,7 +6966,7 @@
         "gained": 45,
         "possible": 54,
         "percentage": 83.33,
-        "rank": 65
+        "rank": 64
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7069,7 +7064,7 @@
         "gained": 43,
         "possible": 54,
         "percentage": 79.63,
-        "rank": 76
+        "rank": 75
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7167,7 +7162,7 @@
         "gained": 47,
         "possible": 54,
         "percentage": 87.04,
-        "rank": 56
+        "rank": 55
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7265,7 +7260,7 @@
         "gained": 47,
         "possible": 54,
         "percentage": 87.04,
-        "rank": 57
+        "rank": 56
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7363,7 +7358,7 @@
         "gained": 45,
         "possible": 54,
         "percentage": 83.33,
-        "rank": 66
+        "rank": 65
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7461,7 +7456,7 @@
         "gained": 45,
         "possible": 54,
         "percentage": 83.33,
-        "rank": 67
+        "rank": 66
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7559,7 +7554,7 @@
         "gained": 34,
         "possible": 45,
         "percentage": 75.56,
-        "rank": 81
+        "rank": 80
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7662,7 +7657,7 @@
         "gained": 38,
         "possible": 54,
         "percentage": 70.37,
-        "rank": 87
+        "rank": 86
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7765,7 +7760,7 @@
         "gained": 43,
         "possible": 54,
         "percentage": 79.63,
-        "rank": 77
+        "rank": 76
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7868,7 +7863,7 @@
         "gained": 46,
         "possible": 54,
         "percentage": 85.19,
-        "rank": 60
+        "rank": 59
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7971,7 +7966,7 @@
         "gained": 43,
         "possible": 54,
         "percentage": 79.63,
-        "rank": 78
+        "rank": 77
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8074,7 +8069,7 @@
         "gained": 43,
         "possible": 54,
         "percentage": 79.63,
-        "rank": 79
+        "rank": 78
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8177,7 +8172,7 @@
         "gained": 40,
         "possible": 54,
         "percentage": 74.07,
-        "rank": 82
+        "rank": 81
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8280,7 +8275,7 @@
         "gained": 45,
         "possible": 54,
         "percentage": 83.33,
-        "rank": 68
+        "rank": 67
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8383,7 +8378,7 @@
         "gained": 40,
         "possible": 54,
         "percentage": 74.07,
-        "rank": 83
+        "rank": 82
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8486,7 +8481,7 @@
         "gained": 39,
         "possible": 54,
         "percentage": 72.22,
-        "rank": 85
+        "rank": 84
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8589,7 +8584,7 @@
         "gained": 37,
         "possible": 54,
         "percentage": 68.52,
-        "rank": 88
+        "rank": 87
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8692,7 +8687,7 @@
         "gained": 35,
         "possible": 54,
         "percentage": 64.81,
-        "rank": 89
+        "rank": 88
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8795,7 +8790,7 @@
         "gained": 44,
         "possible": 54,
         "percentage": 81.48,
-        "rank": 74
+        "rank": 73
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8898,7 +8893,7 @@
         "gained": 40,
         "possible": 54,
         "percentage": 74.07,
-        "rank": 84
+        "rank": 83
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9001,7 +8996,7 @@
         "gained": 27,
         "possible": 45,
         "percentage": 60.0,
-        "rank": 90
+        "rank": 89
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9104,7 +9099,7 @@
         "gained": 30,
         "possible": 54,
         "percentage": 55.56,
-        "rank": 93
+        "rank": 92
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9207,7 +9202,7 @@
         "gained": 17,
         "possible": 54,
         "percentage": 31.48,
-        "rank": 99
+        "rank": 98
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9315,7 +9310,7 @@
         "gained": 32,
         "possible": 54,
         "percentage": 59.26,
-        "rank": 91
+        "rank": 90
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9418,7 +9413,7 @@
         "gained": 26,
         "possible": 45,
         "percentage": 57.78,
-        "rank": 92
+        "rank": 91
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9521,7 +9516,7 @@
         "gained": 26,
         "possible": 54,
         "percentage": 48.15,
-        "rank": 94
+        "rank": 93
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9629,7 +9624,7 @@
         "gained": 26,
         "possible": 54,
         "percentage": 48.15,
-        "rank": 95
+        "rank": 94
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9737,7 +9732,7 @@
         "gained": 19,
         "possible": 54,
         "percentage": 35.19,
-        "rank": 98
+        "rank": 97
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9845,7 +9840,7 @@
         "gained": 21,
         "possible": 54,
         "percentage": 38.89,
-        "rank": 96
+        "rank": 95
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9953,7 +9948,7 @@
         "gained": 21,
         "possible": 54,
         "percentage": 38.89,
-        "rank": 97
+        "rank": 96
       },
       "dayAnalysis": {
         "bestDay": {
@@ -10061,7 +10056,7 @@
         "gained": 4,
         "possible": 54,
         "percentage": 7.41,
-        "rank": 100
+        "rank": 99
       },
       "dayAnalysis": {
         "bestDay": {
