@@ -809,6 +809,11 @@
           "possible": 54,
           "percentage": 85.19
         },
+        "Brooklyn-Sash": {
+          "gained": 107,
+          "possible": 108,
+          "percentage": 99.07
+        },
         "D0C": {
           "gained": 107,
           "possible": 108,
@@ -909,6 +914,11 @@
           "possible": 108,
           "percentage": 75.0
         },
+        "Sasha-Noir": {
+          "gained": 107,
+          "possible": 108,
+          "percentage": 99.07
+        },
         "GalacLoli": {
           "gained": 81,
           "possible": 99,
@@ -989,25 +999,15 @@
           "possible": 108,
           "percentage": 47.22
         },
-        "Sboube78": {
-          "gained": 103,
-          "possible": 108,
-          "percentage": 95.37
-        },
-        "Brooklyn-Sash": {
-          "gained": 107,
-          "possible": 108,
-          "percentage": 99.07
-        },
-        "Sasha-Noir": {
-          "gained": 107,
-          "possible": 108,
-          "percentage": 99.07
-        },
         "HArD": {
           "gained": 68,
           "possible": 108,
           "percentage": 62.96
+        },
+        "SoFT": {
+          "gained": 76,
+          "possible": 108,
+          "percentage": 70.37
         }
       }
     }

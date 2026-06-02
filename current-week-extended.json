@@ -2,7 +2,7 @@
   "weekId": "GG_Mayo_W3",
   "cycleId": "Gold_Group_Mayo",
   "weekNumber": 3,
-  "rival": "[U4E1]UNTAMED4EVER",
+  "rival": "[QmQ]WN_QueMiedo",
   "competitionDates": {
     "startDate": null,
     "endDate": null
@@ -10,13 +10,13 @@
   "sourceFolder": "03- WYN vs QmQ",
   "metadata": {
     "totalPlayers": 100,
-    "totalPoints": 4023436675,
-    "avgPoints": 40234367,
+    "totalPoints": 4024154971,
+    "avgPoints": 40241550,
     "playersByZone": {
       "EMEA": 57,
       "APAC": 12,
-      "UNK": 9,
-      "AMER": 22
+      "AMER": 22,
+      "UNK": 9
     },
     "cofferGainedIsEstimate": true,
     "dataSource": "master",
@@ -28,7 +28,7 @@
       "Friday",
       "Saturday"
     ],
-    "generatedAt": "2026-06-01T10:10:23"
+    "generatedAt": "2026-06-02T10:17:00"
   },
   "players": [
     {
@@ -42,7 +42,7 @@
       },
       "points": 187506589,
       "vsAverage": {
-        "points": 147272222,
+        "points": 147265039,
         "percentage": 366.0
       },
       "coffers": {
@@ -150,14 +150,14 @@
       },
       "points": 128856649,
       "vsAverage": {
-        "points": 88622282,
-        "percentage": 220.3
+        "points": 88615099,
+        "percentage": 220.2
       },
       "coffers": {
         "gained": 101,
         "possible": 108,
         "percentage": 93.52,
-        "rank": 37
+        "rank": 36
       },
       "dayAnalysis": {
         "bestDay": {
@@ -253,8 +253,8 @@
       },
       "points": 97472483,
       "vsAverage": {
-        "points": 57238116,
-        "percentage": 142.3
+        "points": 57230933,
+        "percentage": 142.2
       },
       "coffers": {
         "gained": 108,
@@ -361,7 +361,7 @@
       },
       "points": 90740263,
       "vsAverage": {
-        "points": 50505896,
+        "points": 50498713,
         "percentage": 125.5
       },
       "coffers": {
@@ -464,7 +464,7 @@
       },
       "points": 90217611,
       "vsAverage": {
-        "points": 49983244,
+        "points": 49976061,
         "percentage": 124.2
       },
       "coffers": {
@@ -565,14 +565,14 @@
       "rank": 6,
       "playerId": "outlaw",
       "gameName": "outlaw",
-      "country": "ONU",
+      "country": "Great Britain",
       "timezone": {
-        "zone": "UNK",
-        "label": "❓ Unknown"
+        "zone": "EMEA",
+        "label": "🌍 EMEA · Apocalypse −1/+4"
       },
       "points": 83946523,
       "vsAverage": {
-        "points": 43712156,
+        "points": 43704973,
         "percentage": 108.6
       },
       "coffers": {
@@ -680,8 +680,8 @@
       },
       "points": 83636658,
       "vsAverage": {
-        "points": 43402291,
-        "percentage": 107.9
+        "points": 43395108,
+        "percentage": 107.8
       },
       "coffers": {
         "gained": 108,
@@ -788,7 +788,7 @@
       },
       "points": 83134460,
       "vsAverage": {
-        "points": 42900093,
+        "points": 42892910,
         "percentage": 106.6
       },
       "coffers": {
@@ -896,8 +896,8 @@
       },
       "points": 82553157,
       "vsAverage": {
-        "points": 42318790,
-        "percentage": 105.2
+        "points": 42311607,
+        "percentage": 105.1
       },
       "coffers": {
         "gained": 107,
@@ -999,7 +999,7 @@
       },
       "points": 78065366,
       "vsAverage": {
-        "points": 37830999,
+        "points": 37823816,
         "percentage": 94.0
       },
       "coffers": {
@@ -1102,7 +1102,7 @@
       },
       "points": 77368208,
       "vsAverage": {
-        "points": 37133841,
+        "points": 37126658,
         "percentage": 92.3
       },
       "coffers": {
@@ -1205,7 +1205,7 @@
       },
       "points": 77206730,
       "vsAverage": {
-        "points": 36972363,
+        "points": 36965180,
         "percentage": 91.9
       },
       "coffers": {
@@ -1308,8 +1308,8 @@
       },
       "points": 74706961,
       "vsAverage": {
-        "points": 34472594,
-        "percentage": 85.7
+        "points": 34465411,
+        "percentage": 85.6
       },
       "coffers": {
         "gained": 108,
@@ -1411,14 +1411,14 @@
       },
       "points": 68528431,
       "vsAverage": {
-        "points": 28294064,
+        "points": 28286881,
         "percentage": 70.3
       },
       "coffers": {
         "gained": 97,
         "possible": 108,
         "percentage": 89.81,
-        "rank": 44
+        "rank": 43
       },
       "dayAnalysis": {
         "bestDay": {
@@ -1509,8 +1509,8 @@
       },
       "points": 67300777,
       "vsAverage": {
-        "points": 27066410,
-        "percentage": 67.3
+        "points": 27059227,
+        "percentage": 67.2
       },
       "coffers": {
         "gained": 108,
@@ -1612,7 +1612,7 @@
       },
       "points": 64864074,
       "vsAverage": {
-        "points": 24629707,
+        "points": 24622524,
         "percentage": 61.2
       },
       "coffers": {
@@ -1710,7 +1710,7 @@
       },
       "points": 62261231,
       "vsAverage": {
-        "points": 22026864,
+        "points": 22019681,
         "percentage": 54.7
       },
       "coffers": {
@@ -1808,7 +1808,7 @@
       },
       "points": 62052167,
       "vsAverage": {
-        "points": 21817800,
+        "points": 21810617,
         "percentage": 54.2
       },
       "coffers": {
@@ -1911,7 +1911,7 @@
       },
       "points": 61650838,
       "vsAverage": {
-        "points": 21416471,
+        "points": 21409288,
         "percentage": 53.2
       },
       "coffers": {
@@ -2009,8 +2009,8 @@
       },
       "points": 60218171,
       "vsAverage": {
-        "points": 19983804,
-        "percentage": 49.7
+        "points": 19976621,
+        "percentage": 49.6
       },
       "coffers": {
         "gained": 108,
@@ -2112,8 +2112,8 @@
       },
       "points": 58804937,
       "vsAverage": {
-        "points": 18570570,
-        "percentage": 46.2
+        "points": 18563387,
+        "percentage": 46.1
       },
       "coffers": {
         "gained": 107,
@@ -2210,8 +2210,8 @@
       },
       "points": 57999327,
       "vsAverage": {
-        "points": 17764960,
-        "percentage": 44.2
+        "points": 17757777,
+        "percentage": 44.1
       },
       "coffers": {
         "gained": 105,
@@ -2308,7 +2308,7 @@
       },
       "points": 56775621,
       "vsAverage": {
-        "points": 16541254,
+        "points": 16534071,
         "percentage": 41.1
       },
       "coffers": {
@@ -2411,7 +2411,7 @@
       },
       "points": 54166776,
       "vsAverage": {
-        "points": 13932409,
+        "points": 13925226,
         "percentage": 34.6
       },
       "coffers": {
@@ -2509,7 +2509,7 @@
       },
       "points": 53525489,
       "vsAverage": {
-        "points": 13291122,
+        "points": 13283939,
         "percentage": 33.0
       },
       "coffers": {
@@ -2612,7 +2612,7 @@
       },
       "points": 51492219,
       "vsAverage": {
-        "points": 11257852,
+        "points": 11250669,
         "percentage": 28.0
       },
       "coffers": {
@@ -2710,14 +2710,14 @@
       },
       "points": 50497728,
       "vsAverage": {
-        "points": 10263361,
+        "points": 10256178,
         "percentage": 25.5
       },
       "coffers": {
         "gained": 100,
         "possible": 108,
         "percentage": 92.59,
-        "rank": 39
+        "rank": 38
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2808,7 +2808,7 @@
       },
       "points": 50284403,
       "vsAverage": {
-        "points": 10050036,
+        "points": 10042853,
         "percentage": 25.0
       },
       "coffers": {
@@ -2906,14 +2906,14 @@
       },
       "points": 49910233,
       "vsAverage": {
-        "points": 9675866,
+        "points": 9668683,
         "percentage": 24.0
       },
       "coffers": {
         "gained": 102,
         "possible": 108,
         "percentage": 94.44,
-        "rank": 36
+        "rank": 35
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3004,14 +3004,14 @@
       },
       "points": 49748630,
       "vsAverage": {
-        "points": 9514263,
+        "points": 9507080,
         "percentage": 23.6
       },
       "coffers": {
         "gained": 27,
         "possible": 36,
         "percentage": 75.0,
-        "rank": 80
+        "rank": 79
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3102,14 +3102,14 @@
       },
       "points": 46312476,
       "vsAverage": {
-        "points": 6078109,
+        "points": 6070926,
         "percentage": 15.1
       },
       "coffers": {
         "gained": 89,
         "possible": 108,
         "percentage": 82.41,
-        "rank": 64
+        "rank": 63
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3200,7 +3200,7 @@
       },
       "points": 45091252,
       "vsAverage": {
-        "points": 4856885,
+        "points": 4849702,
         "percentage": 12.1
       },
       "coffers": {
@@ -3298,14 +3298,14 @@
       },
       "points": 45035130,
       "vsAverage": {
-        "points": 4800763,
+        "points": 4793580,
         "percentage": 11.9
       },
       "coffers": {
         "gained": 100,
         "possible": 108,
         "percentage": 92.59,
-        "rank": 40
+        "rank": 39
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3396,14 +3396,14 @@
       },
       "points": 44863783,
       "vsAverage": {
-        "points": 4629416,
+        "points": 4622233,
         "percentage": 11.5
       },
       "coffers": {
         "gained": 97,
         "possible": 108,
         "percentage": 89.81,
-        "rank": 45
+        "rank": 44
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3494,14 +3494,14 @@
       },
       "points": 44173549,
       "vsAverage": {
-        "points": 3939182,
+        "points": 3931999,
         "percentage": 9.8
       },
       "coffers": {
         "gained": 94,
         "possible": 108,
         "percentage": 87.04,
-        "rank": 53
+        "rank": 52
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3592,7 +3592,7 @@
       },
       "points": 44068872,
       "vsAverage": {
-        "points": 3834505,
+        "points": 3827322,
         "percentage": 9.5
       },
       "coffers": {
@@ -3690,14 +3690,14 @@
       },
       "points": 44057717,
       "vsAverage": {
-        "points": 3823350,
+        "points": 3816167,
         "percentage": 9.5
       },
       "coffers": {
         "gained": 96,
         "possible": 108,
         "percentage": 88.89,
-        "rank": 47
+        "rank": 46
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3788,8 +3788,8 @@
       },
       "points": 41989316,
       "vsAverage": {
-        "points": 1754949,
-        "percentage": 4.4
+        "points": 1747766,
+        "percentage": 4.3
       },
       "coffers": {
         "gained": 108,
@@ -3891,14 +3891,14 @@
       },
       "points": 40945740,
       "vsAverage": {
-        "points": 711373,
-        "percentage": 1.8
+        "points": 704190,
+        "percentage": 1.7
       },
       "coffers": {
         "gained": 95,
         "possible": 108,
         "percentage": 87.96,
-        "rank": 50
+        "rank": 49
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3989,14 +3989,14 @@
       },
       "points": 40146556,
       "vsAverage": {
-        "points": -87811,
+        "points": -94994,
         "percentage": -0.2
       },
       "coffers": {
         "gained": 95,
         "possible": 108,
         "percentage": 87.96,
-        "rank": 51
+        "rank": 50
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4087,14 +4087,14 @@
       },
       "points": 39998633,
       "vsAverage": {
-        "points": -235734,
+        "points": -242917,
         "percentage": -0.6
       },
       "coffers": {
         "gained": 98,
         "possible": 108,
         "percentage": 90.74,
-        "rank": 43
+        "rank": 42
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4185,14 +4185,14 @@
       },
       "points": 39918312,
       "vsAverage": {
-        "points": -316055,
+        "points": -323238,
         "percentage": -0.8
       },
       "coffers": {
         "gained": 91,
         "possible": 108,
         "percentage": 84.26,
-        "rank": 62
+        "rank": 61
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4283,14 +4283,14 @@
       },
       "points": 39356267,
       "vsAverage": {
-        "points": -878100,
+        "points": -885283,
         "percentage": -2.2
       },
       "coffers": {
         "gained": 101,
         "possible": 108,
         "percentage": 93.52,
-        "rank": 38
+        "rank": 37
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4381,14 +4381,14 @@
       },
       "points": 38788199,
       "vsAverage": {
-        "points": -1446168,
+        "points": -1453351,
         "percentage": -3.6
       },
       "coffers": {
         "gained": 100,
         "possible": 108,
         "percentage": 92.59,
-        "rank": 41
+        "rank": 40
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4479,7 +4479,7 @@
       },
       "points": 38494490,
       "vsAverage": {
-        "points": -1739877,
+        "points": -1747060,
         "percentage": -4.3
       },
       "coffers": {
@@ -4577,14 +4577,14 @@
       },
       "points": 37225993,
       "vsAverage": {
-        "points": -3008374,
+        "points": -3015557,
         "percentage": -7.5
       },
       "coffers": {
         "gained": 90,
         "possible": 108,
         "percentage": 83.33,
-        "rank": 63
+        "rank": 62
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4626,7 +4626,7 @@
           "points": 3912855,
           "rank": 70,
           "percentVsAvg": -28.5,
-          "cofferGained": 8
+          "cofferGained": 7
         },
         {
           "day": "Thursday",
@@ -4675,14 +4675,14 @@
       },
       "points": 36258426,
       "vsAverage": {
-        "points": -3975941,
+        "points": -3983124,
         "percentage": -9.9
       },
       "coffers": {
         "gained": 85,
         "possible": 108,
         "percentage": 78.7,
-        "rank": 75
+        "rank": 74
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4773,7 +4773,7 @@
       },
       "points": 35421770,
       "vsAverage": {
-        "points": -4812597,
+        "points": -4819780,
         "percentage": -12.0
       },
       "coffers": {
@@ -4871,14 +4871,14 @@
       },
       "points": 34326690,
       "vsAverage": {
-        "points": -5907677,
+        "points": -5914860,
         "percentage": -14.7
       },
       "coffers": {
         "gained": 95,
         "possible": 108,
         "percentage": 87.96,
-        "rank": 52
+        "rank": 51
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4969,14 +4969,14 @@
       },
       "points": 33368942,
       "vsAverage": {
-        "points": -6865425,
+        "points": -6872608,
         "percentage": -17.1
       },
       "coffers": {
         "gained": 96,
         "possible": 108,
         "percentage": 88.89,
-        "rank": 48
+        "rank": 47
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5067,14 +5067,14 @@
       },
       "points": 32761367,
       "vsAverage": {
-        "points": -7473000,
+        "points": -7480183,
         "percentage": -18.6
       },
       "coffers": {
         "gained": 96,
         "possible": 108,
         "percentage": 88.89,
-        "rank": 49
+        "rank": 48
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5165,14 +5165,14 @@
       },
       "points": 32100216,
       "vsAverage": {
-        "points": -8134151,
+        "points": -8141334,
         "percentage": -20.2
       },
       "coffers": {
         "gained": 93,
         "possible": 108,
         "percentage": 86.11,
-        "rank": 55
+        "rank": 54
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5263,14 +5263,14 @@
       },
       "points": 32055669,
       "vsAverage": {
-        "points": -8178698,
+        "points": -8185881,
         "percentage": -20.3
       },
       "coffers": {
         "gained": 92,
         "possible": 108,
         "percentage": 85.19,
-        "rank": 58
+        "rank": 57
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5361,7 +5361,7 @@
       },
       "points": 31976110,
       "vsAverage": {
-        "points": -8258257,
+        "points": -8265440,
         "percentage": -20.5
       },
       "coffers": {
@@ -5437,7 +5437,7 @@
           "points": 778731,
           "rank": 115,
           "percentVsAvg": -90.1,
-          "cofferGained": 6
+          "cofferGained": 5
         }
       ],
       "insights": [
@@ -5464,14 +5464,14 @@
       },
       "points": 31785019,
       "vsAverage": {
-        "points": -8449348,
+        "points": -8456531,
         "percentage": -21.0
       },
       "coffers": {
         "gained": 94,
         "possible": 108,
         "percentage": 87.04,
-        "rank": 54
+        "rank": 53
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5562,14 +5562,14 @@
       },
       "points": 31305374,
       "vsAverage": {
-        "points": -8928993,
+        "points": -8936176,
         "percentage": -22.2
       },
       "coffers": {
         "gained": 97,
         "possible": 108,
         "percentage": 89.81,
-        "rank": 46
+        "rank": 45
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5660,8 +5660,8 @@
       },
       "points": 31247135,
       "vsAverage": {
-        "points": -8987232,
-        "percentage": -22.3
+        "points": -8994415,
+        "percentage": -22.4
       },
       "coffers": {
         "gained": 107,
@@ -5758,14 +5758,14 @@
       },
       "points": 31122152,
       "vsAverage": {
-        "points": -9112215,
-        "percentage": -22.6
+        "points": -9119398,
+        "percentage": -22.7
       },
       "coffers": {
         "gained": 87,
         "possible": 108,
         "percentage": 80.56,
-        "rank": 71
+        "rank": 70
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5856,14 +5856,14 @@
       },
       "points": 29265294,
       "vsAverage": {
-        "points": -10969073,
+        "points": -10976256,
         "percentage": -27.3
       },
       "coffers": {
         "gained": 77,
         "possible": 108,
         "percentage": 71.3,
-        "rank": 85
+        "rank": 84
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5954,14 +5954,14 @@
       },
       "points": 29037184,
       "vsAverage": {
-        "points": -11197183,
+        "points": -11204366,
         "percentage": -27.8
       },
       "coffers": {
         "gained": 46,
         "possible": 54,
         "percentage": 85.19,
-        "rank": 59
+        "rank": 58
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6043,6 +6043,104 @@
     },
     {
       "rank": 61,
+      "playerId": "Brooklyn-Sash",
+      "gameName": "Brooklyn-Sash",
+      "country": "ONU",
+      "timezone": {
+        "zone": "UNK",
+        "label": "❓ Unknown"
+      },
+      "points": 28365979,
+      "vsAverage": {
+        "points": -11875571,
+        "percentage": -29.5
+      },
+      "coffers": {
+        "gained": 107,
+        "possible": 108,
+        "percentage": 99.07,
+        "rank": 22
+      },
+      "dayAnalysis": {
+        "bestDay": {
+          "day": "Monday",
+          "dayNumber": 0,
+          "points": 23875354
+        },
+        "worstDay": {
+          "day": "Tuesday",
+          "dayNumber": 1,
+          "points": 4490625
+        },
+        "averageDaily": 14182990,
+        "volatility": 68.3
+      },
+      "dailyBreakdown": [
+        {
+          "day": "Monday",
+          "dayName": "Monday",
+          "dayNumber": 0,
+          "points": 23875354,
+          "rank": 1,
+          "percentVsAvg": 235.7,
+          "cofferGained": 9
+        },
+        {
+          "day": "Tuesday",
+          "dayName": "Tuesday",
+          "dayNumber": 1,
+          "points": 4490625,
+          "rank": 61,
+          "percentVsAvg": -2.0,
+          "cofferGained": 8
+        },
+        {
+          "day": "Wednesday",
+          "dayName": "Wednesday",
+          "dayNumber": 2,
+          "points": 0,
+          "rank": null,
+          "percentVsAvg": null,
+          "cofferGained": null
+        },
+        {
+          "day": "Thursday",
+          "dayName": "Thursday",
+          "dayNumber": 3,
+          "points": 0,
+          "rank": null,
+          "percentVsAvg": null,
+          "cofferGained": null
+        },
+        {
+          "day": "Friday",
+          "dayName": "Friday",
+          "dayNumber": 4,
+          "points": 0,
+          "rank": null,
+          "percentVsAvg": null,
+          "cofferGained": null
+        },
+        {
+          "day": "Saturday",
+          "dayName": "Saturday",
+          "dayNumber": 5,
+          "points": 0,
+          "rank": null,
+          "percentVsAvg": null,
+          "cofferGained": null
+        }
+      ],
+      "insights": [
+        {
+          "type": "pattern",
+          "icon": "📊",
+          "message": "Best day: Monday"
+        }
+      ]
+    },
+    {
+      "rank": 62,
       "playerId": "D0C",
       "gameName": "D0C",
       "country": "ONU",
@@ -6052,14 +6150,14 @@
       },
       "points": 27587281,
       "vsAverage": {
-        "points": -12647086,
+        "points": -12654269,
         "percentage": -31.4
       },
       "coffers": {
         "gained": 107,
         "possible": 108,
         "percentage": 99.07,
-        "rank": 22
+        "rank": 23
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6140,7 +6238,7 @@
       ]
     },
     {
-      "rank": 62,
+      "rank": 63,
       "playerId": "Psycomantis",
       "gameName": "Psycomantis",
       "country": "France",
@@ -6150,14 +6248,14 @@
       },
       "points": 26761216,
       "vsAverage": {
-        "points": -13473151,
+        "points": -13480334,
         "percentage": -33.5
       },
       "coffers": {
         "gained": 88,
         "possible": 108,
         "percentage": 81.48,
-        "rank": 68
+        "rank": 67
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6226,7 +6324,7 @@
           "points": 2066901,
           "rank": 83,
           "percentVsAvg": -73.7,
-          "cofferGained": 8
+          "cofferGained": 7
         }
       ],
       "insights": [
@@ -6238,7 +6336,7 @@
       ]
     },
     {
-      "rank": 63,
+      "rank": 64,
       "playerId": "javitwins",
       "gameName": "javitwins",
       "country": "Spain",
@@ -6248,14 +6346,14 @@
       },
       "points": 26250717,
       "vsAverage": {
-        "points": -13983650,
+        "points": -13990833,
         "percentage": -34.8
       },
       "coffers": {
         "gained": 82,
         "possible": 108,
         "percentage": 75.93,
-        "rank": 78
+        "rank": 77
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6297,7 +6395,7 @@
           "points": 998207,
           "rank": 127,
           "percentVsAvg": -81.8,
-          "cofferGained": 6
+          "cofferGained": 5
         },
         {
           "day": "Thursday",
@@ -6324,7 +6422,7 @@
           "points": 1313030,
           "rank": 100,
           "percentVsAvg": -83.3,
-          "cofferGained": 7
+          "cofferGained": 6
         }
       ],
       "insights": [
@@ -6336,7 +6434,7 @@
       ]
     },
     {
-      "rank": 64,
+      "rank": 65,
       "playerId": "Lady Fierr6",
       "gameName": "Lady Fierr6",
       "country": "ONU",
@@ -6346,14 +6444,14 @@
       },
       "points": 26250681,
       "vsAverage": {
-        "points": -13983686,
+        "points": -13990869,
         "percentage": -34.8
       },
       "coffers": {
         "gained": 88,
         "possible": 108,
         "percentage": 81.48,
-        "rank": 69
+        "rank": 68
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6434,7 +6532,7 @@
       ]
     },
     {
-      "rank": 65,
+      "rank": 66,
       "playerId": "baba2",
       "gameName": "baba2",
       "country": "France",
@@ -6444,14 +6542,14 @@
       },
       "points": 25119737,
       "vsAverage": {
-        "points": -15114630,
+        "points": -15121813,
         "percentage": -37.6
       },
       "coffers": {
         "gained": 89,
         "possible": 108,
         "percentage": 82.41,
-        "rank": 65
+        "rank": 64
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6532,7 +6630,7 @@
       ]
     },
     {
-      "rank": 66,
+      "rank": 67,
       "playerId": "Monsegur",
       "gameName": "Monsegur",
       "country": "France",
@@ -6542,14 +6640,14 @@
       },
       "points": 24574307,
       "vsAverage": {
-        "points": -15660060,
+        "points": -15667243,
         "percentage": -38.9
       },
       "coffers": {
         "gained": 93,
         "possible": 108,
         "percentage": 86.11,
-        "rank": 56
+        "rank": 55
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6630,7 +6728,7 @@
       ]
     },
     {
-      "rank": 67,
+      "rank": 68,
       "playerId": "Makī",
       "gameName": "Makī",
       "country": "Australia",
@@ -6640,14 +6738,14 @@
       },
       "points": 22822327,
       "vsAverage": {
-        "points": -17412040,
+        "points": -17419223,
         "percentage": -43.3
       },
       "coffers": {
         "gained": 85,
         "possible": 108,
         "percentage": 78.7,
-        "rank": 76
+        "rank": 75
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6728,7 +6826,7 @@
       ]
     },
     {
-      "rank": 68,
+      "rank": 69,
       "playerId": "Artem67",
       "gameName": "Artem67",
       "country": "Poland",
@@ -6738,14 +6836,14 @@
       },
       "points": 22489020,
       "vsAverage": {
-        "points": -17745347,
+        "points": -17752530,
         "percentage": -44.1
       },
       "coffers": {
         "gained": 84,
         "possible": 108,
         "percentage": 77.78,
-        "rank": 77
+        "rank": 76
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6826,7 +6924,7 @@
       ]
     },
     {
-      "rank": 69,
+      "rank": 70,
       "playerId": "Naruto Hero",
       "gameName": "Naruto Hero",
       "country": "Sweden",
@@ -6836,14 +6934,14 @@
       },
       "points": 22449531,
       "vsAverage": {
-        "points": -17784836,
+        "points": -17792019,
         "percentage": -44.2
       },
       "coffers": {
         "gained": 92,
         "possible": 108,
         "percentage": 85.19,
-        "rank": 60
+        "rank": 59
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6903,7 +7001,7 @@
           "points": 2241602,
           "rank": 97,
           "percentVsAvg": -54.1,
-          "cofferGained": 7
+          "cofferGained": 6
         },
         {
           "day": "Saturday",
@@ -6924,7 +7022,7 @@
       ]
     },
     {
-      "rank": 70,
+      "rank": 71,
       "playerId": "Katrophe",
       "gameName": "Katrophe",
       "country": "USA",
@@ -6934,14 +7032,14 @@
       },
       "points": 22115851,
       "vsAverage": {
-        "points": -18118516,
+        "points": -18125699,
         "percentage": -45.0
       },
       "coffers": {
         "gained": 93,
         "possible": 108,
         "percentage": 86.11,
-        "rank": 57
+        "rank": 56
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7022,7 +7120,7 @@
       ]
     },
     {
-      "rank": 71,
+      "rank": 72,
       "playerId": "Juanjo2230",
       "gameName": "Juanjo2230",
       "country": "Peru",
@@ -7032,14 +7130,14 @@
       },
       "points": 22000638,
       "vsAverage": {
-        "points": -18233729,
+        "points": -18240912,
         "percentage": -45.3
       },
       "coffers": {
         "gained": 81,
         "possible": 108,
         "percentage": 75.0,
-        "rank": 81
+        "rank": 80
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7120,7 +7218,7 @@
       ]
     },
     {
-      "rank": 72,
+      "rank": 73,
       "playerId": "plagiste",
       "gameName": "plagiste",
       "country": "France",
@@ -7130,8 +7228,8 @@
       },
       "points": 21708672,
       "vsAverage": {
-        "points": -18525695,
-        "percentage": -46.0
+        "points": -18532878,
+        "percentage": -46.1
       },
       "coffers": {
         "gained": 55,
@@ -7218,7 +7316,7 @@
       ]
     },
     {
-      "rank": 73,
+      "rank": 74,
       "playerId": "13ee12",
       "gameName": "13ee12",
       "country": "Thailand",
@@ -7228,14 +7326,14 @@
       },
       "points": 21173224,
       "vsAverage": {
-        "points": -19061143,
+        "points": -19068326,
         "percentage": -47.4
       },
       "coffers": {
         "gained": 89,
         "possible": 108,
         "percentage": 82.41,
-        "rank": 66
+        "rank": 65
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7316,7 +7414,7 @@
       ]
     },
     {
-      "rank": 74,
+      "rank": 75,
       "playerId": "Stevaustin",
       "gameName": "Stevaustin",
       "country": "France",
@@ -7326,14 +7424,14 @@
       },
       "points": 20865536,
       "vsAverage": {
-        "points": -19368831,
+        "points": -19376014,
         "percentage": -48.1
       },
       "coffers": {
         "gained": 82,
         "possible": 108,
         "percentage": 75.93,
-        "rank": 79
+        "rank": 78
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7414,7 +7512,7 @@
       ]
     },
     {
-      "rank": 75,
+      "rank": 76,
       "playerId": "Snaccysnaccccc",
       "gameName": "Snaccysnaccccc",
       "country": "USA",
@@ -7424,14 +7522,14 @@
       },
       "points": 20254099,
       "vsAverage": {
-        "points": -19980268,
+        "points": -19987451,
         "percentage": -49.7
       },
       "coffers": {
         "gained": 81,
         "possible": 108,
         "percentage": 75.0,
-        "rank": 82
+        "rank": 81
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7512,7 +7610,7 @@
       ]
     },
     {
-      "rank": 76,
+      "rank": 77,
       "playerId": "Carlosx6",
       "gameName": "Carlosx6",
       "country": "Mexico",
@@ -7522,14 +7620,14 @@
       },
       "points": 19090602,
       "vsAverage": {
-        "points": -21143765,
+        "points": -21150948,
         "percentage": -52.6
       },
       "coffers": {
         "gained": 86,
         "possible": 108,
         "percentage": 79.63,
-        "rank": 73
+        "rank": 72
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7615,7 +7713,7 @@
       ]
     },
     {
-      "rank": 77,
+      "rank": 78,
       "playerId": "Lv21",
       "gameName": "Lv21",
       "country": "Algeria",
@@ -7625,14 +7723,14 @@
       },
       "points": 18777884,
       "vsAverage": {
-        "points": -21456483,
+        "points": -21463666,
         "percentage": -53.3
       },
       "coffers": {
         "gained": 92,
         "possible": 108,
         "percentage": 85.19,
-        "rank": 61
+        "rank": 60
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7718,7 +7816,7 @@
       ]
     },
     {
-      "rank": 78,
+      "rank": 79,
       "playerId": "Rysy Bisi",
       "gameName": "Rysy Bisi",
       "country": "Germany",
@@ -7728,14 +7826,14 @@
       },
       "points": 18647891,
       "vsAverage": {
-        "points": -21586476,
+        "points": -21593659,
         "percentage": -53.7
       },
       "coffers": {
         "gained": 88,
         "possible": 108,
         "percentage": 81.48,
-        "rank": 70
+        "rank": 69
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7821,7 +7919,7 @@
       ]
     },
     {
-      "rank": 79,
+      "rank": 80,
       "playerId": "Neon134",
       "gameName": "Neon134",
       "country": "India",
@@ -7831,7 +7929,7 @@
       },
       "points": 18073180,
       "vsAverage": {
-        "points": -22161187,
+        "points": -22168370,
         "percentage": -55.1
       },
       "coffers": {
@@ -7889,7 +7987,7 @@
           "points": 5501146,
           "rank": 113,
           "percentVsAvg": -55.1,
-          "cofferGained": 9
+          "cofferGained": 8
         },
         {
           "day": "Friday",
@@ -7924,7 +8022,7 @@
       ]
     },
     {
-      "rank": 80,
+      "rank": 81,
       "playerId": "WeaponLoki",
       "gameName": "WeaponLoki",
       "country": "USA",
@@ -7934,14 +8032,14 @@
       },
       "points": 17580522,
       "vsAverage": {
-        "points": -22653845,
+        "points": -22661028,
         "percentage": -56.3
       },
       "coffers": {
         "gained": 81,
         "possible": 108,
         "percentage": 75.0,
-        "rank": 83
+        "rank": 82
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8027,7 +8125,110 @@
       ]
     },
     {
-      "rank": 81,
+      "rank": 82,
+      "playerId": "Sasha-Noir",
+      "gameName": "Sasha-Noir",
+      "country": "USA",
+      "timezone": {
+        "zone": "AMER",
+        "label": "🌎 Americas · Apocalypse −3/−10"
+      },
+      "points": 17403549,
+      "vsAverage": {
+        "points": -22838001,
+        "percentage": -56.8
+      },
+      "coffers": {
+        "gained": 107,
+        "possible": 108,
+        "percentage": 99.07,
+        "rank": 24
+      },
+      "dayAnalysis": {
+        "bestDay": {
+          "day": "Monday",
+          "dayNumber": 0,
+          "points": 13675330
+        },
+        "worstDay": {
+          "day": "Tuesday",
+          "dayNumber": 1,
+          "points": 3728219
+        },
+        "averageDaily": 8701774,
+        "volatility": 57.2
+      },
+      "dailyBreakdown": [
+        {
+          "day": "Monday",
+          "dayName": "Monday",
+          "dayNumber": 0,
+          "points": 13675330,
+          "rank": 7,
+          "percentVsAvg": 92.3,
+          "cofferGained": 9
+        },
+        {
+          "day": "Tuesday",
+          "dayName": "Tuesday",
+          "dayNumber": 1,
+          "points": 3728219,
+          "rank": 74,
+          "percentVsAvg": -18.6,
+          "cofferGained": 7
+        },
+        {
+          "day": "Wednesday",
+          "dayName": "Wednesday",
+          "dayNumber": 2,
+          "points": 0,
+          "rank": null,
+          "percentVsAvg": null,
+          "cofferGained": null
+        },
+        {
+          "day": "Thursday",
+          "dayName": "Thursday",
+          "dayNumber": 3,
+          "points": 0,
+          "rank": null,
+          "percentVsAvg": null,
+          "cofferGained": null
+        },
+        {
+          "day": "Friday",
+          "dayName": "Friday",
+          "dayNumber": 4,
+          "points": 0,
+          "rank": null,
+          "percentVsAvg": null,
+          "cofferGained": null
+        },
+        {
+          "day": "Saturday",
+          "dayName": "Saturday",
+          "dayNumber": 5,
+          "points": 0,
+          "rank": null,
+          "percentVsAvg": null,
+          "cofferGained": null
+        }
+      ],
+      "insights": [
+        {
+          "type": "warning",
+          "icon": "⚠️",
+          "message": "Low performance (-57%)"
+        },
+        {
+          "type": "pattern",
+          "icon": "📊",
+          "message": "Best day: Monday"
+        }
+      ]
+    },
+    {
+      "rank": 83,
       "playerId": "GalacLoli",
       "gameName": "GalacLoli",
       "country": "ONU",
@@ -8037,14 +8238,14 @@
       },
       "points": 16487111,
       "vsAverage": {
-        "points": -23747256,
+        "points": -23754439,
         "percentage": -59.0
       },
       "coffers": {
         "gained": 81,
         "possible": 99,
         "percentage": 81.82,
-        "rank": 67
+        "rank": 66
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8130,7 +8331,7 @@
       ]
     },
     {
-      "rank": 82,
+      "rank": 84,
       "playerId": "laquette",
       "gameName": "laquette",
       "country": "Belgium",
@@ -8140,7 +8341,7 @@
       },
       "points": 16453370,
       "vsAverage": {
-        "points": -23780997,
+        "points": -23788180,
         "percentage": -59.1
       },
       "coffers": {
@@ -8189,7 +8390,7 @@
           "points": 1112043,
           "rank": 123,
           "percentVsAvg": -79.7,
-          "cofferGained": 6
+          "cofferGained": 5
         },
         {
           "day": "Thursday",
@@ -8233,7 +8434,7 @@
       ]
     },
     {
-      "rank": 83,
+      "rank": 85,
       "playerId": "Micramonyl",
       "gameName": "Micramonyl",
       "country": "France",
@@ -8243,14 +8444,14 @@
       },
       "points": 15945321,
       "vsAverage": {
-        "points": -24289046,
+        "points": -24296229,
         "percentage": -60.4
       },
       "coffers": {
         "gained": 70,
         "possible": 99,
         "percentage": 70.71,
-        "rank": 86
+        "rank": 85
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8292,7 +8493,7 @@
           "points": 1251690,
           "rank": 118,
           "percentVsAvg": -77.1,
-          "cofferGained": 6
+          "cofferGained": 5
         },
         {
           "day": "Thursday",
@@ -8336,7 +8537,7 @@
       ]
     },
     {
-      "rank": 84,
+      "rank": 86,
       "playerId": "Tipis",
       "gameName": "Tipis",
       "country": "Kenya",
@@ -8346,14 +8547,14 @@
       },
       "points": 15920587,
       "vsAverage": {
-        "points": -24313780,
+        "points": -24320963,
         "percentage": -60.4
       },
       "coffers": {
         "gained": 100,
         "possible": 108,
         "percentage": 92.59,
-        "rank": 42
+        "rank": 41
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8439,7 +8640,7 @@
       ]
     },
     {
-      "rank": 85,
+      "rank": 87,
       "playerId": "robert1909",
       "gameName": "robert1909",
       "country": "Spain",
@@ -8449,14 +8650,14 @@
       },
       "points": 15660716,
       "vsAverage": {
-        "points": -24573651,
+        "points": -24580834,
         "percentage": -61.1
       },
       "coffers": {
         "gained": 87,
         "possible": 108,
         "percentage": 80.56,
-        "rank": 72
+        "rank": 71
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8525,7 +8726,7 @@
           "points": 366053,
           "rank": 138,
           "percentVsAvg": -95.3,
-          "cofferGained": 5
+          "cofferGained": 4
         }
       ],
       "insights": [
@@ -8542,7 +8743,7 @@
       ]
     },
     {
-      "rank": 86,
+      "rank": 88,
       "playerId": "Hullman",
       "gameName": "Hullman",
       "country": "ONU",
@@ -8552,7 +8753,7 @@
       },
       "points": 12826110,
       "vsAverage": {
-        "points": -27408257,
+        "points": -27415440,
         "percentage": -68.1
       },
       "coffers": {
@@ -8592,7 +8793,7 @@
           "points": 830547,
           "rank": 142,
           "percentVsAvg": -81.9,
-          "cofferGained": 6
+          "cofferGained": 5
         },
         {
           "day": "Wednesday",
@@ -8628,7 +8829,7 @@
           "points": 3232269,
           "rank": 70,
           "percentVsAvg": -58.8,
-          "cofferGained": 9
+          "cofferGained": 8
         }
       ],
       "insights": [
@@ -8645,7 +8846,7 @@
       ]
     },
     {
-      "rank": 87,
+      "rank": 89,
       "playerId": "Incubus123",
       "gameName": "Incubus123",
       "country": "Australia",
@@ -8655,14 +8856,14 @@
       },
       "points": 12633811,
       "vsAverage": {
-        "points": -27600556,
+        "points": -27607739,
         "percentage": -68.6
       },
       "coffers": {
         "gained": 80,
         "possible": 108,
         "percentage": 74.07,
-        "rank": 84
+        "rank": 83
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8748,7 +8949,7 @@
       ]
     },
     {
-      "rank": 88,
+      "rank": 90,
       "playerId": "hi ya",
       "gameName": "hi ya",
       "country": "USA",
@@ -8758,7 +8959,7 @@
       },
       "points": 11263104,
       "vsAverage": {
-        "points": -28971263,
+        "points": -28978446,
         "percentage": -72.0
       },
       "coffers": {
@@ -8807,7 +9008,7 @@
           "points": 1361001,
           "rank": 116,
           "percentVsAvg": -75.1,
-          "cofferGained": 6
+          "cofferGained": 5
         },
         {
           "day": "Thursday",
@@ -8816,7 +9017,7 @@
           "points": 3049353,
           "rank": 127,
           "percentVsAvg": -75.1,
-          "cofferGained": 7
+          "cofferGained": 6
         },
         {
           "day": "Friday",
@@ -8851,7 +9052,7 @@
       ]
     },
     {
-      "rank": 89,
+      "rank": 91,
       "playerId": "Gurd76",
       "gameName": "Gurd76",
       "country": "Germany",
@@ -8861,7 +9062,7 @@
       },
       "points": 10695774,
       "vsAverage": {
-        "points": -29538593,
+        "points": -29545776,
         "percentage": -73.4
       },
       "coffers": {
@@ -8910,7 +9111,7 @@
           "points": 890395,
           "rank": 130,
           "percentVsAvg": -83.7,
-          "cofferGained": 6
+          "cofferGained": 5
         },
         {
           "day": "Thursday",
@@ -8954,7 +9155,7 @@
       ]
     },
     {
-      "rank": 90,
+      "rank": 92,
       "playerId": "ybid",
       "gameName": "ybid",
       "country": "France",
@@ -8964,7 +9165,7 @@
       },
       "points": 9980016,
       "vsAverage": {
-        "points": -30254351,
+        "points": -30261534,
         "percentage": -75.2
       },
       "coffers": {
@@ -9004,7 +9205,7 @@
           "points": 2268129,
           "rank": 107,
           "percentVsAvg": -50.5,
-          "cofferGained": 7
+          "cofferGained": 6
         },
         {
           "day": "Wednesday",
@@ -9013,7 +9214,7 @@
           "points": 954941,
           "rank": 128,
           "percentVsAvg": -82.6,
-          "cofferGained": 6
+          "cofferGained": 5
         },
         {
           "day": "Thursday",
@@ -9062,7 +9263,7 @@
       ]
     },
     {
-      "rank": 91,
+      "rank": 93,
       "playerId": "ArVi",
       "gameName": "ArVi",
       "country": "Ecuador",
@@ -9072,7 +9273,7 @@
       },
       "points": 9484452,
       "vsAverage": {
-        "points": -30749915,
+        "points": -30757098,
         "percentage": -76.4
       },
       "coffers": {
@@ -9130,7 +9331,7 @@
           "points": 4778457,
           "rank": 117,
           "percentVsAvg": -61.0,
-          "cofferGained": 8
+          "cofferGained": 7
         },
         {
           "day": "Friday",
@@ -9165,7 +9366,7 @@
       ]
     },
     {
-      "rank": 92,
+      "rank": 94,
       "playerId": "Unc Mongo Berry",
       "gameName": "Unc Mongo Berry",
       "country": "Guatemala",
@@ -9175,7 +9376,7 @@
       },
       "points": 9025527,
       "vsAverage": {
-        "points": -31208840,
+        "points": -31216023,
         "percentage": -77.6
       },
       "coffers": {
@@ -9273,7 +9474,7 @@
       ]
     },
     {
-      "rank": 93,
+      "rank": 95,
       "playerId": "Angelina31",
       "gameName": "Angelina31",
       "country": "France",
@@ -9283,14 +9484,14 @@
       },
       "points": 8274776,
       "vsAverage": {
-        "points": -31959591,
+        "points": -31966774,
         "percentage": -79.4
       },
       "coffers": {
         "gained": 86,
         "possible": 108,
         "percentage": 79.63,
-        "rank": 74
+        "rank": 73
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9341,7 +9542,7 @@
           "points": 1118335,
           "rank": 138,
           "percentVsAvg": -90.9,
-          "cofferGained": 6
+          "cofferGained": 5
         },
         {
           "day": "Friday",
@@ -9376,7 +9577,7 @@
       ]
     },
     {
-      "rank": 94,
+      "rank": 96,
       "playerId": "LilSis",
       "gameName": "LilSis",
       "country": "ONU",
@@ -9386,7 +9587,7 @@
       },
       "points": 7812384,
       "vsAverage": {
-        "points": -32421983,
+        "points": -32429166,
         "percentage": -80.6
       },
       "coffers": {
@@ -9479,7 +9680,7 @@
       ]
     },
     {
-      "rank": 95,
+      "rank": 97,
       "playerId": "LungDoc",
       "gameName": "LungDoc",
       "country": "USA",
@@ -9489,7 +9690,7 @@
       },
       "points": 7020390,
       "vsAverage": {
-        "points": -33213977,
+        "points": -33221160,
         "percentage": -82.6
       },
       "coffers": {
@@ -9538,7 +9739,7 @@
           "points": 765545,
           "rank": 132,
           "percentVsAvg": -86.0,
-          "cofferGained": 6
+          "cofferGained": 5
         },
         {
           "day": "Thursday",
@@ -9587,7 +9788,7 @@
       ]
     },
     {
-      "rank": 96,
+      "rank": 98,
       "playerId": "Road2creation",
       "gameName": "Road2creation",
       "country": "Netherlands",
@@ -9597,7 +9798,7 @@
       },
       "points": 6574567,
       "vsAverage": {
-        "points": -33659800,
+        "points": -33666983,
         "percentage": -83.7
       },
       "coffers": {
@@ -9646,7 +9847,7 @@
           "points": 1701023,
           "rank": 112,
           "percentVsAvg": -68.9,
-          "cofferGained": 6
+          "cofferGained": 5
         },
         {
           "day": "Thursday",
@@ -9695,311 +9896,7 @@
       ]
     },
     {
-      "rank": 97,
-      "playerId": "Sboube78",
-      "gameName": "Sboube78",
-      "country": "France",
-      "timezone": {
-        "zone": "EMEA",
-        "label": "🌍 EMEA · Apocalypse −1/+4"
-      },
-      "points": 2929115,
-      "vsAverage": {
-        "points": -37305252,
-        "percentage": -92.7
-      },
-      "coffers": {
-        "gained": 103,
-        "possible": 108,
-        "percentage": 95.37,
-        "rank": 35
-      },
-      "dayAnalysis": {
-        "bestDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 1073809
-        },
-        "worstDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 60975
-        },
-        "averageDaily": 488186,
-        "volatility": 69.4
-      },
-      "dailyBreakdown": [
-        {
-          "day": "Monday",
-          "dayName": "Monday",
-          "dayNumber": 0,
-          "points": 698212,
-          "rank": 144,
-          "percentVsAvg": -90.2,
-          "cofferGained": 6
-        },
-        {
-          "day": "Tuesday",
-          "dayName": "Tuesday",
-          "dayNumber": 1,
-          "points": 299607,
-          "rank": 151,
-          "percentVsAvg": -93.5,
-          "cofferGained": 5
-        },
-        {
-          "day": "Wednesday",
-          "dayName": "Wednesday",
-          "dayNumber": 2,
-          "points": 581700,
-          "rank": 141,
-          "percentVsAvg": -89.4,
-          "cofferGained": 5
-        },
-        {
-          "day": "Thursday",
-          "dayName": "Thursday",
-          "dayNumber": 3,
-          "points": 60975,
-          "rank": 149,
-          "percentVsAvg": -99.5,
-          "cofferGained": 5
-        },
-        {
-          "day": "Friday",
-          "dayName": "Friday",
-          "dayNumber": 4,
-          "points": 1073809,
-          "rank": 132,
-          "percentVsAvg": -78.0,
-          "cofferGained": 5
-        },
-        {
-          "day": "Saturday",
-          "dayName": "Saturday",
-          "dayNumber": 5,
-          "points": 214812,
-          "rank": 151,
-          "percentVsAvg": -97.3,
-          "cofferGained": 4
-        }
-      ],
-      "insights": [
-        {
-          "type": "warning",
-          "icon": "⚠️",
-          "message": "Low performance (-93%)"
-        },
-        {
-          "type": "pattern",
-          "icon": "📊",
-          "message": "Best day: Friday"
-        }
-      ]
-    },
-    {
-      "rank": 98,
-      "playerId": "Brooklyn-Sash",
-      "gameName": "Brooklyn-Sash",
-      "country": "ONU",
-      "timezone": {
-        "zone": "UNK",
-        "label": "❓ Unknown"
-      },
-      "points": 28365979,
-      "vsAverage": {
-        "points": -11868388,
-        "percentage": -29.5
-      },
-      "coffers": {
-        "gained": 107,
-        "possible": 108,
-        "percentage": 99.07,
-        "rank": 23
-      },
-      "dayAnalysis": {
-        "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 23875354
-        },
-        "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 4490625
-        },
-        "averageDaily": 14182990,
-        "volatility": 68.3
-      },
-      "dailyBreakdown": [
-        {
-          "day": "Monday",
-          "dayName": "Monday",
-          "dayNumber": 0,
-          "points": 23875354,
-          "rank": 1,
-          "percentVsAvg": 235.7,
-          "cofferGained": 9
-        },
-        {
-          "day": "Tuesday",
-          "dayName": "Tuesday",
-          "dayNumber": 1,
-          "points": 4490625,
-          "rank": 61,
-          "percentVsAvg": -2.0,
-          "cofferGained": 8
-        },
-        {
-          "day": "Wednesday",
-          "dayName": "Wednesday",
-          "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
-        },
-        {
-          "day": "Thursday",
-          "dayName": "Thursday",
-          "dayNumber": 3,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
-        },
-        {
-          "day": "Friday",
-          "dayName": "Friday",
-          "dayNumber": 4,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
-        },
-        {
-          "day": "Saturday",
-          "dayName": "Saturday",
-          "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
-        }
-      ],
-      "insights": [
-        {
-          "type": "pattern",
-          "icon": "📊",
-          "message": "Best day: Monday"
-        }
-      ]
-    },
-    {
       "rank": 99,
-      "playerId": "Sasha-Noir",
-      "gameName": "Sasha-Noir",
-      "country": "USA",
-      "timezone": {
-        "zone": "AMER",
-        "label": "🌎 Americas · Apocalypse −3/−10"
-      },
-      "points": 17403549,
-      "vsAverage": {
-        "points": -22830818,
-        "percentage": -56.7
-      },
-      "coffers": {
-        "gained": 107,
-        "possible": 108,
-        "percentage": 99.07,
-        "rank": 24
-      },
-      "dayAnalysis": {
-        "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 13675330
-        },
-        "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 3728219
-        },
-        "averageDaily": 8701774,
-        "volatility": 57.2
-      },
-      "dailyBreakdown": [
-        {
-          "day": "Monday",
-          "dayName": "Monday",
-          "dayNumber": 0,
-          "points": 13675330,
-          "rank": 7,
-          "percentVsAvg": 92.3,
-          "cofferGained": 9
-        },
-        {
-          "day": "Tuesday",
-          "dayName": "Tuesday",
-          "dayNumber": 1,
-          "points": 3728219,
-          "rank": 74,
-          "percentVsAvg": -18.6,
-          "cofferGained": 7
-        },
-        {
-          "day": "Wednesday",
-          "dayName": "Wednesday",
-          "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
-        },
-        {
-          "day": "Thursday",
-          "dayName": "Thursday",
-          "dayNumber": 3,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
-        },
-        {
-          "day": "Friday",
-          "dayName": "Friday",
-          "dayNumber": 4,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
-        },
-        {
-          "day": "Saturday",
-          "dayName": "Saturday",
-          "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
-        }
-      ],
-      "insights": [
-        {
-          "type": "warning",
-          "icon": "⚠️",
-          "message": "Low performance (-57%)"
-        },
-        {
-          "type": "pattern",
-          "icon": "📊",
-          "message": "Best day: Monday"
-        }
-      ]
-    },
-    {
-      "rank": 100,
       "playerId": "HArD",
       "gameName": "HArD",
       "country": "Pakistan",
@@ -10009,7 +9906,7 @@
       },
       "points": 6096757,
       "vsAverage": {
-        "points": -34137610,
+        "points": -34144793,
         "percentage": -84.8
       },
       "coffers": {
@@ -10093,6 +9990,109 @@
           "type": "warning",
           "icon": "⚠️",
           "message": "Low performance (-85%)"
+        },
+        {
+          "type": "pattern",
+          "icon": "📊",
+          "message": "Best day: Tuesday"
+        }
+      ]
+    },
+    {
+      "rank": 100,
+      "playerId": "SoFT",
+      "gameName": "SoFT",
+      "country": "ONU",
+      "timezone": {
+        "zone": "UNK",
+        "label": "❓ Unknown"
+      },
+      "points": 3647411,
+      "vsAverage": {
+        "points": -36594139,
+        "percentage": -90.9
+      },
+      "coffers": {
+        "gained": 76,
+        "possible": 108,
+        "percentage": 70.37,
+        "rank": 86
+      },
+      "dayAnalysis": {
+        "bestDay": {
+          "day": "Tuesday",
+          "dayNumber": 1,
+          "points": 3616623
+        },
+        "worstDay": {
+          "day": "Monday",
+          "dayNumber": 0,
+          "points": 30788
+        },
+        "averageDaily": 1823706,
+        "volatility": 98.3
+      },
+      "dailyBreakdown": [
+        {
+          "day": "Monday",
+          "dayName": "Monday",
+          "dayNumber": 0,
+          "points": 30788,
+          "rank": 158,
+          "percentVsAvg": -99.6,
+          "cofferGained": 6
+        },
+        {
+          "day": "Tuesday",
+          "dayName": "Tuesday",
+          "dayNumber": 1,
+          "points": 3616623,
+          "rank": 78,
+          "percentVsAvg": -21.0,
+          "cofferGained": 7
+        },
+        {
+          "day": "Wednesday",
+          "dayName": "Wednesday",
+          "dayNumber": 2,
+          "points": 0,
+          "rank": null,
+          "percentVsAvg": null,
+          "cofferGained": null
+        },
+        {
+          "day": "Thursday",
+          "dayName": "Thursday",
+          "dayNumber": 3,
+          "points": 0,
+          "rank": null,
+          "percentVsAvg": null,
+          "cofferGained": null
+        },
+        {
+          "day": "Friday",
+          "dayName": "Friday",
+          "dayNumber": 4,
+          "points": 0,
+          "rank": null,
+          "percentVsAvg": null,
+          "cofferGained": null
+        },
+        {
+          "day": "Saturday",
+          "dayName": "Saturday",
+          "dayNumber": 5,
+          "points": 0,
+          "rank": null,
+          "percentVsAvg": null,
+          "cofferGained": null
+        }
+      ],
+      "insights": [
+        {
+          "type": "warning",
+          "icon": "⚠️",
+          "message": "Low performance (-91%)"
         },
         {
           "type": "pattern",
