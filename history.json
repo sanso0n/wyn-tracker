@@ -5,8 +5,285 @@
       "label": "Diamond Group April",
       "division": "Diamond",
       "status": "closed",
-      "narrative": "No data",
-      "weeks": []
+      "narrative": "A four-week campaign at the top division. Lost all four weeks, demoted back to Gold. Total: 16.46 B pts.",
+      "weeks": [
+        {
+          "weekNumber": 1,
+          "rival": "[OM3N]Dark Ascendancy",
+          "result": "L",
+          "top3": [
+            {
+              "rank": 1,
+              "name": "Z286",
+              "country": "Canada",
+              "points": 100113434
+            },
+            {
+              "rank": 2,
+              "name": "sorryGotHIGH",
+              "country": "Great Britain",
+              "points": 98259523
+            },
+            {
+              "rank": 3,
+              "name": "Guervo 88",
+              "country": "Argentinien",
+              "points": 89304162
+            }
+          ],
+          "byDay": {
+            "Monday": {
+              "active": 97,
+              "points": 780707862,
+              "pctGreen": 0.629,
+              "avgCoffersLost": 0.71
+            },
+            "Tuesday": {
+              "active": 95,
+              "points": 379800312,
+              "pctGreen": 0.274,
+              "avgCoffersLost": 1.68
+            },
+            "Wednesday": {
+              "active": 96,
+              "points": 407234364,
+              "pctGreen": 0.281,
+              "avgCoffersLost": 1.71
+            },
+            "Thursday": {
+              "active": 95,
+              "points": 953073758,
+              "pctGreen": 0.737,
+              "avgCoffersLost": 0.8
+            },
+            "Friday": {
+              "active": 95,
+              "points": 361474054,
+              "pctGreen": 0.232,
+              "avgCoffersLost": 2.01
+            },
+            "Saturday": {
+              "active": 98,
+              "points": 497981032,
+              "pctGreen": 0.408,
+              "avgCoffersLost": 2.33
+            }
+          },
+          "totalPoints": 3380271382,
+          "avgPctGreenWeek": 0.4268333333333334,
+          "avgCoffersLostPerPlayer": 1.5399999999999998,
+          "diamondsLost": 11812535,
+          "diamondsPossible": 36375370,
+          "diamondsLostPct": 0.3247399270440411
+        },
+        {
+          "weekNumber": 2,
+          "rival": "[eTk]Elite T Killers",
+          "result": "L",
+          "top3": [
+            {
+              "rank": 1,
+              "name": "Reaper25908",
+              "country": "Great Britain",
+              "points": 127825566
+            },
+            {
+              "rank": 2,
+              "name": "Pumpin",
+              "country": "Spain",
+              "points": 124729687
+            },
+            {
+              "rank": 3,
+              "name": "Lv21",
+              "country": "Algeria",
+              "points": 109678639
+            }
+          ],
+          "byDay": {
+            "Monday": {
+              "active": 97,
+              "points": 724913274,
+              "pctGreen": 0.598,
+              "avgCoffersLost": 0.81
+            },
+            "Tuesday": {
+              "active": 97,
+              "points": 428332823,
+              "pctGreen": 0.278,
+              "avgCoffersLost": 1.77
+            },
+            "Wednesday": {
+              "active": 98,
+              "points": 373822240,
+              "pctGreen": 0.255,
+              "avgCoffersLost": 1.85
+            },
+            "Thursday": {
+              "active": 96,
+              "points": 1141442981,
+              "pctGreen": 0.74,
+              "avgCoffersLost": 0.64
+            },
+            "Friday": {
+              "active": 98,
+              "points": 429708971,
+              "pctGreen": 0.255,
+              "avgCoffersLost": 2.01
+            },
+            "Saturday": {
+              "active": 99,
+              "points": 810129493,
+              "pctGreen": 0.566,
+              "avgCoffersLost": 1.38
+            }
+          },
+          "totalPoints": 3908349782,
+          "avgPctGreenWeek": 0.4486666666666666,
+          "avgCoffersLostPerPlayer": 1.41,
+          "diamondsLost": 11114180,
+          "diamondsPossible": 36804000,
+          "diamondsLostPct": 0.301982936637322
+        },
+        {
+          "weekNumber": 3,
+          "rival": "[Dsq]Dark Squadron",
+          "result": "L",
+          "top3": [
+            {
+              "rank": 1,
+              "name": "Topic3074",
+              "country": "Great Britain",
+              "points": 195944304
+            },
+            {
+              "rank": 2,
+              "name": "Pumpin",
+              "country": "Spain",
+              "points": 179739794
+            },
+            {
+              "rank": 3,
+              "name": "AegNoR",
+              "country": "Spain",
+              "points": 171836957
+            }
+          ],
+          "byDay": {
+            "Monday": {
+              "active": 97,
+              "points": 702290170,
+              "pctGreen": 0.629,
+              "avgCoffersLost": 0.68
+            },
+            "Tuesday": {
+              "active": 96,
+              "points": 445579294,
+              "pctGreen": 0.302,
+              "avgCoffersLost": 1.59
+            },
+            "Wednesday": {
+              "active": 99,
+              "points": 475969565,
+              "pctGreen": 0.323,
+              "avgCoffersLost": 1.69
+            },
+            "Thursday": {
+              "active": 99,
+              "points": 1088890175,
+              "pctGreen": 0.687,
+              "avgCoffersLost": 0.74
+            },
+            "Friday": {
+              "active": 96,
+              "points": 553008562,
+              "pctGreen": 0.385,
+              "avgCoffersLost": 1.51
+            },
+            "Saturday": {
+              "active": 98,
+              "points": 1333228329,
+              "pctGreen": 0.653,
+              "avgCoffersLost": 1.19
+            }
+          },
+          "totalPoints": 4598966095,
+          "avgPctGreenWeek": 0.4965,
+          "avgCoffersLostPerPlayer": 1.2333333333333334,
+          "diamondsLost": 9600000,
+          "diamondsPossible": 36498350,
+          "diamondsLostPct": 0.2630255888279881
+        },
+        {
+          "weekNumber": 4,
+          "rival": "[Nexo]Inexorable",
+          "result": "L",
+          "top3": [
+            {
+              "rank": 1,
+              "name": "Reaper25908",
+              "country": "Great Britain",
+              "points": 188448427
+            },
+            {
+              "rank": 2,
+              "name": "Topic3074",
+              "country": "Great Britain",
+              "points": 177507917
+            },
+            {
+              "rank": 3,
+              "name": "AegNoR",
+              "country": "Spain",
+              "points": 149665155
+            }
+          ],
+          "byDay": {
+            "Monday": {
+              "active": 99,
+              "points": 706630296,
+              "pctGreen": 0.586,
+              "avgCoffersLost": 0.84
+            },
+            "Tuesday": {
+              "active": 99,
+              "points": 450040152,
+              "pctGreen": 0.323,
+              "avgCoffersLost": 1.6
+            },
+            "Wednesday": {
+              "active": 99,
+              "points": 437630666,
+              "pctGreen": 0.273,
+              "avgCoffersLost": 1.8
+            },
+            "Thursday": {
+              "active": 99,
+              "points": 1216682321,
+              "pctGreen": 0.778,
+              "avgCoffersLost": 0.68
+            },
+            "Friday": {
+              "active": 99,
+              "points": 493976503,
+              "pctGreen": 0.414,
+              "avgCoffersLost": 1.56
+            },
+            "Saturday": {
+              "active": 99,
+              "points": 1270834300,
+              "pctGreen": 0.505,
+              "avgCoffersLost": 1.81
+            }
+          },
+          "totalPoints": 4575794238,
+          "avgPctGreenWeek": 0.47983333333333333,
+          "avgCoffersLostPerPlayer": 1.3816666666666668,
+          "diamondsLost": 9761790,
+          "diamondsPossible": 36435960,
+          "diamondsLostPct": 0.26791636613938535
+        }
+      ]
     },
     {
       "cycleId": "Gold_Group_Mayo",
@@ -233,7 +510,7 @@
         {
           "weekNumber": 4,
           "rival": "[TDSm]TDS Main Ally",
-          "result": null,
+          "result": "W",
           "byDay": {
             "Monday": {
               "active": 95,
@@ -279,12 +556,12 @@
           "diamondsPossible": 34409490,
           "diamondsLostPct": 0.2250620395710602,
           "dailyResults": {
-            "Monday": null,
-            "Tuesday": null,
-            "Wednesday": null,
-            "Thursday": null,
-            "Friday": null,
-            "Saturday": null
+            "Monday": "W",
+            "Tuesday": "W",
+            "Wednesday": "W",
+            "Thursday": "W",
+            "Friday": "W",
+            "Saturday": "L"
           },
           "top3": [
             {
@@ -798,5 +1075,40 @@
       }
     }
   ],
-  "baseline": null
+  "baseline": {
+    "sourceWeeks": [
+      "April S1",
+      "April S2",
+      "April S3",
+      "April S4"
+    ],
+    "n": 4,
+    "avgTotalPoints": 4115845374.25,
+    "avgPctGreenWeek": 0.46295833333333336,
+    "avgDiamondsLostPct": 0.28941620466218415,
+    "avgPointsPerDay": {
+      "Monday": 728635400.5,
+      "Tuesday": 425938145.25,
+      "Wednesday": 423664208.75,
+      "Thursday": 1100022308.75,
+      "Friday": 459542022.5,
+      "Saturday": 978043288.5
+    },
+    "avgPctGreenPerDay": {
+      "Monday": 0.6105,
+      "Tuesday": 0.29425,
+      "Wednesday": 0.28300000000000003,
+      "Thursday": 0.7355,
+      "Friday": 0.3215,
+      "Saturday": 0.533
+    },
+    "avgCoffersLostPerDay": {
+      "Monday": 0.76,
+      "Tuesday": 1.6600000000000001,
+      "Wednesday": 1.7625,
+      "Thursday": 0.7150000000000001,
+      "Friday": 1.7725,
+      "Saturday": 1.6775
+    }
+  }
 }
