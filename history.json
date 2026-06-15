@@ -294,109 +294,91 @@
       "weeks": [
         {
           "weekNumber": 1,
-          "rival": "[OM3N]Dark Ascendancy",
+          "rival": "[T1K]Top Killer",
           "result": "L",
           "byDay": {
             "Monday": {
-              "active": 98,
-              "points": 811800807,
-              "pctGreen": 0.704,
-              "avgCoffersLost": 0.58
+              "active": 94,
+              "points": 702685155,
+              "pctGreen": 0.777,
+              "avgCoffersLost": 0.34
             },
             "Tuesday": {
-              "active": 100,
-              "points": 446451290,
-              "pctGreen": 0.37,
-              "avgCoffersLost": 1.7
+              "active": 94,
+              "points": 442562704,
+              "pctGreen": 0.383,
+              "avgCoffersLost": 1.17
             },
             "Wednesday": {
-              "active": 99,
-              "points": 496786169,
-              "pctGreen": 0.424,
-              "avgCoffersLost": 1.49
+              "active": 95,
+              "points": 400445430,
+              "pctGreen": 0.347,
+              "avgCoffersLost": 1.45
             },
             "Thursday": {
-              "active": 100,
-              "points": 971542509,
-              "pctGreen": 0.73,
-              "avgCoffersLost": 0.99
+              "active": 92,
+              "points": 827056016,
+              "pctGreen": 0.837,
+              "avgCoffersLost": 0.47
             },
             "Friday": {
-              "active": 100,
-              "points": 466867904,
-              "pctGreen": 0.35,
-              "avgCoffersLost": 1.62
+              "active": 94,
+              "points": 399592483,
+              "pctGreen": 0.33,
+              "avgCoffersLost": 1.64
             },
             "Saturday": {
-              "active": 100,
-              "points": 892358276,
+              "active": 92,
+              "points": 812072586,
               "pctGreen": 0.5,
-              "avgCoffersLost": 1.77
+              "avgCoffersLost": 1.72
             }
           },
-          "totalPoints": 4085806955,
-          "avgPctGreenWeek": 0.513,
-          "avgCoffersLostPerPlayer": 1.36,
-          "diamondsLost": 9181705,
-          "diamondsPossible": 36619530,
-          "diamondsLostPct": 0.2507324643434801
+          "totalPoints": 3584414374,
+          "avgPctGreenWeek": 0.529,
+          "avgCoffersLostPerPlayer": 1.13166666666667,
+          "diamondsLost": 8920880,
+          "diamondsPossible": 35331840,
+          "diamondsLostPct": 0.25248840705720393,
+          "dailyResults": {
+            "Monday": "L",
+            "Tuesday": "L",
+            "Wednesday": "L",
+            "Thursday": "L",
+            "Friday": "L",
+            "Saturday": "L"
+          },
+          "top3": [
+            {
+              "rank": 1,
+              "name": "ENG°ING°ENG°",
+              "country": "Japan",
+              "points": 173476272,
+              "cofGained": 53,
+              "cofPossible": 54
+            },
+            {
+              "rank": 2,
+              "name": "Topic3074",
+              "country": "Great Britain",
+              "points": 121352617,
+              "cofGained": 54,
+              "cofPossible": 54
+            },
+            {
+              "rank": 3,
+              "name": "Nickyadyta",
+              "country": "Germany",
+              "points": 99290706,
+              "cofGained": 44,
+              "cofPossible": 54
+            }
+          ]
         },
         {
           "weekNumber": 2,
           "rival": "[U4E1]UNTAMED4EVER",
           "result": "W",
-          "byDay": {
-            "Monday": {
-              "active": 100,
-              "points": 723172068,
-              "pctGreen": 0.65,
-              "avgCoffersLost": 0.69
-            },
-            "Tuesday": {
-              "active": 100,
-              "points": 432226859,
-              "pctGreen": 0.8,
-              "avgCoffersLost": 0.42
-            },
-            "Wednesday": {
-              "active": 99,
-              "points": 459907941,
-              "pctGreen": 0.33,
-              "avgCoffersLost": 1.72
-            },
-            "Thursday": {
-              "active": 101,
-              "points": 1186263102,
-              "pctGreen": 0.8,
-              "avgCoffersLost": 0.44
-            },
-            "Friday": {
-              "active": 99,
-              "points": 480502737,
-              "pctGreen": 0.62,
-              "avgCoffersLost": 0.79
-            },
-            "Saturday": {
-              "active": 100,
-              "points": 998168719,
-              "pctGreen": 0.72,
-              "avgCoffersLost": 0.62
-            }
-          },
-          "totalPoints": 4280241426,
-          "avgPctGreenWeek": 0.653333333333333,
-          "avgCoffersLostPerPlayer": 0.78,
-          "diamondsLost": 9621835,
-          "diamondsPossible": 36804000,
-          "diamondsLostPct": 0.2614344908162156,
-          "dailyResults": {
-            "Monday": "W",
-            "Tuesday": "W",
-            "Wednesday": "W",
-            "Thursday": "W",
-            "Friday": "W",
-            "Saturday": "W"
-          },
           "top3": [
             {
               "rank": 1,
@@ -422,56 +404,7 @@
               "cofGained": 97,
               "cofPossible": 108
             }
-          ]
-        },
-        {
-          "weekNumber": 3,
-          "rival": "[QmQ]WN_QueMiedo",
-          "result": "W",
-          "byDay": {
-            "Monday": {
-              "active": 93,
-              "points": 682671186,
-              "pctGreen": 0.613,
-              "avgCoffersLost": 0.72
-            },
-            "Tuesday": {
-              "active": 96,
-              "points": 458017978,
-              "pctGreen": 0.365,
-              "avgCoffersLost": 1.32
-            },
-            "Wednesday": {
-              "active": 93,
-              "points": 509180215,
-              "pctGreen": 0.398,
-              "avgCoffersLost": 1.31
-            },
-            "Thursday": {
-              "active": 94,
-              "points": 1151681563,
-              "pctGreen": 0.83,
-              "avgCoffersLost": 0.34
-            },
-            "Friday": {
-              "active": 95,
-              "points": 463842853,
-              "pctGreen": 0.368,
-              "avgCoffersLost": 1.51
-            },
-            "Saturday": {
-              "active": 97,
-              "points": 706176595,
-              "pctGreen": 0.505,
-              "avgCoffersLost": 1.54
-            }
-          },
-          "totalPoints": 3971570390,
-          "avgPctGreenWeek": 0.513166666666667,
-          "avgCoffersLostPerPlayer": 1.12333333333333,
-          "diamondsLost": 8081085,
-          "diamondsPossible": 34839020,
-          "diamondsLostPct": 0.23195500332672964,
+          ],
           "dailyResults": {
             "Monday": "W",
             "Tuesday": "W",
@@ -479,7 +412,12 @@
             "Thursday": "W",
             "Friday": "W",
             "Saturday": "W"
-          },
+          }
+        },
+        {
+          "weekNumber": 3,
+          "rival": "[QmQ]WN_QueMiedo",
+          "result": "W",
           "top3": [
             {
               "rank": 1,
@@ -505,56 +443,7 @@
               "cofGained": 108,
               "cofPossible": 108
             }
-          ]
-        },
-        {
-          "weekNumber": 4,
-          "rival": "[TDSm]TDS Main Ally",
-          "result": "W",
-          "byDay": {
-            "Monday": {
-              "active": 95,
-              "points": 682533752,
-              "pctGreen": 0.621,
-              "avgCoffersLost": 0.63
-            },
-            "Tuesday": {
-              "active": 91,
-              "points": 441547262,
-              "pctGreen": 0.396,
-              "avgCoffersLost": 1.13
-            },
-            "Wednesday": {
-              "active": 95,
-              "points": 350928719,
-              "pctGreen": 0.2,
-              "avgCoffersLost": 1.82
-            },
-            "Thursday": {
-              "active": 89,
-              "points": 1016108375,
-              "pctGreen": 0.787,
-              "avgCoffersLost": 0.47
-            },
-            "Friday": {
-              "active": 95,
-              "points": 407081650,
-              "pctGreen": 0.358,
-              "avgCoffersLost": 1.76
-            },
-            "Saturday": {
-              "active": 96,
-              "points": 827950373,
-              "pctGreen": 0.771,
-              "avgCoffersLost": 0.61
-            }
-          },
-          "totalPoints": 3726150131,
-          "avgPctGreenWeek": 0.522166666666667,
-          "avgCoffersLostPerPlayer": 1.07,
-          "diamondsLost": 7744270,
-          "diamondsPossible": 34409490,
-          "diamondsLostPct": 0.2250620395710602,
+          ],
           "dailyResults": {
             "Monday": "W",
             "Tuesday": "W",
@@ -562,7 +451,12 @@
             "Thursday": "W",
             "Friday": "W",
             "Saturday": "W"
-          },
+          }
+        },
+        {
+          "weekNumber": 4,
+          "rival": "[TDSm]TDS Main Ally",
+          "result": "W",
           "top3": [
             {
               "rank": 1,
@@ -588,489 +482,497 @@
               "cofGained": 149,
               "cofPossible": 162
             }
-          ]
+          ],
+          "dailyResults": {
+            "Monday": "W",
+            "Tuesday": "W",
+            "Wednesday": "W",
+            "Thursday": "W",
+            "Friday": "W",
+            "Saturday": "W"
+          }
         }
       ],
       "coffersCumulative": {
-        "---Lezo---": {
-          "gained": 162,
-          "possible": 162,
-          "percentage": 100
-        },
         "ENG°ING°ENG°": {
-          "gained": 150,
-          "possible": 162,
-          "percentage": 92.59
-        },
-        "Nickyadyta": {
-          "gained": 149,
-          "possible": 162,
-          "percentage": 91.98
-        },
-        "xxxK1nG": {
-          "gained": 152,
-          "possible": 162,
-          "percentage": 93.83
-        },
-        "Ayalara": {
-          "gained": 161,
-          "possible": 162,
-          "percentage": 99.38
-        },
-        "ODIN": {
-          "gained": 147,
-          "possible": 162,
-          "percentage": 90.74
-        },
-        "chriska80": {
-          "gained": 162,
-          "possible": 162,
-          "percentage": 100
-        },
-        "outlaw": {
-          "gained": 153,
-          "possible": 162,
-          "percentage": 94.44
+          "gained": 53,
+          "possible": 54,
+          "percentage": 98.15
         },
         "Topic3074": {
-          "gained": 161,
-          "possible": 162,
-          "percentage": 99.38
+          "gained": 54,
+          "possible": 54,
+          "percentage": 100
+        },
+        "Nickyadyta": {
+          "gained": 44,
+          "possible": 54,
+          "percentage": 81.48
+        },
+        "AegNoR": {
+          "gained": 54,
+          "possible": 54,
+          "percentage": 100
         },
         "Cuervo 88": {
-          "gained": 161,
-          "possible": 162,
-          "percentage": 99.38
+          "gained": 53,
+          "possible": 54,
+          "percentage": 98.15
+        },
+        "outlaw": {
+          "gained": 54,
+          "possible": 54,
+          "percentage": 100
+        },
+        "faab76": {
+          "gained": 54,
+          "possible": 54,
+          "percentage": 100
+        },
+        "picnickbasket": {
+          "gained": 54,
+          "possible": 54,
+          "percentage": 100
         },
         "Pumpin": {
-          "gained": 162,
-          "possible": 162,
+          "gained": 54,
+          "possible": 54,
+          "percentage": 100
+        },
+        "Rob ert": {
+          "gained": 54,
+          "possible": 54,
+          "percentage": 100
+        },
+        "Rufus377": {
+          "gained": 54,
+          "possible": 54,
+          "percentage": 100
+        },
+        "D0C": {
+          "gained": 51,
+          "possible": 54,
+          "percentage": 94.44
+        },
+        "Khnzada": {
+          "gained": 52,
+          "possible": 54,
+          "percentage": 96.3
+        },
+        "chriska80": {
+          "gained": 54,
+          "possible": 54,
+          "percentage": 100
+        },
+        "CEO of Last Z": {
+          "gained": 54,
+          "possible": 54,
+          "percentage": 100
+        },
+        "Paromeitmad": {
+          "gained": 54,
+          "possible": 54,
+          "percentage": 100
+        },
+        "Grillmeister93": {
+          "gained": 54,
+          "possible": 54,
           "percentage": 100
         },
         "Mr been": {
-          "gained": 152,
-          "possible": 162,
-          "percentage": 93.83
-        },
-        "Deadreckoning": {
-          "gained": 160,
-          "possible": 162,
-          "percentage": 98.77
-        },
-        "Kernow": {
-          "gained": 162,
-          "possible": 162,
-          "percentage": 100
-        },
-        "Khnzada": {
-          "gained": 160,
-          "possible": 162,
-          "percentage": 98.77
-        },
-        "faab76": {
-          "gained": 141,
-          "possible": 162,
-          "percentage": 87.04
-        },
-        "Bivane": {
-          "gained": 142,
-          "possible": 162,
-          "percentage": 87.65
-        },
-        "Rob ert": {
-          "gained": 113,
-          "possible": 144,
-          "percentage": 78.47
-        },
-        "Paromeitmad": {
-          "gained": 153,
-          "possible": 162,
-          "percentage": 94.44
-        },
-        "QuintGas": {
-          "gained": 150,
-          "possible": 162,
-          "percentage": 92.59
-        },
-        "AegNoR": {
-          "gained": 161,
-          "possible": 162,
-          "percentage": 99.38
-        },
-        "Lafiko": {
-          "gained": 147,
-          "possible": 162,
-          "percentage": 90.74
-        },
-        "Grillmeister93": {
-          "gained": 154,
-          "possible": 162,
-          "percentage": 95.06
-        },
-        "Rufus377": {
-          "gained": 150,
-          "possible": 162,
-          "percentage": 92.59
-        },
-        "picnickbasket": {
-          "gained": 153,
-          "possible": 162,
-          "percentage": 94.44
+          "gained": 53,
+          "possible": 54,
+          "percentage": 98.15
         },
         "George III": {
-          "gained": 162,
-          "possible": 162,
+          "gained": 54,
+          "possible": 54,
           "percentage": 100
         },
         "Reaper25908": {
-          "gained": 151,
-          "possible": 162,
-          "percentage": 93.21
-        },
-        "BleepityBleep": {
-          "gained": 148,
-          "possible": 162,
-          "percentage": 91.36
-        },
-        "Destroyer 12": {
-          "gained": 158,
-          "possible": 162,
-          "percentage": 97.53
-        },
-        "Robin": {
-          "gained": 147,
-          "possible": 162,
-          "percentage": 90.74
-        },
-        "brich-4": {
-          "gained": 158,
-          "possible": 162,
-          "percentage": 97.53
-        },
-        "Sboube78": {
-          "gained": 153,
-          "possible": 162,
-          "percentage": 94.44
-        },
-        "Abubakar Omary": {
-          "gained": 153,
-          "possible": 162,
-          "percentage": 94.44
-        },
-        "Z286": {
-          "gained": 132,
-          "possible": 162,
-          "percentage": 81.48
-        },
-        "JeepMonkey25": {
-          "gained": 0,
+          "gained": 53,
           "possible": 54,
-          "percentage": 0
+          "percentage": 98.15
         },
-        "Lady Fierr6": {
-          "gained": 130,
-          "possible": 162,
-          "percentage": 80.25
-        },
-        "N41NY": {
-          "gained": 155,
-          "possible": 162,
-          "percentage": 95.68
-        },
-        "Shmadz88": {
-          "gained": 142,
-          "possible": 162,
-          "percentage": 87.65
-        },
-        "Wilmy": {
-          "gained": 156,
-          "possible": 162,
+        "Deadreckoning": {
+          "gained": 52,
+          "possible": 54,
           "percentage": 96.3
         },
-        "Cobra isola": {
-          "gained": 140,
-          "possible": 162,
-          "percentage": 86.42
-        },
-        "LUCKY WINER": {
-          "gained": 0,
+        "Abubakar Omary": {
+          "gained": 52,
           "possible": 54,
-          "percentage": 0
+          "percentage": 96.3
         },
-        "User21roulette": {
-          "gained": 142,
-          "possible": 162,
-          "percentage": 87.65
+        "BleepityBleep": {
+          "gained": 53,
+          "possible": 54,
+          "percentage": 98.15
         },
-        "Anthrix": {
-          "gained": 136,
-          "possible": 162,
-          "percentage": 83.95
+        "ODIN": {
+          "gained": 45,
+          "possible": 54,
+          "percentage": 83.33
+        },
+        "xxxK1nG": {
+          "gained": 54,
+          "possible": 54,
+          "percentage": 100
+        },
+        "N41NY": {
+          "gained": 53,
+          "possible": 54,
+          "percentage": 98.15
+        },
+        "Kernow": {
+          "gained": 54,
+          "possible": 54,
+          "percentage": 100
+        },
+        "Ayalara": {
+          "gained": 45,
+          "possible": 54,
+          "percentage": 83.33
+        },
+        "QuintGas": {
+          "gained": 54,
+          "possible": 54,
+          "percentage": 100
+        },
+        "Baron 72": {
+          "gained": 48,
+          "possible": 54,
+          "percentage": 88.89
+        },
+        "Cobra isola": {
+          "gained": 53,
+          "possible": 54,
+          "percentage": 98.15
         },
         "Yoni Targaryen": {
-          "gained": 147,
-          "possible": 162,
+          "gained": 54,
+          "possible": 54,
+          "percentage": 100
+        },
+        "User21roulette": {
+          "gained": 49,
+          "possible": 54,
           "percentage": 90.74
         },
-        "TJMonkey25": {
-          "gained": 135,
-          "possible": 162,
-          "percentage": 83.33
+        "JeepMonkey25": {
+          "gained": 48,
+          "possible": 54,
+          "percentage": 88.89
         },
-        "Tickner": {
-          "gained": 135,
-          "possible": 162,
-          "percentage": 83.33
+        "Shmadz88": {
+          "gained": 51,
+          "possible": 54,
+          "percentage": 94.44
         },
-        "Gunny T Highway": {
-          "gained": 134,
-          "possible": 162,
-          "percentage": 82.72
-        },
-        "Letzte Zuflucht": {
-          "gained": 137,
-          "possible": 162,
-          "percentage": 84.57
-        },
-        "GalacLoli": {
-          "gained": 120,
-          "possible": 153,
-          "percentage": 78.43
-        },
-        "BoxHead": {
-          "gained": 136,
-          "possible": 162,
-          "percentage": 83.95
-        },
-        "Derrida": {
-          "gained": 147,
-          "possible": 162,
-          "percentage": 90.74
-        },
-        "Tipis": {
-          "gained": 149,
-          "possible": 162,
-          "percentage": 91.98
-        },
-        "martatwins": {
-          "gained": 139,
-          "possible": 162,
-          "percentage": 85.8
-        },
-        "The Snyper": {
-          "gained": 139,
-          "possible": 162,
-          "percentage": 85.8
-        },
-        "Tigertom": {
-          "gained": 142,
-          "possible": 162,
-          "percentage": 87.65
-        },
-        "Angelina31": {
-          "gained": 127,
-          "possible": 162,
-          "percentage": 78.4
-        },
-        "Artem67": {
-          "gained": 124,
-          "possible": 162,
-          "percentage": 76.54
-        },
-        "s1mple0": {
-          "gained": 137,
-          "possible": 162,
-          "percentage": 84.57
-        },
-        "Rick265": {
-          "gained": 137,
-          "possible": 162,
-          "percentage": 84.57
-        },
-        "Angriest Angel": {
-          "gained": 142,
-          "possible": 162,
-          "percentage": 87.65
-        },
-        "13ee12": {
-          "gained": 139,
-          "possible": 162,
-          "percentage": 85.8
+        "Lafiko": {
+          "gained": 53,
+          "possible": 54,
+          "percentage": 98.15
         },
         "LilSis": {
-          "gained": 0,
+          "gained": 50,
           "possible": 54,
-          "percentage": 0
+          "percentage": 92.59
         },
-        "Schlem": {
-          "gained": 87,
-          "possible": 108,
-          "percentage": 80.56
+        "Destroyer 12": {
+          "gained": 49,
+          "possible": 54,
+          "percentage": 90.74
+        },
+        "Wilmy": {
+          "gained": 48,
+          "possible": 54,
+          "percentage": 88.89
+        },
+        "Rick265": {
+          "gained": 52,
+          "possible": 54,
+          "percentage": 96.3
+        },
+        "brich-4": {
+          "gained": 50,
+          "possible": 54,
+          "percentage": 92.59
+        },
+        "Derrida": {
+          "gained": 47,
+          "possible": 54,
+          "percentage": 87.04
         },
         "Yoni": {
-          "gained": 135,
-          "possible": 162,
+          "gained": 52,
+          "possible": 54,
+          "percentage": 96.3
+        },
+        "Tigertom": {
+          "gained": 50,
+          "possible": 54,
+          "percentage": 92.59
+        },
+        "Lady Fierr6": {
+          "gained": 48,
+          "possible": 54,
+          "percentage": 88.89
+        },
+        "Bivane": {
+          "gained": 52,
+          "possible": 54,
+          "percentage": 96.3
+        },
+        "Letzte Zuflucht": {
+          "gained": 50,
+          "possible": 54,
+          "percentage": 92.59
+        },
+        "Artem67": {
+          "gained": 45,
+          "possible": 54,
+          "percentage": 83.33
+        },
+        "martatwins": {
+          "gained": 47,
+          "possible": 54,
+          "percentage": 87.04
+        },
+        "Z286": {
+          "gained": 47,
+          "possible": 54,
+          "percentage": 87.04
+        },
+        "Lv21": {
+          "gained": 52,
+          "possible": 54,
+          "percentage": 96.3
+        },
+        "s1mple0": {
+          "gained": 48,
+          "possible": 54,
+          "percentage": 88.89
+        },
+        "Tickner": {
+          "gained": 47,
+          "possible": 54,
+          "percentage": 87.04
+        },
+        "Tipis": {
+          "gained": 46,
+          "possible": 54,
+          "percentage": 85.19
+        },
+        "TJMonkey25": {
+          "gained": 47,
+          "possible": 54,
+          "percentage": 87.04
+        },
+        "13ee12": {
+          "gained": 51,
+          "possible": 54,
+          "percentage": 94.44
+        },
+        "Sboube78": {
+          "gained": 49,
+          "possible": 54,
+          "percentage": 90.74
+        },
+        "Snaccysnaccccc": {
+          "gained": 49,
+          "possible": 54,
+          "percentage": 90.74
+        },
+        "Gunny T Highway": {
+          "gained": 50,
+          "possible": 54,
+          "percentage": 92.59
+        },
+        "Anthrix": {
+          "gained": 45,
+          "possible": 54,
+          "percentage": 83.33
+        },
+        "Angriest Angel": {
+          "gained": 46,
+          "possible": 54,
+          "percentage": 85.19
+        },
+        "javitwins": {
+          "gained": 44,
+          "possible": 54,
+          "percentage": 81.48
+        },
+        "GalacLoli": {
+          "gained": 46,
+          "possible": 54,
+          "percentage": 85.19
+        },
+        "The Snyper": {
+          "gained": 44,
+          "possible": 54,
+          "percentage": 81.48
+        },
+        "baba2": {
+          "gained": 45,
+          "possible": 54,
+          "percentage": 83.33
+        },
+        "Juanjo2230": {
+          "gained": 48,
+          "possible": 54,
+          "percentage": 88.89
+        },
+        "Lucky winer": {
+          "gained": 44,
+          "possible": 54,
+          "percentage": 81.48
+        },
+        "Naruto Hero": {
+          "gained": 45,
+          "possible": 54,
           "percentage": 83.33
         },
         "Stevaustin": {
-          "gained": 127,
-          "possible": 162,
-          "percentage": 78.4
-        },
-        "pri000": {
-          "gained": 83,
-          "possible": 162,
-          "percentage": 51.23
-        },
-        "Snaccysnaccccc": {
-          "gained": 119,
-          "possible": 162,
-          "percentage": 73.46
-        },
-        "javitwins": {
-          "gained": 118,
-          "possible": 162,
-          "percentage": 72.84
-        },
-        "Katrophe": {
-          "gained": 141,
-          "possible": 162,
-          "percentage": 87.04
-        },
-        "Psycomantis": {
-          "gained": 128,
-          "possible": 162,
-          "percentage": 79.01
-        },
-        "Juanjo2230": {
-          "gained": 116,
-          "possible": 162,
-          "percentage": 71.6
-        },
-        "baba2": {
-          "gained": 134,
-          "possible": 162,
-          "percentage": 82.72
-        },
-        "Deltaco": {
-          "gained": 121,
-          "possible": 162,
-          "percentage": 74.69
-        },
-        "Lv21": {
-          "gained": 138,
-          "possible": 162,
-          "percentage": 85.19
-        },
-        "Carlosx6": {
-          "gained": 126,
-          "possible": 162,
-          "percentage": 77.78
-        },
-        "laquette": {
-          "gained": 104,
-          "possible": 153,
-          "percentage": 67.97
+          "gained": 44,
+          "possible": 54,
+          "percentage": 81.48
         },
         "WeaponLoki": {
-          "gained": 121,
-          "possible": 162,
-          "percentage": 74.69
+          "gained": 44,
+          "possible": 54,
+          "percentage": 81.48
         },
-        "Baron 72": {
-          "gained": 115,
-          "possible": 162,
-          "percentage": 70.99
+        "Angelina31": {
+          "gained": 43,
+          "possible": 54,
+          "percentage": 79.63
         },
-        "Makī": {
-          "gained": 124,
-          "possible": 162,
-          "percentage": 76.54
+        "BoxHead": {
+          "gained": 45,
+          "possible": 54,
+          "percentage": 83.33
         },
-        "Incubus123": {
-          "gained": 125,
-          "possible": 162,
-          "percentage": 77.16
-        },
-        "Micramonyl": {
-          "gained": 102,
-          "possible": 153,
-          "percentage": 66.67
-        },
-        "Rysy Bisi": {
-          "gained": 120,
-          "possible": 162,
-          "percentage": 74.07
-        },
-        "Unc Mongo Berry": {
-          "gained": 83,
-          "possible": 162,
-          "percentage": 51.23
-        },
-        "D0C": {
-          "gained": 136,
-          "possible": 162,
-          "percentage": 83.95
-        },
-        "robert1909": {
-          "gained": 122,
-          "possible": 162,
-          "percentage": 75.31
-        },
-        "Neon134": {
-          "gained": 106,
-          "possible": 162,
-          "percentage": 65.43
-        },
-        "plagiste": {
-          "gained": 87,
-          "possible": 162,
-          "percentage": 53.7
-        },
-        "Gurd76": {
-          "gained": 90,
-          "possible": 162,
-          "percentage": 55.56
-        },
-        "Naruto Hero": {
-          "gained": 126,
-          "possible": 162,
+        "pri000": {
+          "gained": 42,
+          "possible": 54,
           "percentage": 77.78
         },
-        "hi ya": {
-          "gained": 105,
-          "possible": 162,
-          "percentage": 64.81
+        "Katrophe": {
+          "gained": 45,
+          "possible": 54,
+          "percentage": 83.33
+        },
+        "Schlem": {
+          "gained": 46,
+          "possible": 54,
+          "percentage": 85.19
+        },
+        "laquette": {
+          "gained": 44,
+          "possible": 54,
+          "percentage": 81.48
+        },
+        "Deltaco": {
+          "gained": 41,
+          "possible": 54,
+          "percentage": 75.93
+        },
+        "Rysy Bisi": {
+          "gained": 41,
+          "possible": 54,
+          "percentage": 75.93
+        },
+        "Carlosx6": {
+          "gained": 43,
+          "possible": 54,
+          "percentage": 79.63
+        },
+        "robert1909": {
+          "gained": 37,
+          "possible": 54,
+          "percentage": 68.52
+        },
+        "Neon134": {
+          "gained": 39,
+          "possible": 54,
+          "percentage": 72.22
+        },
+        "Unc Mongo Berry": {
+          "gained": 36,
+          "possible": 54,
+          "percentage": 66.67
         },
         "Hullman": {
-          "gained": 107,
-          "possible": 162,
-          "percentage": 66.05
+          "gained": 39,
+          "possible": 54,
+          "percentage": 72.22
         },
         "ybid": {
-          "gained": 73,
-          "possible": 162,
-          "percentage": 45.06
+          "gained": 36,
+          "possible": 54,
+          "percentage": 66.67
+        },
+        "Micramonyl": {
+          "gained": 38,
+          "possible": 54,
+          "percentage": 70.37
+        },
+        "hi ya": {
+          "gained": 36,
+          "possible": 54,
+          "percentage": 66.67
+        },
+        "Psycomantis": {
+          "gained": 37,
+          "possible": 54,
+          "percentage": 68.52
+        },
+        "Makī": {
+          "gained": 26,
+          "possible": 54,
+          "percentage": 48.15
+        },
+        "Incubus123": {
+          "gained": 36,
+          "possible": 54,
+          "percentage": 66.67
         },
         "ArVi": {
-          "gained": 92,
-          "possible": 162,
-          "percentage": 56.79
+          "gained": 33,
+          "possible": 54,
+          "percentage": 61.11
         },
         "LungDoc": {
-          "gained": 82,
-          "possible": 162,
-          "percentage": 50.62
-        },
-        "Road2creation": {
-          "gained": 76,
-          "possible": 162,
-          "percentage": 46.91
+          "gained": 23,
+          "possible": 54,
+          "percentage": 42.59
         },
         "Monsegur": {
-          "gained": 109,
-          "possible": 162,
-          "percentage": 67.28
+          "gained": 24,
+          "possible": 54,
+          "percentage": 44.44
+        },
+        "Kam Targaryen": {
+          "gained": 15,
+          "possible": 54,
+          "percentage": 27.78
+        },
+        "Road2creation": {
+          "gained": 28,
+          "possible": 54,
+          "percentage": 51.85
+        },
+        "plagiste": {
+          "gained": 23,
+          "possible": 54,
+          "percentage": 42.59
+        },
+        "Gurd76": {
+          "gained": 18,
+          "possible": 54,
+          "percentage": 33.33
         }
       }
     }
