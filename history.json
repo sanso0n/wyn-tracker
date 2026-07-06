@@ -1283,10 +1283,10 @@
           "dailyResults": {
             "Monday": "W",
             "Tuesday": "W",
-            "Wednesday": null,
+            "Wednesday": "W",
             "Thursday": "W",
             "Friday": "W",
-            "Saturday": null
+            "Saturday": "W"
           },
           "top3": [
             {

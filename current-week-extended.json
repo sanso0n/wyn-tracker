@@ -23,10 +23,12 @@
     "daysWithData": [
       "Monday",
       "Tuesday",
+      "Wednesday",
       "Thursday",
-      "Friday"
+      "Friday",
+      "Saturday"
     ],
-    "generatedAt": "2026-07-06T10:03:57"
+    "generatedAt": "2026-07-06T10:08:17"
   },
   "players": [
     {
@@ -51,17 +53,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 17732909
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 82912206
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 6214102
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 5785808
         },
-        "averageDaily": 11740190,
-        "volatility": 35.7
+        "averageDaily": 22609796,
+        "volatility": 120.6
       },
       "dailyBreakdown": [
         {
@@ -86,10 +88,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 5785808,
+          "rank": 37,
+          "percentVsAvg": 47.7,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -113,10 +115,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 82912206,
+          "rank": 1,
+          "percentVsAvg": 1255.4,
+          "cofferGained": 9
         }
       ],
       "insights": [
@@ -128,7 +130,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -154,17 +156,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 6277336
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 76100587
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 3109818
         },
-        "averageDaily": 5368277,
-        "volatility": 24.4
+        "averageDaily": 17528444,
+        "volatility": 149.6
       },
       "dailyBreakdown": [
         {
@@ -189,10 +191,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 7596967,
+          "rank": 8,
+          "percentVsAvg": 93.9,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -216,10 +218,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 76100587,
+          "rank": 2,
+          "percentVsAvg": 1144.0,
+          "cofferGained": 9
         }
       ],
       "insights": [
@@ -231,7 +233,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -257,17 +259,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 10137021
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 70398238
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 6455128
         },
-        "averageDaily": 7977302,
-        "volatility": 16.8
+        "averageDaily": 18174474,
+        "volatility": 128.7
       },
       "dailyBreakdown": [
         {
@@ -292,10 +294,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6739397,
+          "rank": 14,
+          "percentVsAvg": 72.0,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -319,10 +321,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 70398238,
+          "rank": 4,
+          "percentVsAvg": 1050.8,
+          "cofferGained": 9
         }
       ],
       "insights": [
@@ -334,7 +336,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -360,17 +362,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 7724643
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 66647986
         },
         "worstDay": {
           "day": "Monday",
           "dayNumber": 0,
           "points": 6071649
         },
-        "averageDaily": 6873046,
-        "volatility": 11.3
+        "averageDaily": 16882748,
+        "volatility": 131.9
       },
       "dailyBreakdown": [
         {
@@ -395,10 +397,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 7156315,
+          "rank": 10,
+          "percentVsAvg": 82.7,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -422,10 +424,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 66647986,
+          "rank": 5,
+          "percentVsAvg": 989.5,
+          "cofferGained": 9
         }
       ],
       "insights": [
@@ -442,7 +444,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Tuesday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -468,17 +470,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 20034208
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 65482889
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 4281422
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 2107602
         },
-        "averageDaily": 8942194,
-        "volatility": 72.0
+        "averageDaily": 17226544,
+        "volatility": 129.7
       },
       "dailyBreakdown": [
         {
@@ -503,10 +505,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 2107602,
+          "rank": 98,
+          "percentVsAvg": -46.2,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -530,10 +532,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 65482889,
+          "rank": 6,
+          "percentVsAvg": 970.4,
+          "cofferGained": 9
         }
       ],
       "insights": [
@@ -545,7 +547,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -571,17 +573,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 22023735
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 62048793
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 3612909
         },
-        "averageDaily": 10206980,
-        "volatility": 69.5
+        "averageDaily": 18192788,
+        "volatility": 112.7
       },
       "dailyBreakdown": [
         {
@@ -606,10 +608,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6280014,
+          "rank": 24,
+          "percentVsAvg": 60.3,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -633,17 +635,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 62048793,
+          "rank": 7,
+          "percentVsAvg": 914.3,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -669,17 +671,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 8192093
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 61356811
         },
         "worstDay": {
           "day": "Thursday",
           "dayNumber": 3,
           "points": 6123975
         },
-        "averageDaily": 6740520,
-        "volatility": 12.6
+        "averageDaily": 15925462,
+        "volatility": 127.7
       },
       "dailyBreakdown": [
         {
@@ -704,10 +706,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 7233877,
+          "rank": 9,
+          "percentVsAvg": 84.6,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -731,10 +733,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 61356811,
+          "rank": 8,
+          "percentVsAvg": 903.0,
+          "cofferGained": 9
         }
       ],
       "insights": [
@@ -746,7 +748,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Friday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -772,17 +774,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 12857494
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 59860187
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 7317872
         },
-        "averageDaily": 9015306,
-        "volatility": 24.8
+        "averageDaily": 17289127,
+        "volatility": 110.7
       },
       "dailyBreakdown": [
         {
@@ -807,10 +809,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 7813353,
+          "rank": 7,
+          "percentVsAvg": 99.4,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -834,10 +836,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 59860187,
+          "rank": 9,
+          "percentVsAvg": 878.5,
+          "cofferGained": 9
         }
       ],
       "insights": [
@@ -849,7 +851,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -873,7 +875,20 @@
         "percentage": 93.46,
         "rank": 36
       },
-      "dayAnalysis": null,
+      "dayAnalysis": {
+        "bestDay": {
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 59619577
+        },
+        "worstDay": {
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 59619577
+        },
+        "averageDaily": 59619577,
+        "volatility": 0.0
+      },
       "dailyBreakdown": [
         {
           "day": "Monday",
@@ -924,13 +939,19 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 59619577,
+          "rank": 10,
+          "percentVsAvg": 874.6,
+          "cofferGained": 9
         }
       ],
-      "insights": []
+      "insights": [
+        {
+          "type": "pattern",
+          "icon": "📊",
+          "message": "Best day: Saturday"
+        }
+      ]
     },
     {
       "rank": 10,
@@ -954,17 +975,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 23939076
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 54613346
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 6775183
         },
-        "averageDaily": 11371508,
-        "volatility": 63.9
+        "averageDaily": 17987813,
+        "volatility": 97.1
       },
       "dailyBreakdown": [
         {
@@ -989,10 +1010,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 7827501,
+          "rank": 6,
+          "percentVsAvg": 99.8,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -1016,17 +1037,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 54613346,
+          "rank": 11,
+          "percentVsAvg": 792.8,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -1052,17 +1073,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 7340255
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 52512262
         },
         "worstDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 3800728
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 3073538
         },
-        "averageDaily": 5924613,
-        "volatility": 22.0
+        "averageDaily": 13214042,
+        "volatility": 133.5
       },
       "dailyBreakdown": [
         {
@@ -1087,10 +1108,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 3073538,
+          "rank": 75,
+          "percentVsAvg": -21.5,
+          "cofferGained": 7
         },
         {
           "day": "Thursday",
@@ -1114,17 +1135,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 52512262,
+          "rank": 12,
+          "percentVsAvg": 758.4,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Tuesday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -1150,17 +1171,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 10060896
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 51885108
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 6041700
         },
-        "averageDaily": 7761651,
-        "volatility": 19.3
+        "averageDaily": 14914457,
+        "volatility": 111.2
       },
       "dailyBreakdown": [
         {
@@ -1185,10 +1206,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6555031,
+          "rank": 19,
+          "percentVsAvg": 67.3,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -1212,17 +1233,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 51885108,
+          "rank": 13,
+          "percentVsAvg": 748.2,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -1248,17 +1269,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 8138087
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 47501914
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 6073041
         },
-        "averageDaily": 6713538,
-        "volatility": 12.3
+        "averageDaily": 13504439,
+        "volatility": 112.7
       },
       "dailyBreakdown": [
         {
@@ -1283,10 +1304,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6670568,
+          "rank": 15,
+          "percentVsAvg": 70.3,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -1310,10 +1331,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 47501914,
+          "rank": 14,
+          "percentVsAvg": 676.5,
+          "cofferGained": 9
         }
       ],
       "insights": [
@@ -1325,7 +1346,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Friday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -1351,17 +1372,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 13279380
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 45946578
         },
         "worstDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 6939473
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 6153736
         },
-        "averageDaily": 8881346,
-        "volatility": 29.0
+        "averageDaily": 14604283,
+        "volatility": 97.3
       },
       "dailyBreakdown": [
         {
@@ -1386,10 +1407,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6153736,
+          "rank": 27,
+          "percentVsAvg": 57.1,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -1413,10 +1434,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 45946578,
+          "rank": 18,
+          "percentVsAvg": 651.1,
+          "cofferGained": 9
         }
       ],
       "insights": [
@@ -1428,7 +1449,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -1454,17 +1475,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 14578303
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 44429426
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 6558179
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 6015481
         },
-        "averageDaily": 8733130,
-        "volatility": 38.7
+        "averageDaily": 14229571,
+        "volatility": 97.1
       },
       "dailyBreakdown": [
         {
@@ -1489,10 +1510,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6015481,
+          "rank": 34,
+          "percentVsAvg": 53.5,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -1516,10 +1537,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 44429426,
+          "rank": 21,
+          "percentVsAvg": 626.3,
+          "cofferGained": 9
         }
       ],
       "insights": [
@@ -1531,7 +1552,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -1557,17 +1578,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 11662132
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 44067304
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 3898076
         },
-        "averageDaily": 7650491,
-        "volatility": 35.9
+        "averageDaily": 13449532,
+        "volatility": 103.3
       },
       "dailyBreakdown": [
         {
@@ -1592,10 +1613,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6027928,
+          "rank": 31,
+          "percentVsAvg": 53.9,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -1619,17 +1640,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 44067304,
+          "rank": 22,
+          "percentVsAvg": 620.4,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -1655,17 +1676,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 16831594
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 43256038
         },
         "worstDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 6328726
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 2706847
         },
-        "averageDaily": 9125017,
-        "volatility": 48.8
+        "averageDaily": 13743826,
+        "volatility": 101.1
       },
       "dailyBreakdown": [
         {
@@ -1690,10 +1711,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 2706847,
+          "rank": 82,
+          "percentVsAvg": -30.9,
+          "cofferGained": 7
         },
         {
           "day": "Thursday",
@@ -1717,17 +1738,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 43256038,
+          "rank": 24,
+          "percentVsAvg": 607.1,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -1753,17 +1774,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 15701207
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 42710850
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 6113305
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 3033480
         },
-        "averageDaily": 8599034,
-        "volatility": 47.7
+        "averageDaily": 13356744,
+        "volatility": 102.6
       },
       "dailyBreakdown": [
         {
@@ -1788,10 +1809,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 3033480,
+          "rank": 77,
+          "percentVsAvg": -22.6,
+          "cofferGained": 7
         },
         {
           "day": "Thursday",
@@ -1815,17 +1836,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 42710850,
+          "rank": 25,
+          "percentVsAvg": 598.2,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -1851,17 +1872,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 10743788
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 42462000
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 1575123
         },
-        "averageDaily": 5818328,
-        "volatility": 63.1
+        "averageDaily": 11351690,
+        "volatility": 125.9
       },
       "dailyBreakdown": [
         {
@@ -1886,10 +1907,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 2374825,
+          "rank": 90,
+          "percentVsAvg": -39.4,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -1913,17 +1934,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 42462000,
+          "rank": 26,
+          "percentVsAvg": 594.1,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -1949,17 +1970,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 6330624
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 42315419
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 5993187
         },
-        "averageDaily": 6100381,
-        "volatility": 2.2
+        "averageDaily": 12288741,
+        "volatility": 109.3
       },
       "dailyBreakdown": [
         {
@@ -1984,10 +2005,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 7015502,
+          "rank": 12,
+          "percentVsAvg": 79.1,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -2011,17 +2032,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 42315419,
+          "rank": 27,
+          "percentVsAvg": 591.7,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -2047,17 +2068,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 7075229
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 42169605
         },
         "worstDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 6114874
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 6016575
         },
-        "averageDaily": 6439331,
-        "volatility": 5.8
+        "averageDaily": 12323918,
+        "volatility": 108.3
       },
       "dailyBreakdown": [
         {
@@ -2082,10 +2103,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6016575,
+          "rank": 33,
+          "percentVsAvg": 53.6,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -2109,10 +2130,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 42169605,
+          "rank": 28,
+          "percentVsAvg": 589.3,
+          "cofferGained": 9
         }
       ],
       "insights": [
@@ -2124,7 +2145,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -2150,17 +2171,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 8966652
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 42160962
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 5309281
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 4269282
         },
-        "averageDaily": 6882194,
-        "volatility": 19.9
+        "averageDaily": 12326504,
+        "volatility": 108.9
       },
       "dailyBreakdown": [
         {
@@ -2185,10 +2206,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 4269282,
+          "rank": 45,
+          "percentVsAvg": 9.0,
+          "cofferGained": 8
         },
         {
           "day": "Thursday",
@@ -2212,17 +2233,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 42160962,
+          "rank": 29,
+          "percentVsAvg": 589.2,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -2248,17 +2269,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 13419458
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 41793387
         },
         "worstDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 6352179
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 3136183
         },
-        "averageDaily": 8349212,
-        "volatility": 35.3
+        "averageDaily": 13054403,
+        "volatility": 101.2
       },
       "dailyBreakdown": [
         {
@@ -2283,10 +2304,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 3136183,
+          "rank": 70,
+          "percentVsAvg": -19.9,
+          "cofferGained": 7
         },
         {
           "day": "Thursday",
@@ -2310,17 +2331,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 41793387,
+          "rank": 30,
+          "percentVsAvg": 583.2,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -2346,17 +2367,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 18068722
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 41682803
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 3041942
         },
-        "averageDaily": 8205068,
-        "volatility": 72.6
+        "averageDaily": 13222093,
+        "volatility": 103.5
       },
       "dailyBreakdown": [
         {
@@ -2381,10 +2402,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 4829483,
+          "rank": 40,
+          "percentVsAvg": 23.3,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -2408,17 +2429,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 41682803,
+          "rank": 31,
+          "percentVsAvg": 581.4,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -2444,17 +2465,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 6587624
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 41617340
         },
         "worstDay": {
           "day": "Thursday",
           "dayNumber": 3,
           "points": 1592500
         },
-        "averageDaily": 4048202,
-        "volatility": 46.9
+        "averageDaily": 9931473,
+        "volatility": 143.8
       },
       "dailyBreakdown": [
         {
@@ -2479,10 +2500,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 1778687,
+          "rank": 105,
+          "percentVsAvg": -54.6,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -2506,17 +2527,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 41617340,
+          "rank": 32,
+          "percentVsAvg": 580.3,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -2542,17 +2563,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 12143608
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 41175527
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 6086251
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 3679363
         },
-        "averageDaily": 8635946,
-        "volatility": 30.4
+        "averageDaily": 13233112,
+        "volatility": 96.8
       },
       "dailyBreakdown": [
         {
@@ -2577,10 +2598,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 3679363,
+          "rank": 57,
+          "percentVsAvg": -6.1,
+          "cofferGained": 8
         },
         {
           "day": "Thursday",
@@ -2604,17 +2625,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 41175527,
+          "rank": 33,
+          "percentVsAvg": 573.1,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -2640,17 +2661,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 13784647
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 41151489
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 3757609
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 3401570
         },
-        "averageDaily": 9365409,
-        "volatility": 40.0
+        "averageDaily": 13669116,
+        "volatility": 94.0
       },
       "dailyBreakdown": [
         {
@@ -2675,10 +2696,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 3401570,
+          "rank": 63,
+          "percentVsAvg": -13.2,
+          "cofferGained": 8
         },
         {
           "day": "Thursday",
@@ -2702,17 +2723,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 41151489,
+          "rank": 34,
+          "percentVsAvg": 572.7,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -2738,17 +2759,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 12881633
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 40286553
         },
         "worstDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 6088529
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 5810959
         },
-        "averageDaily": 7917382,
-        "volatility": 36.2
+        "averageDaily": 12961174,
+        "volatility": 96.2
       },
       "dailyBreakdown": [
         {
@@ -2773,10 +2794,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 5810959,
+          "rank": 36,
+          "percentVsAvg": 48.3,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -2800,17 +2821,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 40286553,
+          "rank": 35,
+          "percentVsAvg": 558.6,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -2836,17 +2857,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 17627775
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 39963957
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 3843930
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 1851443
         },
-        "averageDaily": 8718811,
-        "volatility": 60.7
+        "averageDaily": 12781774,
+        "volatility": 102.8
       },
       "dailyBreakdown": [
         {
@@ -2871,10 +2892,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 1851443,
+          "rank": 102,
+          "percentVsAvg": -52.7,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -2898,17 +2919,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 39963957,
+          "rank": 37,
+          "percentVsAvg": 553.3,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Friday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -2934,17 +2955,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 7066464
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 39871896
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 6027826
         },
-        "averageDaily": 6587124,
-        "volatility": 7.1
+        "averageDaily": 12395977,
+        "volatility": 99.3
       },
       "dailyBreakdown": [
         {
@@ -2969,10 +2990,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 8155473,
+          "rank": 4,
+          "percentVsAvg": 108.2,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -2996,17 +3017,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 39871896,
+          "rank": 38,
+          "percentVsAvg": 551.8,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -3032,17 +3053,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 8588721
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 38505037
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 6054032
         },
-        "averageDaily": 7013246,
-        "volatility": 13.9
+        "averageDaily": 12255870,
+        "volatility": 96.0
       },
       "dailyBreakdown": [
         {
@@ -3067,10 +3088,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6977197,
+          "rank": 13,
+          "percentVsAvg": 78.1,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -3094,10 +3115,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 38505037,
+          "rank": 40,
+          "percentVsAvg": 529.4,
+          "cofferGained": 9
         }
       ],
       "insights": [
@@ -3109,7 +3130,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -3135,17 +3156,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 8175990
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 37896866
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 4237468
         },
-        "averageDaily": 6553220,
-        "volatility": 23.1
+        "averageDaily": 11398348,
+        "volatility": 104.8
       },
       "dailyBreakdown": [
         {
@@ -3170,10 +3191,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 4280340,
+          "rank": 43,
+          "percentVsAvg": 9.3,
+          "cofferGained": 8
         },
         {
           "day": "Thursday",
@@ -3197,17 +3218,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 37896866,
+          "rank": 41,
+          "percentVsAvg": 519.5,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -3233,17 +3254,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 8307982
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 37082440
         },
         "worstDay": {
           "day": "Monday",
           "dayNumber": 0,
           "points": 6032190
         },
-        "averageDaily": 6810117,
-        "volatility": 13.6
+        "averageDaily": 11776296,
+        "volatility": 96.3
       },
       "dailyBreakdown": [
         {
@@ -3268,10 +3289,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6334872,
+          "rank": 21,
+          "percentVsAvg": 61.7,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -3295,10 +3316,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 37082440,
+          "rank": 42,
+          "percentVsAvg": 506.2,
+          "cofferGained": 9
         }
       ],
       "insights": [
@@ -3310,7 +3331,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -3336,17 +3357,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 9333467
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 36721146
         },
         "worstDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 3813123
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 2960616
         },
-        "averageDaily": 6603316,
-        "volatility": 34.1
+        "averageDaily": 11015838,
+        "volatility": 106.4
       },
       "dailyBreakdown": [
         {
@@ -3371,10 +3392,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 2960616,
+          "rank": 78,
+          "percentVsAvg": -24.4,
+          "cofferGained": 7
         },
         {
           "day": "Thursday",
@@ -3398,17 +3419,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 36721146,
+          "rank": 44,
+          "percentVsAvg": 500.3,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -3434,17 +3455,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 8233660
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 36414445
         },
         "worstDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 6083930
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 5247066
         },
-        "averageDaily": 6876972,
-        "volatility": 11.8
+        "averageDaily": 11528234,
+        "volatility": 96.8
       },
       "dailyBreakdown": [
         {
@@ -3469,10 +3490,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 5247066,
+          "rank": 39,
+          "percentVsAvg": 33.9,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -3496,17 +3517,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 36414445,
+          "rank": 45,
+          "percentVsAvg": 495.3,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -3532,17 +3553,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 10970700
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 36258034
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 3492286
         },
-        "averageDaily": 6671746,
-        "volatility": 42.3
+        "averageDaily": 11503454,
+        "volatility": 98.3
       },
       "dailyBreakdown": [
         {
@@ -3567,10 +3588,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6075707,
+          "rank": 30,
+          "percentVsAvg": 55.1,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -3594,17 +3615,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 36258034,
+          "rank": 46,
+          "percentVsAvg": 492.7,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -3630,17 +3651,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 16774138
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 36119543
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 2904604
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 2213514
         },
-        "averageDaily": 7668273,
-        "volatility": 70.1
+        "averageDaily": 11501025,
+        "volatility": 104.5
       },
       "dailyBreakdown": [
         {
@@ -3665,10 +3686,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 2213514,
+          "rank": 95,
+          "percentVsAvg": -43.5,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -3692,17 +3713,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 36119543,
+          "rank": 47,
+          "percentVsAvg": 490.4,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -3728,17 +3749,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 6489957
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 36080503
         },
         "worstDay": {
           "day": "Thursday",
           "dayNumber": 3,
           "points": 6164095
         },
-        "averageDaily": 6289845,
-        "volatility": 2.0
+        "averageDaily": 11668812,
+        "volatility": 93.9
       },
       "dailyBreakdown": [
         {
@@ -3763,10 +3784,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 8772991,
+          "rank": 3,
+          "percentVsAvg": 123.9,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -3790,17 +3811,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 36080503,
+          "rank": 48,
+          "percentVsAvg": 489.8,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -3826,17 +3847,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 16546150
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 35800530
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 1333339
         },
-        "averageDaily": 6997782,
-        "volatility": 83.3
+        "averageDaily": 11682617,
+        "volatility": 100.9
       },
       "dailyBreakdown": [
         {
@@ -3861,10 +3882,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6304043,
+          "rank": 23,
+          "percentVsAvg": 60.9,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -3888,17 +3909,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 35800530,
+          "rank": 49,
+          "percentVsAvg": 485.2,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -3924,17 +3945,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 10636461
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 35738837
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 2966961
         },
-        "averageDaily": 7386690,
-        "volatility": 39.2
+        "averageDaily": 11564636,
+        "volatility": 96.3
       },
       "dailyBreakdown": [
         {
@@ -3959,10 +3980,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 4102220,
+          "rank": 51,
+          "percentVsAvg": 4.7,
+          "cofferGained": 8
         },
         {
           "day": "Thursday",
@@ -3986,17 +4007,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 35738837,
+          "rank": 50,
+          "percentVsAvg": 484.2,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -4022,17 +4043,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 12665922
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 35038979
         },
         "worstDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 5052215
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 4061137
         },
-        "averageDaily": 7534866,
-        "volatility": 39.8
+        "averageDaily": 11539930,
+        "volatility": 94.2
       },
       "dailyBreakdown": [
         {
@@ -4057,10 +4078,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 4061137,
+          "rank": 52,
+          "percentVsAvg": 3.7,
+          "cofferGained": 8
         },
         {
           "day": "Thursday",
@@ -4084,17 +4105,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 35038979,
+          "rank": 51,
+          "percentVsAvg": 472.8,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -4120,17 +4141,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 8606022
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 33823883
         },
         "worstDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 6143689
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 2006990
         },
-        "averageDaily": 6786402,
-        "volatility": 15.5
+        "averageDaily": 10496080,
+        "volatility": 101.1
       },
       "dailyBreakdown": [
         {
@@ -4155,10 +4176,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 2006990,
+          "rank": 99,
+          "percentVsAvg": -48.8,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -4182,17 +4203,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 33823883,
+          "rank": 53,
+          "percentVsAvg": 452.9,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Tuesday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -4218,17 +4239,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 8865989
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 33547984
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 6073194
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 3970932
         },
-        "averageDaily": 7211287,
-        "volatility": 14.9
+        "averageDaily": 11060677,
+        "volatility": 91.9
       },
       "dailyBreakdown": [
         {
@@ -4253,10 +4274,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 3970932,
+          "rank": 54,
+          "percentVsAvg": 1.4,
+          "cofferGained": 8
         },
         {
           "day": "Thursday",
@@ -4280,17 +4301,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 33547984,
+          "rank": 55,
+          "percentVsAvg": 448.4,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -4316,17 +4337,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 8042329
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 33385930
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 4598022
         },
-        "averageDaily": 6302134,
-        "volatility": 19.3
+        "averageDaily": 10860153,
+        "volatility": 93.2
       },
       "dailyBreakdown": [
         {
@@ -4351,10 +4372,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6566451,
+          "rank": 18,
+          "percentVsAvg": 67.6,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -4378,17 +4399,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 33385930,
+          "rank": 56,
+          "percentVsAvg": 445.8,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -4414,17 +4435,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 13735164
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 33328385
         },
         "worstDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 3090207
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 2535002
         },
-        "averageDaily": 6659881,
-        "volatility": 64.6
+        "averageDaily": 10417152,
+        "volatility": 105.0
       },
       "dailyBreakdown": [
         {
@@ -4449,10 +4470,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 2535002,
+          "rank": 87,
+          "percentVsAvg": -35.3,
+          "cofferGained": 7
         },
         {
           "day": "Thursday",
@@ -4476,17 +4497,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 33328385,
+          "rank": 57,
+          "percentVsAvg": 444.8,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -4512,17 +4533,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 6551159
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 32917405
         },
         "worstDay": {
           "day": "Monday",
           "dayNumber": 0,
           "points": 4169795
         },
-        "averageDaily": 5686101,
-        "volatility": 15.9
+        "averageDaily": 10385592,
+        "volatility": 97.3
       },
       "dailyBreakdown": [
         {
@@ -4547,10 +4568,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6651742,
+          "rank": 16,
+          "percentVsAvg": 69.8,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -4574,17 +4595,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 32917405,
+          "rank": 58,
+          "percentVsAvg": 438.1,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -4610,17 +4631,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 8172882
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 32782170
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 3282617
         },
-        "averageDaily": 6680870,
-        "volatility": 29.8
+        "averageDaily": 10626418,
+        "volatility": 94.9
       },
       "dailyBreakdown": [
         {
@@ -4645,10 +4666,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 4252854,
+          "rank": 47,
+          "percentVsAvg": 8.6,
+          "cofferGained": 8
         },
         {
           "day": "Thursday",
@@ -4672,17 +4693,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 32782170,
+          "rank": 59,
+          "percentVsAvg": 435.9,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -4708,17 +4729,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 6413814
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 32775856
         },
         "worstDay": {
           "day": "Monday",
           "dayNumber": 0,
           "points": 3475009
         },
-        "averageDaily": 5210802,
-        "volatility": 22.1
+        "averageDaily": 9683416,
+        "volatility": 107.1
       },
       "dailyBreakdown": [
         {
@@ -4743,10 +4764,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 4481434,
+          "rank": 41,
+          "percentVsAvg": 14.4,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -4770,17 +4791,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 32775856,
+          "rank": 60,
+          "percentVsAvg": 435.8,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -4806,17 +4827,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 6035957
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 32431590
         },
         "worstDay": {
           "day": "Thursday",
           "dayNumber": 3,
           "points": 3006657
         },
-        "averageDaily": 4451574,
-        "volatility": 24.2
+        "averageDaily": 9043751,
+        "volatility": 116.1
       },
       "dailyBreakdown": [
         {
@@ -4841,10 +4862,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 4024624,
+          "rank": 53,
+          "percentVsAvg": 2.7,
+          "cofferGained": 8
         },
         {
           "day": "Thursday",
@@ -4868,17 +4889,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 32431590,
+          "rank": 61,
+          "percentVsAvg": 430.2,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -4904,17 +4925,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 10271258
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 32302797
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 4087814
         },
-        "averageDaily": 6160562,
-        "volatility": 41.0
+        "averageDaily": 10189449,
+        "volatility": 99.4
       },
       "dailyBreakdown": [
         {
@@ -4939,10 +4960,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 4191650,
+          "rank": 49,
+          "percentVsAvg": 7.0,
+          "cofferGained": 8
         },
         {
           "day": "Thursday",
@@ -4966,17 +4987,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 32302797,
+          "rank": 62,
+          "percentVsAvg": 428.0,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -5002,17 +5023,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 8775220
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 32125213
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 3392239
         },
-        "averageDaily": 5742558,
-        "volatility": 35.5
+        "averageDaily": 9788145,
+        "volatility": 103.8
       },
       "dailyBreakdown": [
         {
@@ -5037,10 +5058,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 3633421,
+          "rank": 58,
+          "percentVsAvg": -7.3,
+          "cofferGained": 8
         },
         {
           "day": "Thursday",
@@ -5064,17 +5085,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 32125213,
+          "rank": 63,
+          "percentVsAvg": 425.1,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -5100,17 +5121,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 6433267
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 31532547
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 3019956
         },
-        "averageDaily": 5421280,
-        "volatility": 25.7
+        "averageDaily": 9942155,
+        "volatility": 97.9
       },
       "dailyBreakdown": [
         {
@@ -5135,10 +5156,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6435264,
+          "rank": 20,
+          "percentVsAvg": 64.3,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -5162,17 +5183,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 31532547,
+          "rank": 64,
+          "percentVsAvg": 415.5,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -5198,17 +5219,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 13034960
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 30555094
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 1652364
         },
-        "averageDaily": 6669194,
-        "volatility": 62.4
+        "averageDaily": 10030360,
+        "volatility": 98.5
       },
       "dailyBreakdown": [
         {
@@ -5233,10 +5254,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 2950286,
+          "rank": 79,
+          "percentVsAvg": -24.7,
+          "cofferGained": 7
         },
         {
           "day": "Thursday",
@@ -5260,17 +5281,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 30555094,
+          "rank": 67,
+          "percentVsAvg": 399.5,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -5296,17 +5317,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 15896935
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 30457917
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 1776034
         },
-        "averageDaily": 6438008,
-        "volatility": 86.6
+        "averageDaily": 10054411,
+        "volatility": 101.8
       },
       "dailyBreakdown": [
         {
@@ -5331,10 +5352,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 4116517,
+          "rank": 50,
+          "percentVsAvg": 5.1,
+          "cofferGained": 8
         },
         {
           "day": "Thursday",
@@ -5358,17 +5379,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 30457917,
+          "rank": 68,
+          "percentVsAvg": 397.9,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -5394,17 +5415,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 8142350
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 30441049
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 4235576
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 3613528
         },
-        "averageDaily": 6492589,
-        "volatility": 23.5
+        "averageDaily": 10004156,
+        "volatility": 92.8
       },
       "dailyBreakdown": [
         {
@@ -5429,10 +5450,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 3613528,
+          "rank": 59,
+          "percentVsAvg": -7.8,
+          "cofferGained": 8
         },
         {
           "day": "Thursday",
@@ -5456,17 +5477,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 30441049,
+          "rank": 69,
+          "percentVsAvg": 397.6,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Friday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -5492,17 +5513,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 6590419
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 29766426
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 3678546
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 1912587
         },
-        "averageDaily": 5331100,
-        "volatility": 23.3
+        "averageDaily": 8833902,
+        "volatility": 107.5
       },
       "dailyBreakdown": [
         {
@@ -5527,10 +5548,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 1912587,
+          "rank": 100,
+          "percentVsAvg": -51.2,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -5554,17 +5575,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 29766426,
+          "rank": 70,
+          "percentVsAvg": 386.6,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Friday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -5590,17 +5611,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 6538423
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 29674255
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 3566571
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 3481737
         },
-        "averageDaily": 5562968,
-        "volatility": 21.0
+        "averageDaily": 9234644,
+        "volatility": 99.9
       },
       "dailyBreakdown": [
         {
@@ -5625,10 +5646,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 3481737,
+          "rank": 62,
+          "percentVsAvg": -11.1,
+          "cofferGained": 8
         },
         {
           "day": "Thursday",
@@ -5652,17 +5673,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 29674255,
+          "rank": 71,
+          "percentVsAvg": 385.1,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -5688,17 +5709,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 7398626
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 29266766
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 2441568
         },
-        "averageDaily": 5606328,
-        "volatility": 33.7
+        "averageDaily": 9169839,
+        "volatility": 99.9
       },
       "dailyBreakdown": [
         {
@@ -5723,10 +5744,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 3326954,
+          "rank": 65,
+          "percentVsAvg": -15.1,
+          "cofferGained": 7
         },
         {
           "day": "Thursday",
@@ -5750,17 +5771,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 29266766,
+          "rank": 72,
+          "percentVsAvg": 378.4,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -5786,17 +5807,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 6893948
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 29108813
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 2100356
         },
-        "averageDaily": 5498091,
-        "volatility": 35.8
+        "averageDaily": 9080426,
+        "volatility": 100.6
       },
       "dailyBreakdown": [
         {
@@ -5821,10 +5842,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 3381381,
+          "rank": 64,
+          "percentVsAvg": -13.7,
+          "cofferGained": 7
         },
         {
           "day": "Thursday",
@@ -5848,17 +5869,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 29108813,
+          "rank": 73,
+          "percentVsAvg": 375.8,
+          "cofferGained": 9
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Friday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -5884,17 +5905,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 6228318
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 29062093
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 1357850
         },
-        "averageDaily": 5003866,
-        "volatility": 42.1
+        "averageDaily": 9486126,
+        "volatility": 94.7
       },
       "dailyBreakdown": [
         {
@@ -5919,10 +5940,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 7839204,
+          "rank": 5,
+          "percentVsAvg": 100.1,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -5946,17 +5967,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 29062093,
+          "rank": 74,
+          "percentVsAvg": 375.1,
+          "cofferGained": 8
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -5982,17 +6003,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 10212935
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 28082572
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 2610959
         },
-        "averageDaily": 5752268,
-        "volatility": 51.2
+        "averageDaily": 9064607,
+        "volatility": 98.0
       },
       "dailyBreakdown": [
         {
@@ -6017,10 +6038,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 3296000,
+          "rank": 66,
+          "percentVsAvg": -15.9,
+          "cofferGained": 7
         },
         {
           "day": "Thursday",
@@ -6044,17 +6065,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 28082572,
+          "rank": 77,
+          "percentVsAvg": 359.1,
+          "cofferGained": 8
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -6080,17 +6101,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 9146084
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 27947989
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 2139146
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 1781918
         },
-        "averageDaily": 6272396,
-        "volatility": 41.4
+        "averageDaily": 9136582,
+        "volatility": 96.6
       },
       "dailyBreakdown": [
         {
@@ -6115,10 +6136,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 1781918,
+          "rank": 104,
+          "percentVsAvg": -54.5,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -6142,17 +6163,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 27947989,
+          "rank": 78,
+          "percentVsAvg": 356.9,
+          "cofferGained": 8
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -6178,17 +6199,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 6102047
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 27676511
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 2689927
         },
-        "averageDaily": 5222402,
-        "volatility": 28.0
+        "averageDaily": 8582683,
+        "volatility": 100.9
       },
       "dailyBreakdown": [
         {
@@ -6213,10 +6234,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 2929980,
+          "rank": 80,
+          "percentVsAvg": -25.2,
+          "cofferGained": 7
         },
         {
           "day": "Thursday",
@@ -6240,17 +6261,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 27676511,
+          "rank": 79,
+          "percentVsAvg": 352.4,
+          "cofferGained": 8
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -6276,17 +6297,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 7341574
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 27647566
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 253680
         },
-        "averageDaily": 4467298,
-        "volatility": 58.5
+        "averageDaily": 8603039,
+        "volatility": 102.3
       },
       "dailyBreakdown": [
         {
@@ -6311,10 +6332,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6101478,
+          "rank": 29,
+          "percentVsAvg": 55.7,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -6338,17 +6359,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 27647566,
+          "rank": 80,
+          "percentVsAvg": 351.9,
+          "cofferGained": 8
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -6374,17 +6395,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 7196786
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 27454591
         },
         "worstDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 3534075
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 1853505
         },
-        "averageDaily": 5463224,
-        "volatility": 27.7
+        "averageDaily": 8526832,
+        "volatility": 101.5
       },
       "dailyBreakdown": [
         {
@@ -6409,10 +6430,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 1853505,
+          "rank": 101,
+          "percentVsAvg": -52.7,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -6436,17 +6457,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 27454591,
+          "rank": 81,
+          "percentVsAvg": 348.8,
+          "cofferGained": 8
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -6472,17 +6493,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 10667408
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 27432040
         },
         "worstDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 3050910
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 2553949
         },
-        "averageDaily": 6128160,
-        "volatility": 51.4
+        "averageDaily": 9083105,
+        "volatility": 95.8
       },
       "dailyBreakdown": [
         {
@@ -6507,10 +6528,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 2553949,
+          "rank": 86,
+          "percentVsAvg": -34.8,
+          "cofferGained": 7
         },
         {
           "day": "Thursday",
@@ -6534,17 +6555,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 27432040,
+          "rank": 82,
+          "percentVsAvg": 348.4,
+          "cofferGained": 8
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -6570,17 +6591,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 7408698
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 26120285
         },
         "worstDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 2065224
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 1643091
         },
-        "averageDaily": 4440898,
-        "volatility": 53.5
+        "averageDaily": 7587828,
+        "volatility": 113.0
       },
       "dailyBreakdown": [
         {
@@ -6605,10 +6626,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 1643091,
+          "rank": 109,
+          "percentVsAvg": -58.1,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -6632,17 +6653,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 26120285,
+          "rank": 85,
+          "percentVsAvg": 327.0,
+          "cofferGained": 8
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Tuesday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -6668,17 +6689,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 7687811
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 25806774
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 2294424
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 2287450
         },
-        "averageDaily": 5393702,
-        "volatility": 43.1
+        "averageDaily": 8278172,
+        "volatility": 98.4
       },
       "dailyBreakdown": [
         {
@@ -6703,10 +6724,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 2287450,
+          "rank": 93,
+          "percentVsAvg": -41.6,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -6730,17 +6751,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 25806774,
+          "rank": 87,
+          "percentVsAvg": 321.9,
+          "cofferGained": 7
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -6766,17 +6787,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 6987557
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 24290086
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 1352014
         },
-        "averageDaily": 3456357,
-        "volatility": 64.8
+        "averageDaily": 6892813,
+        "volatility": 116.0
       },
       "dailyBreakdown": [
         {
@@ -6801,10 +6822,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 3241364,
+          "rank": 69,
+          "percentVsAvg": -17.3,
+          "cofferGained": 7
         },
         {
           "day": "Thursday",
@@ -6828,17 +6849,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 24290086,
+          "rank": 89,
+          "percentVsAvg": 297.1,
+          "cofferGained": 7
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -6864,17 +6885,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 10326899
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 24089686
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 2034531
         },
-        "averageDaily": 4853550,
-        "volatility": 68.5
+        "averageDaily": 7601994,
+        "volatility": 104.2
       },
       "dailyBreakdown": [
         {
@@ -6899,10 +6920,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 2108078,
+          "rank": 97,
+          "percentVsAvg": -46.2,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -6926,17 +6947,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 24089686,
+          "rank": 91,
+          "percentVsAvg": 293.8,
+          "cofferGained": 7
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -6962,17 +6983,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 7090243
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 23640844
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 277309
         },
-        "averageDaily": 2716062,
-        "volatility": 97.1
+        "averageDaily": 6924509,
+        "volatility": 114.6
       },
       "dailyBreakdown": [
         {
@@ -6997,10 +7018,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 7041960,
+          "rank": 11,
+          "percentVsAvg": 79.7,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -7024,17 +7045,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 23640844,
+          "rank": 92,
+          "percentVsAvg": 286.5,
+          "cofferGained": 7
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -7060,17 +7081,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 7299456
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 23259558
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 2856774
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 2454860
         },
-        "averageDaily": 4680601,
-        "volatility": 35.9
+        "averageDaily": 7406137,
+        "volatility": 98.1
       },
       "dailyBreakdown": [
         {
@@ -7095,10 +7116,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 2454860,
+          "rank": 89,
+          "percentVsAvg": -37.3,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -7122,17 +7143,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 23259558,
+          "rank": 93,
+          "percentVsAvg": 280.2,
+          "cofferGained": 7
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Friday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -7158,17 +7179,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 8410683
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 23014641
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 1369498
         },
-        "averageDaily": 5038666,
-        "volatility": 49.6
+        "averageDaily": 7642301,
+        "volatility": 94.5
       },
       "dailyBreakdown": [
         {
@@ -7193,10 +7214,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 2684501,
+          "rank": 83,
+          "percentVsAvg": -31.5,
+          "cofferGained": 7
         },
         {
           "day": "Thursday",
@@ -7220,17 +7241,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 23014641,
+          "rank": 94,
+          "percentVsAvg": 276.2,
+          "cofferGained": 6
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -7256,17 +7277,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 6544474
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 22040171
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 3868282
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 1836077
         },
-        "averageDaily": 4884184,
-        "volatility": 21.7
+        "averageDaily": 7235497,
+        "volatility": 93.6
       },
       "dailyBreakdown": [
         {
@@ -7291,10 +7312,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 1836077,
+          "rank": 103,
+          "percentVsAvg": -53.1,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -7318,17 +7339,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 22040171,
+          "rank": 95,
+          "percentVsAvg": 260.3,
+          "cofferGained": 6
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -7354,17 +7375,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 7360385
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 21301412
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 2255951
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 1570462
         },
-        "averageDaily": 4845672,
-        "volatility": 46.1
+        "averageDaily": 7042427,
+        "volatility": 95.7
       },
       "dailyBreakdown": [
         {
@@ -7389,10 +7410,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 1570462,
+          "rank": 112,
+          "percentVsAvg": -59.9,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -7416,17 +7437,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 21301412,
+          "rank": 97,
+          "percentVsAvg": 248.2,
+          "cofferGained": 6
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -7452,17 +7473,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 10974098
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 21199530
         },
         "worstDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 1395598
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 1340289
         },
-        "averageDaily": 4718961,
-        "volatility": 82.5
+        "averageDaily": 6902610,
+        "volatility": 105.0
       },
       "dailyBreakdown": [
         {
@@ -7487,10 +7508,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 1340289,
+          "rank": 120,
+          "percentVsAvg": -65.8,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -7514,17 +7535,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 21199530,
+          "rank": 98,
+          "percentVsAvg": 246.5,
+          "cofferGained": 6
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -7550,17 +7571,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 7698363
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 20997785
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 1620917
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 1324600
         },
-        "averageDaily": 4387438,
-        "volatility": 54.0
+        "averageDaily": 6645356,
+        "volatility": 102.3
       },
       "dailyBreakdown": [
         {
@@ -7585,10 +7606,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 1324600,
+          "rank": 122,
+          "percentVsAvg": -66.2,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -7612,17 +7633,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 20997785,
+          "rank": 99,
+          "percentVsAvg": 243.2,
+          "cofferGained": 6
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -7648,17 +7669,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 6320586
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 19972139
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 1606750
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 1337202
         },
-        "averageDaily": 4532201,
-        "volatility": 41.7
+        "averageDaily": 6573024,
+        "volatility": 95.8
       },
       "dailyBreakdown": [
         {
@@ -7683,10 +7704,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 1337202,
+          "rank": 121,
+          "percentVsAvg": -65.9,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -7710,17 +7731,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 19972139,
+          "rank": 102,
+          "percentVsAvg": 226.5,
+          "cofferGained": 6
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -7746,17 +7767,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 5456488
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 19236053
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 1562572
         },
-        "averageDaily": 3159269,
-        "volatility": 50.4
+        "averageDaily": 5831913,
+        "volatility": 105.2
       },
       "dailyBreakdown": [
         {
@@ -7781,10 +7802,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 3118352,
+          "rank": 71,
+          "percentVsAvg": -20.4,
+          "cofferGained": 7
         },
         {
           "day": "Thursday",
@@ -7808,17 +7829,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 19236053,
+          "rank": 104,
+          "percentVsAvg": 214.4,
+          "cofferGained": 6
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -7844,17 +7865,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 6412026
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 17875714
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 1161244
         },
-        "averageDaily": 3827234,
-        "volatility": 56.0
+        "averageDaily": 6330842,
+        "volatility": 95.3
       },
       "dailyBreakdown": [
         {
@@ -7879,10 +7900,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 2296792,
+          "rank": 92,
+          "percentVsAvg": -41.4,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -7906,17 +7927,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 17875714,
+          "rank": 105,
+          "percentVsAvg": 192.2,
+          "cofferGained": 6
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -7942,17 +7963,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 6328311
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 17467186
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 1414259
         },
-        "averageDaily": 3271212,
-        "volatility": 56.3
+        "averageDaily": 5676853,
+        "volatility": 96.6
       },
       "dailyBreakdown": [
         {
@@ -7977,10 +7998,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 3509083,
+          "rank": 61,
+          "percentVsAvg": -10.4,
+          "cofferGained": 8
         },
         {
           "day": "Thursday",
@@ -8004,17 +8025,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 17467186,
+          "rank": 107,
+          "percentVsAvg": 185.5,
+          "cofferGained": 6
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -8040,17 +8061,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 4774756
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 17177498
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 3116010
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 1517520
         },
-        "averageDaily": 3870100,
-        "volatility": 18.6
+        "averageDaily": 5695903,
+        "volatility": 92.0
       },
       "dailyBreakdown": [
         {
@@ -8075,10 +8096,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 1517520,
+          "rank": 113,
+          "percentVsAvg": -61.3,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -8102,17 +8123,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 17177498,
+          "rank": 108,
+          "percentVsAvg": 180.8,
+          "cofferGained": 6
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -8138,17 +8159,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 4234141
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 16887625
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 1822080
         },
-        "averageDaily": 2862826,
-        "volatility": 30.9
+        "averageDaily": 5435723,
+        "volatility": 95.6
       },
       "dailyBreakdown": [
         {
@@ -8173,10 +8194,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 4275406,
+          "rank": 44,
+          "percentVsAvg": 9.1,
+          "cofferGained": 8
         },
         {
           "day": "Thursday",
@@ -8200,17 +8221,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 16887625,
+          "rank": 109,
+          "percentVsAvg": 176.1,
+          "cofferGained": 5
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -8236,17 +8257,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 4058183
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 16429161
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 1336960
         },
-        "averageDaily": 2555843,
-        "volatility": 38.9
+        "averageDaily": 5330506,
+        "volatility": 105.4
       },
       "dailyBreakdown": [
         {
@@ -8272,7 +8293,7 @@
           "dayName": "Wednesday",
           "dayNumber": 2,
           "points": 0,
-          "rank": null,
+          "rank": 170,
           "percentVsAvg": null,
           "cofferGained": null
         },
@@ -8298,17 +8319,17 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 16429161,
+          "rank": 110,
+          "percentVsAvg": 168.6,
+          "cofferGained": 5
         }
       ],
       "insights": [
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -8334,17 +8355,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 4338576
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 15605243
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 2890695
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 701720
         },
-        "averageDaily": 3563368,
-        "volatility": 16.6
+        "averageDaily": 5093406,
+        "volatility": 95.0
       },
       "dailyBreakdown": [
         {
@@ -8369,10 +8390,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 701720,
+          "rank": 139,
+          "percentVsAvg": -82.1,
+          "cofferGained": 5
         },
         {
           "day": "Thursday",
@@ -8396,10 +8417,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 15605243,
+          "rank": 111,
+          "percentVsAvg": 155.1,
+          "cofferGained": 5
         }
       ],
       "insights": [
@@ -8411,7 +8432,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -8437,17 +8458,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 4107883
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 15567904
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 1466164
         },
-        "averageDaily": 3136440,
-        "volatility": 37.8
+        "averageDaily": 6227162,
+        "volatility": 78.7
       },
       "dailyBreakdown": [
         {
@@ -8472,10 +8493,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6158585,
+          "rank": 26,
+          "percentVsAvg": 57.2,
+          "cofferGained": 9
         },
         {
           "day": "Thursday",
@@ -8499,10 +8520,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 15567904,
+          "rank": 112,
+          "percentVsAvg": 154.5,
+          "cofferGained": 5
         }
       ],
       "insights": [
@@ -8514,7 +8535,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -8540,17 +8561,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 5760033
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 14798384
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 1723213
         },
-        "averageDaily": 2915109,
-        "volatility": 56.9
+        "averageDaily": 4844424,
+        "volatility": 96.1
       },
       "dailyBreakdown": [
         {
@@ -8575,10 +8596,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 2607726,
+          "rank": 85,
+          "percentVsAvg": -33.4,
+          "cofferGained": 7
         },
         {
           "day": "Thursday",
@@ -8602,10 +8623,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 14798384,
+          "rank": 113,
+          "percentVsAvg": 141.9,
+          "cofferGained": 5
         }
       ],
       "insights": [
@@ -8617,7 +8638,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -8643,17 +8664,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 5608439
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 14434753
         },
         "worstDay": {
           "day": "Thursday",
           "dayNumber": 3,
           "points": 1403959
         },
-        "averageDaily": 2751769,
-        "volatility": 60.9
+        "averageDaily": 4684377,
+        "volatility": 97.6
       },
       "dailyBreakdown": [
         {
@@ -8678,10 +8699,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 2664433,
+          "rank": 84,
+          "percentVsAvg": -32.0,
+          "cofferGained": 7
         },
         {
           "day": "Thursday",
@@ -8705,10 +8726,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 14434753,
+          "rank": 114,
+          "percentVsAvg": 136.0,
+          "cofferGained": 5
         }
       ],
       "insights": [
@@ -8720,7 +8741,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -8746,17 +8767,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 6895024
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 14408223
         },
         "worstDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 1669843
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 1007746
         },
-        "averageDaily": 4346610,
-        "volatility": 49.1
+        "averageDaily": 5691160,
+        "volatility": 85.0
       },
       "dailyBreakdown": [
         {
@@ -8781,10 +8802,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 1007746,
+          "rank": 132,
+          "percentVsAvg": -74.3,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -8808,10 +8829,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 14408223,
+          "rank": 115,
+          "percentVsAvg": 135.5,
+          "cofferGained": 5
         }
       ],
       "insights": [
@@ -8823,7 +8844,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -8849,17 +8870,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 4923036
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 13185444
         },
         "worstDay": {
-          "day": "Tuesday",
-          "dayNumber": 1,
-          "points": 1375454
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 759262
         },
-        "averageDaily": 3021186,
-        "volatility": 44.0
+        "averageDaily": 4338241,
+        "volatility": 96.5
       },
       "dailyBreakdown": [
         {
@@ -8884,10 +8905,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 759262,
+          "rank": 138,
+          "percentVsAvg": -80.6,
+          "cofferGained": 5
         },
         {
           "day": "Thursday",
@@ -8911,10 +8932,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 13185444,
+          "rank": 117,
+          "percentVsAvg": 115.5,
+          "cofferGained": 5
         }
       ],
       "insights": [
@@ -8926,7 +8947,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -8952,17 +8973,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 6628078
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 12304765
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 589667
         },
-        "averageDaily": 2802321,
-        "volatility": 87.9
+        "averageDaily": 4031308,
+        "volatility": 106.2
       },
       "dailyBreakdown": [
         {
@@ -8987,10 +9008,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 673800,
+          "rank": 140,
+          "percentVsAvg": -82.8,
+          "cofferGained": 5
         },
         {
           "day": "Thursday",
@@ -9014,10 +9035,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 12304765,
+          "rank": 120,
+          "percentVsAvg": 101.1,
+          "cofferGained": 5
         }
       ],
       "insights": [
@@ -9029,7 +9050,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -9055,17 +9076,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 2421547
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 11029136
         },
         "worstDay": {
-          "day": "Friday",
-          "dayNumber": 4,
-          "points": 1916772
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 1077086
         },
-        "averageDaily": 2211793,
-        "volatility": 9.6
+        "averageDaily": 3492232,
+        "volatility": 97.4
       },
       "dailyBreakdown": [
         {
@@ -9090,10 +9111,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 1077086,
+          "rank": 130,
+          "percentVsAvg": -72.5,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -9117,10 +9138,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 11029136,
+          "rank": 127,
+          "percentVsAvg": 80.3,
+          "cofferGained": 5
         }
       ],
       "insights": [
@@ -9132,7 +9153,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -9158,17 +9179,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 2209473
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 9605459
         },
         "worstDay": {
           "day": "Tuesday",
           "dayNumber": 1,
           "points": 746767
         },
-        "averageDaily": 1293525,
-        "volatility": 42.5
+        "averageDaily": 2653294,
+        "volatility": 118.4
       },
       "dailyBreakdown": [
         {
@@ -9193,10 +9214,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 1140204,
+          "rank": 127,
+          "percentVsAvg": -70.9,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -9220,10 +9241,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 9605459,
+          "rank": 130,
+          "percentVsAvg": 57.0,
+          "cofferGained": 4
         }
       ],
       "insights": [
@@ -9235,7 +9256,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -9261,17 +9282,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 4793554
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 8070226
         },
         "worstDay": {
           "day": "Monday",
           "dayNumber": 0,
           "points": 4793554
         },
-        "averageDaily": 4793554,
-        "volatility": 0.0
+        "averageDaily": 6431890,
+        "volatility": 25.5
       },
       "dailyBreakdown": [
         {
@@ -9297,7 +9318,7 @@
           "dayName": "Wednesday",
           "dayNumber": 2,
           "points": 0,
-          "rank": null,
+          "rank": 167,
           "percentVsAvg": null,
           "cofferGained": null
         },
@@ -9323,10 +9344,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 8070226,
+          "rank": 134,
+          "percentVsAvg": 31.9,
+          "cofferGained": 4
         }
       ],
       "insights": [
@@ -9338,7 +9359,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -9362,7 +9383,20 @@
         "percentage": 71.76,
         "rank": 86
       },
-      "dayAnalysis": null,
+      "dayAnalysis": {
+        "bestDay": {
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 7522185
+        },
+        "worstDay": {
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 7522185
+        },
+        "averageDaily": 7522185,
+        "volatility": 0.0
+      },
       "dailyBreakdown": [
         {
           "day": "Monday",
@@ -9387,7 +9421,7 @@
           "dayName": "Wednesday",
           "dayNumber": 2,
           "points": 0,
-          "rank": null,
+          "rank": 169,
           "percentVsAvg": null,
           "cofferGained": null
         },
@@ -9413,10 +9447,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 7522185,
+          "rank": 135,
+          "percentVsAvg": 23.0,
+          "cofferGained": 4
         }
       ],
       "insights": [
@@ -9424,6 +9458,11 @@
           "type": "warning",
           "icon": "⚠️",
           "message": "Low performance (-77%)"
+        },
+        {
+          "type": "pattern",
+          "icon": "📊",
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -9449,17 +9488,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 3496366
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 6588142
         },
         "worstDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 3496366
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 2508870
         },
-        "averageDaily": 3496366,
-        "volatility": 0.0
+        "averageDaily": 4197793,
+        "volatility": 41.4
       },
       "dailyBreakdown": [
         {
@@ -9484,10 +9523,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 2508870,
+          "rank": 88,
+          "percentVsAvg": -36.0,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -9511,10 +9550,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6588142,
+          "rank": 140,
+          "percentVsAvg": 7.7,
+          "cofferGained": 4
         }
       ],
       "insights": [
@@ -9526,7 +9565,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -9552,17 +9591,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 1977771
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 6379876
         },
         "worstDay": {
           "day": "Friday",
           "dayNumber": 4,
           "points": 649651
         },
-        "averageDaily": 1262803,
-        "volatility": 42.5
+        "averageDaily": 2063106,
+        "volatility": 96.1
       },
       "dailyBreakdown": [
         {
@@ -9587,10 +9626,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 947550,
+          "rank": 135,
+          "percentVsAvg": -75.8,
+          "cofferGained": 5
         },
         {
           "day": "Thursday",
@@ -9614,10 +9653,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6379876,
+          "rank": 141,
+          "percentVsAvg": 4.3,
+          "cofferGained": 4
         }
       ],
       "insights": [
@@ -9629,7 +9668,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Thursday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -9655,17 +9694,17 @@
       },
       "dayAnalysis": {
         "bestDay": {
-          "day": "Monday",
-          "dayNumber": 0,
-          "points": 1945792
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 6289085
         },
         "worstDay": {
-          "day": "Thursday",
-          "dayNumber": 3,
-          "points": 1187044
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 21849
         },
-        "averageDaily": 1566809,
-        "volatility": 21.7
+        "averageDaily": 2096362,
+        "volatility": 94.3
       },
       "dailyBreakdown": [
         {
@@ -9690,10 +9729,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 21849,
+          "rank": 163,
+          "percentVsAvg": -99.4,
+          "cofferGained": 5
         },
         {
           "day": "Thursday",
@@ -9717,10 +9756,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 6289085,
+          "rank": 142,
+          "percentVsAvg": 2.8,
+          "cofferGained": 3
         }
       ],
       "insights": [
@@ -9732,7 +9771,7 @@
         {
           "type": "pattern",
           "icon": "📊",
-          "message": "Best day: Monday"
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -9756,7 +9795,20 @@
         "percentage": 55.56,
         "rank": 97
       },
-      "dayAnalysis": null,
+      "dayAnalysis": {
+        "bestDay": {
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 1896059
+        },
+        "worstDay": {
+          "day": "Saturday",
+          "dayNumber": 5,
+          "points": 1896059
+        },
+        "averageDaily": 1896059,
+        "volatility": 0.0
+      },
       "dailyBreakdown": [
         {
           "day": "Monday",
@@ -9781,7 +9833,7 @@
           "dayName": "Wednesday",
           "dayNumber": 2,
           "points": 0,
-          "rank": null,
+          "rank": 168,
           "percentVsAvg": null,
           "cofferGained": null
         },
@@ -9807,10 +9859,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 1896059,
+          "rank": 172,
+          "percentVsAvg": -69.0,
+          "cofferGained": 3
         }
       ],
       "insights": [
@@ -9818,6 +9870,11 @@
           "type": "warning",
           "icon": "⚠️",
           "message": "Low performance (-94%)"
+        },
+        {
+          "type": "pattern",
+          "icon": "📊",
+          "message": "Best day: Saturday"
         }
       ]
     },
@@ -9841,7 +9898,20 @@
         "percentage": 33.33,
         "rank": 100
       },
-      "dayAnalysis": null,
+      "dayAnalysis": {
+        "bestDay": {
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 1675674
+        },
+        "worstDay": {
+          "day": "Wednesday",
+          "dayNumber": 2,
+          "points": 1675674
+        },
+        "averageDaily": 1675674,
+        "volatility": 0.0
+      },
       "dailyBreakdown": [
         {
           "day": "Monday",
@@ -9865,10 +9935,10 @@
           "day": "Wednesday",
           "dayName": "Wednesday",
           "dayNumber": 2,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 1675674,
+          "rank": 108,
+          "percentVsAvg": -57.2,
+          "cofferGained": 6
         },
         {
           "day": "Thursday",
@@ -9892,10 +9962,10 @@
           "day": "Saturday",
           "dayName": "Saturday",
           "dayNumber": 5,
-          "points": 0,
-          "rank": null,
-          "percentVsAvg": null,
-          "cofferGained": null
+          "points": 1675674,
+          "rank": 174,
+          "percentVsAvg": -72.6,
+          "cofferGained": 3
         }
       ],
       "insights": [
@@ -9908,6 +9978,11 @@
           "type": "warning",
           "icon": "⚠️",
           "message": "Low performance (-95%)"
+        },
+        {
+          "type": "pattern",
+          "icon": "📊",
+          "message": "Best day: Wednesday"
         }
       ]
     }
@@ -9915,25 +9990,25 @@
   "wynDailyPoints": {
     "Monday": 581396204,
     "Tuesday": 404921727,
-    "Wednesday": 0,
+    "Wednesday": 376099050,
     "Thursday": 812225802,
     "Friday": 448968660,
-    "Saturday": 0
+    "Saturday": 611740103
   },
   "rivalDailyPoints": {
     "Monday": 239776022,
     "Tuesday": 143726298,
-    "Wednesday": 0,
+    "Wednesday": 148465848,
     "Thursday": 289380300,
     "Friday": 146463794,
-    "Saturday": 0
+    "Saturday": 199904944
   },
   "dailyResults": {
     "Monday": "W",
     "Tuesday": "W",
-    "Wednesday": null,
+    "Wednesday": "W",
     "Thursday": "W",
     "Friday": "W",
-    "Saturday": null
+    "Saturday": "W"
   }
 }
