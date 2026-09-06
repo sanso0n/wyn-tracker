@@ -28,7 +28,7 @@
       "Friday",
       "Saturday"
     ],
-    "generatedAt": "2026-09-06T13:13:09"
+    "generatedAt": "2026-09-06T14:08:14"
   },
   "players": [
     {
@@ -46,9 +46,9 @@
         "percentage": 399.2
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
+        "percentage": 100,
         "rank": 1
       },
       "dayAnalysis": {
@@ -124,6 +124,11 @@
       "insights": [
         {
           "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
+          "type": "positive",
           "icon": "⭐",
           "message": "Outstanding performance (+399%)"
         },
@@ -149,9 +154,9 @@
         "percentage": 386.7
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
+        "percentage": 100,
         "rank": 2
       },
       "dayAnalysis": {
@@ -227,6 +232,11 @@
       "insights": [
         {
           "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
+          "type": "positive",
           "icon": "⭐",
           "message": "Outstanding performance (+387%)"
         },
@@ -252,9 +262,9 @@
         "percentage": 202.0
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
+        "percentage": 100,
         "rank": 3
       },
       "dayAnalysis": {
@@ -330,6 +340,11 @@
       "insights": [
         {
           "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
+          "type": "positive",
           "icon": "⭐",
           "message": "Outstanding performance (+202%)"
         },
@@ -355,9 +370,9 @@
         "percentage": 188.1
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
+        "percentage": 100,
         "rank": 4
       },
       "dayAnalysis": {
@@ -433,6 +448,11 @@
       "insights": [
         {
           "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
+          "type": "positive",
           "icon": "⭐",
           "message": "Outstanding performance (+188%)"
         },
@@ -458,9 +478,9 @@
         "percentage": 179.2
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
+        "percentage": 100,
         "rank": 5
       },
       "dayAnalysis": {
@@ -536,6 +556,11 @@
       "insights": [
         {
           "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
+          "type": "positive",
           "icon": "⭐",
           "message": "Outstanding performance (+179%)"
         },
@@ -561,9 +586,9 @@
         "percentage": 159.3
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
+        "percentage": 100,
         "rank": 6
       },
       "dayAnalysis": {
@@ -639,6 +664,11 @@
       "insights": [
         {
           "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
+          "type": "positive",
           "icon": "⭐",
           "message": "Outstanding performance (+159%)"
         },
@@ -664,9 +694,9 @@
         "percentage": 106.8
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
+        "percentage": 100,
         "rank": 7
       },
       "dayAnalysis": {
@@ -742,6 +772,11 @@
       "insights": [
         {
           "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
+          "type": "positive",
           "icon": "⭐",
           "message": "Outstanding performance (+107%)"
         },
@@ -767,9 +802,9 @@
         "percentage": 103.2
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
+        "percentage": 100,
         "rank": 8
       },
       "dayAnalysis": {
@@ -845,6 +880,11 @@
       "insights": [
         {
           "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
+          "type": "positive",
           "icon": "⭐",
           "message": "Outstanding performance (+103%)"
         },
@@ -870,9 +910,9 @@
         "percentage": 84.1
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
+        "percentage": 100,
         "rank": 9
       },
       "dayAnalysis": {
@@ -947,6 +987,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -968,10 +1013,10 @@
         "percentage": 74.7
       },
       "coffers": {
-        "gained": 0,
+        "gained": 53,
         "possible": 54,
-        "percentage": 0,
-        "rank": 10
+        "percentage": 98.15,
+        "rank": 38
       },
       "dayAnalysis": {
         "bestDay": {
@@ -1066,10 +1111,10 @@
         "percentage": 68.6
       },
       "coffers": {
-        "gained": 0,
+        "gained": 50,
         "possible": 54,
-        "percentage": 0,
-        "rank": 11
+        "percentage": 92.59,
+        "rank": 64
       },
       "dayAnalysis": {
         "bestDay": {
@@ -1164,10 +1209,10 @@
         "percentage": 67.3
       },
       "coffers": {
-        "gained": 0,
+        "gained": 53,
         "possible": 54,
-        "percentage": 0,
-        "rank": 12
+        "percentage": 98.15,
+        "rank": 39
       },
       "dayAnalysis": {
         "bestDay": {
@@ -1262,10 +1307,10 @@
         "percentage": 63.2
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 13
+        "percentage": 100,
+        "rank": 10
       },
       "dayAnalysis": {
         "bestDay": {
@@ -1339,6 +1384,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -1360,10 +1410,10 @@
         "percentage": 56.3
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 14
+        "percentage": 100,
+        "rank": 11
       },
       "dayAnalysis": {
         "bestDay": {
@@ -1437,6 +1487,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -1458,10 +1513,10 @@
         "percentage": 53.8
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 15
+        "percentage": 100,
+        "rank": 12
       },
       "dayAnalysis": {
         "bestDay": {
@@ -1535,6 +1590,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -1556,10 +1616,10 @@
         "percentage": 52.6
       },
       "coffers": {
-        "gained": 0,
+        "gained": 52,
         "possible": 54,
-        "percentage": 0,
-        "rank": 16
+        "percentage": 96.3,
+        "rank": 51
       },
       "dayAnalysis": {
         "bestDay": {
@@ -1654,10 +1714,10 @@
         "percentage": 52.4
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 17
+        "percentage": 100,
+        "rank": 13
       },
       "dayAnalysis": {
         "bestDay": {
@@ -1731,6 +1791,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -1752,10 +1817,10 @@
         "percentage": 52.0
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 18
+        "percentage": 100,
+        "rank": 14
       },
       "dayAnalysis": {
         "bestDay": {
@@ -1829,6 +1894,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -1850,10 +1920,10 @@
         "percentage": 50.9
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 19
+        "percentage": 100,
+        "rank": 15
       },
       "dayAnalysis": {
         "bestDay": {
@@ -1927,6 +1997,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -1948,10 +2023,10 @@
         "percentage": 29.3
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 20
+        "percentage": 100,
+        "rank": 16
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2025,6 +2100,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -2046,10 +2126,10 @@
         "percentage": 26.2
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 21
+        "percentage": 100,
+        "rank": 17
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2123,6 +2203,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -2144,10 +2229,10 @@
         "percentage": 25.4
       },
       "coffers": {
-        "gained": 0,
+        "gained": 52,
         "possible": 54,
-        "percentage": 0,
-        "rank": 22
+        "percentage": 96.3,
+        "rank": 52
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2242,10 +2327,10 @@
         "percentage": 20.6
       },
       "coffers": {
-        "gained": 0,
+        "gained": 53,
         "possible": 54,
-        "percentage": 0,
-        "rank": 23
+        "percentage": 98.15,
+        "rank": 40
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2340,10 +2425,10 @@
         "percentage": 16.4
       },
       "coffers": {
-        "gained": 0,
+        "gained": 49,
         "possible": 54,
-        "percentage": 0,
-        "rank": 24
+        "percentage": 90.74,
+        "rank": 70
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2438,10 +2523,10 @@
         "percentage": 10.7
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 25
+        "percentage": 100,
+        "rank": 18
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2515,6 +2600,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -2536,10 +2626,10 @@
         "percentage": 7.4
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 26
+        "percentage": 100,
+        "rank": 19
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2613,6 +2703,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -2634,10 +2729,10 @@
         "percentage": 6.6
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 27
+        "percentage": 100,
+        "rank": 20
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2711,6 +2806,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Friday"
@@ -2732,10 +2832,10 @@
         "percentage": 5.6
       },
       "coffers": {
-        "gained": 0,
+        "gained": 53,
         "possible": 54,
-        "percentage": 0,
-        "rank": 28
+        "percentage": 98.15,
+        "rank": 41
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2830,10 +2930,10 @@
         "percentage": 3.6
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 29
+        "percentage": 100,
+        "rank": 21
       },
       "dayAnalysis": {
         "bestDay": {
@@ -2907,6 +3007,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -2928,10 +3033,10 @@
         "percentage": 3.5
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 30
+        "percentage": 100,
+        "rank": 22
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3005,6 +3110,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -3026,10 +3136,10 @@
         "percentage": 0.3
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 31
+        "percentage": 100,
+        "rank": 23
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3103,6 +3213,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Monday"
@@ -3124,10 +3239,10 @@
         "percentage": -2.9
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 32
+        "percentage": 100,
+        "rank": 24
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3201,6 +3316,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -3222,10 +3342,10 @@
         "percentage": -4.5
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 33
+        "percentage": 100,
+        "rank": 25
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3299,6 +3419,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -3320,10 +3445,10 @@
         "percentage": -4.6
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 34
+        "percentage": 100,
+        "rank": 26
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3397,6 +3522,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -3418,10 +3548,10 @@
         "percentage": -7.1
       },
       "coffers": {
-        "gained": 0,
+        "gained": 49,
         "possible": 54,
-        "percentage": 0,
-        "rank": 35
+        "percentage": 90.74,
+        "rank": 71
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3516,10 +3646,10 @@
         "percentage": -8.6
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 36
+        "percentage": 100,
+        "rank": 27
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3593,6 +3723,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -3614,10 +3749,10 @@
         "percentage": -11.4
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 37
+        "percentage": 100,
+        "rank": 28
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3691,6 +3826,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -3712,10 +3852,10 @@
         "percentage": -11.9
       },
       "coffers": {
-        "gained": 0,
+        "gained": 53,
         "possible": 54,
-        "percentage": 0,
-        "rank": 38
+        "percentage": 98.15,
+        "rank": 42
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3810,10 +3950,10 @@
         "percentage": -12.3
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 39
+        "percentage": 100,
+        "rank": 29
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3887,6 +4027,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Monday"
@@ -3908,10 +4053,10 @@
         "percentage": -13.0
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 40
+        "percentage": 100,
+        "rank": 30
       },
       "dayAnalysis": {
         "bestDay": {
@@ -3985,6 +4130,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -4006,10 +4156,10 @@
         "percentage": -13.2
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 41
+        "percentage": 100,
+        "rank": 31
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4083,6 +4233,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Monday"
@@ -4104,10 +4259,10 @@
         "percentage": -14.4
       },
       "coffers": {
-        "gained": 0,
+        "gained": 52,
         "possible": 54,
-        "percentage": 0,
-        "rank": 42
+        "percentage": 96.3,
+        "rank": 53
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4202,10 +4357,10 @@
         "percentage": -14.7
       },
       "coffers": {
-        "gained": 0,
+        "gained": 41,
         "possible": 54,
-        "percentage": 0,
-        "rank": 43
+        "percentage": 75.93,
+        "rank": 96
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4300,10 +4455,10 @@
         "percentage": -15.7
       },
       "coffers": {
-        "gained": 0,
+        "gained": 53,
         "possible": 54,
-        "percentage": 0,
-        "rank": 44
+        "percentage": 98.15,
+        "rank": 43
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4398,10 +4553,10 @@
         "percentage": -16.8
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 45
+        "percentage": 100,
+        "rank": 32
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4475,6 +4630,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -4496,10 +4656,10 @@
         "percentage": -17.0
       },
       "coffers": {
-        "gained": 0,
+        "gained": 45,
         "possible": 54,
-        "percentage": 0,
-        "rank": 46
+        "percentage": 83.33,
+        "rank": 87
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4594,10 +4754,10 @@
         "percentage": -17.2
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 47
+        "percentage": 100,
+        "rank": 33
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4671,6 +4831,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -4692,10 +4857,10 @@
         "percentage": -17.5
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 48
+        "percentage": 100,
+        "rank": 34
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4769,6 +4934,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Wednesday"
@@ -4790,10 +4960,10 @@
         "percentage": -17.8
       },
       "coffers": {
-        "gained": 0,
+        "gained": 50,
         "possible": 54,
-        "percentage": 0,
-        "rank": 49
+        "percentage": 92.59,
+        "rank": 65
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4888,10 +5058,10 @@
         "percentage": -18.1
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 50
+        "percentage": 100,
+        "rank": 35
       },
       "dayAnalysis": {
         "bestDay": {
@@ -4965,6 +5135,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Thursday"
@@ -4986,10 +5161,10 @@
         "percentage": -23.7
       },
       "coffers": {
-        "gained": 0,
+        "gained": 53,
         "possible": 54,
-        "percentage": 0,
-        "rank": 51
+        "percentage": 98.15,
+        "rank": 44
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5084,10 +5259,10 @@
         "percentage": -26.0
       },
       "coffers": {
-        "gained": 0,
+        "gained": 53,
         "possible": 54,
-        "percentage": 0,
-        "rank": 52
+        "percentage": 98.15,
+        "rank": 45
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5182,10 +5357,10 @@
         "percentage": -26.5
       },
       "coffers": {
-        "gained": 0,
+        "gained": 52,
         "possible": 54,
-        "percentage": 0,
-        "rank": 53
+        "percentage": 96.3,
+        "rank": 54
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5280,10 +5455,10 @@
         "percentage": -27.0
       },
       "coffers": {
-        "gained": 0,
+        "gained": 53,
         "possible": 54,
-        "percentage": 0,
-        "rank": 54
+        "percentage": 98.15,
+        "rank": 46
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5378,10 +5553,10 @@
         "percentage": -28.3
       },
       "coffers": {
-        "gained": 0,
+        "gained": 53,
         "possible": 54,
-        "percentage": 0,
-        "rank": 55
+        "percentage": 98.15,
+        "rank": 47
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5476,10 +5651,10 @@
         "percentage": -28.6
       },
       "coffers": {
-        "gained": 0,
+        "gained": 50,
         "possible": 54,
-        "percentage": 0,
-        "rank": 56
+        "percentage": 92.59,
+        "rank": 66
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5574,10 +5749,10 @@
         "percentage": -28.6
       },
       "coffers": {
-        "gained": 0,
+        "gained": 48,
         "possible": 54,
-        "percentage": 0,
-        "rank": 57
+        "percentage": 88.89,
+        "rank": 76
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5672,10 +5847,10 @@
         "percentage": -29.9
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 58
+        "percentage": 100,
+        "rank": 36
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5749,6 +5924,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Monday"
@@ -5770,10 +5950,10 @@
         "percentage": -30.8
       },
       "coffers": {
-        "gained": 0,
+        "gained": 52,
         "possible": 54,
-        "percentage": 0,
-        "rank": 59
+        "percentage": 96.3,
+        "rank": 55
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5868,10 +6048,10 @@
         "percentage": -31.0
       },
       "coffers": {
-        "gained": 0,
+        "gained": 53,
         "possible": 54,
-        "percentage": 0,
-        "rank": 60
+        "percentage": 98.15,
+        "rank": 48
       },
       "dayAnalysis": {
         "bestDay": {
@@ -5966,10 +6146,10 @@
         "percentage": -31.9
       },
       "coffers": {
-        "gained": 0,
+        "gained": 52,
         "possible": 54,
-        "percentage": 0,
-        "rank": 61
+        "percentage": 96.3,
+        "rank": 56
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6064,10 +6244,10 @@
         "percentage": -33.3
       },
       "coffers": {
-        "gained": 0,
+        "gained": 49,
         "possible": 54,
-        "percentage": 0,
-        "rank": 62
+        "percentage": 90.74,
+        "rank": 72
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6162,10 +6342,10 @@
         "percentage": -35.4
       },
       "coffers": {
-        "gained": 0,
+        "gained": 53,
         "possible": 54,
-        "percentage": 0,
-        "rank": 63
+        "percentage": 98.15,
+        "rank": 49
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6260,10 +6440,10 @@
         "percentage": -35.9
       },
       "coffers": {
-        "gained": 0,
+        "gained": 51,
         "possible": 54,
-        "percentage": 0,
-        "rank": 64
+        "percentage": 94.44,
+        "rank": 61
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6358,10 +6538,10 @@
         "percentage": -36.2
       },
       "coffers": {
-        "gained": 0,
+        "gained": 48,
         "possible": 54,
-        "percentage": 0,
-        "rank": 65
+        "percentage": 88.89,
+        "rank": 77
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6456,10 +6636,10 @@
         "percentage": -37.4
       },
       "coffers": {
-        "gained": 0,
+        "gained": 52,
         "possible": 54,
-        "percentage": 0,
-        "rank": 66
+        "percentage": 96.3,
+        "rank": 57
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6554,10 +6734,10 @@
         "percentage": -37.5
       },
       "coffers": {
-        "gained": 0,
+        "gained": 46,
         "possible": 54,
-        "percentage": 0,
-        "rank": 67
+        "percentage": 85.19,
+        "rank": 85
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6652,10 +6832,10 @@
         "percentage": -37.5
       },
       "coffers": {
-        "gained": 0,
+        "gained": 53,
         "possible": 54,
-        "percentage": 0,
-        "rank": 68
+        "percentage": 98.15,
+        "rank": 50
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6750,10 +6930,10 @@
         "percentage": -39.5
       },
       "coffers": {
-        "gained": 0,
+        "gained": 50,
         "possible": 54,
-        "percentage": 0,
-        "rank": 69
+        "percentage": 92.59,
+        "rank": 67
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6848,10 +7028,10 @@
         "percentage": -39.6
       },
       "coffers": {
-        "gained": 0,
+        "gained": 54,
         "possible": 54,
-        "percentage": 0,
-        "rank": 70
+        "percentage": 100,
+        "rank": 37
       },
       "dayAnalysis": {
         "bestDay": {
@@ -6925,6 +7105,11 @@
       ],
       "insights": [
         {
+          "type": "positive",
+          "icon": "✅",
+          "message": "Perfect coffers (100%)"
+        },
+        {
           "type": "pattern",
           "icon": "📊",
           "message": "Best day: Wednesday"
@@ -6946,10 +7131,10 @@
         "percentage": -39.7
       },
       "coffers": {
-        "gained": 0,
+        "gained": 44,
         "possible": 54,
-        "percentage": 0,
-        "rank": 71
+        "percentage": 81.48,
+        "rank": 90
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7044,10 +7229,10 @@
         "percentage": -40.3
       },
       "coffers": {
-        "gained": 0,
+        "gained": 52,
         "possible": 54,
-        "percentage": 0,
-        "rank": 72
+        "percentage": 96.3,
+        "rank": 58
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7142,10 +7327,10 @@
         "percentage": -42.2
       },
       "coffers": {
-        "gained": 0,
+        "gained": 52,
         "possible": 54,
-        "percentage": 0,
-        "rank": 73
+        "percentage": 96.3,
+        "rank": 59
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7240,10 +7425,10 @@
         "percentage": -42.5
       },
       "coffers": {
-        "gained": 0,
+        "gained": 49,
         "possible": 54,
-        "percentage": 0,
-        "rank": 74
+        "percentage": 90.74,
+        "rank": 73
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7338,10 +7523,10 @@
         "percentage": -43.6
       },
       "coffers": {
-        "gained": 0,
+        "gained": 47,
         "possible": 54,
-        "percentage": 0,
-        "rank": 75
+        "percentage": 87.04,
+        "rank": 81
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7436,10 +7621,10 @@
         "percentage": -46.9
       },
       "coffers": {
-        "gained": 0,
+        "gained": 48,
         "possible": 54,
-        "percentage": 0,
-        "rank": 76
+        "percentage": 88.89,
+        "rank": 78
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7534,10 +7719,10 @@
         "percentage": -47.3
       },
       "coffers": {
-        "gained": 0,
+        "gained": 52,
         "possible": 54,
-        "percentage": 0,
-        "rank": 77
+        "percentage": 96.3,
+        "rank": 60
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7632,10 +7817,10 @@
         "percentage": -47.4
       },
       "coffers": {
-        "gained": 0,
+        "gained": 51,
         "possible": 54,
-        "percentage": 0,
-        "rank": 78
+        "percentage": 94.44,
+        "rank": 62
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7730,10 +7915,10 @@
         "percentage": -49.5
       },
       "coffers": {
-        "gained": 0,
+        "gained": 49,
         "possible": 54,
-        "percentage": 0,
-        "rank": 79
+        "percentage": 90.74,
+        "rank": 74
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7828,10 +8013,10 @@
         "percentage": -51.9
       },
       "coffers": {
-        "gained": 0,
+        "gained": 48,
         "possible": 54,
-        "percentage": 0,
-        "rank": 80
+        "percentage": 88.89,
+        "rank": 79
       },
       "dayAnalysis": {
         "bestDay": {
@@ -7931,10 +8116,10 @@
         "percentage": -52.3
       },
       "coffers": {
-        "gained": 0,
+        "gained": 51,
         "possible": 54,
-        "percentage": 0,
-        "rank": 81
+        "percentage": 94.44,
+        "rank": 63
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8034,10 +8219,10 @@
         "percentage": -52.7
       },
       "coffers": {
-        "gained": 0,
+        "gained": 50,
         "possible": 54,
-        "percentage": 0,
-        "rank": 82
+        "percentage": 92.59,
+        "rank": 68
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8137,10 +8322,10 @@
         "percentage": -52.7
       },
       "coffers": {
-        "gained": 0,
+        "gained": 49,
         "possible": 54,
-        "percentage": 0,
-        "rank": 83
+        "percentage": 90.74,
+        "rank": 75
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8240,10 +8425,10 @@
         "percentage": -53.4
       },
       "coffers": {
-        "gained": 0,
+        "gained": 39,
         "possible": 54,
-        "percentage": 0,
-        "rank": 84
+        "percentage": 72.22,
+        "rank": 98
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8343,10 +8528,10 @@
         "percentage": -53.5
       },
       "coffers": {
-        "gained": 0,
+        "gained": 42,
         "possible": 54,
-        "percentage": 0,
-        "rank": 85
+        "percentage": 77.78,
+        "rank": 94
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8446,10 +8631,10 @@
         "percentage": -53.7
       },
       "coffers": {
-        "gained": 0,
+        "gained": 48,
         "possible": 54,
-        "percentage": 0,
-        "rank": 86
+        "percentage": 88.89,
+        "rank": 80
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8549,10 +8734,10 @@
         "percentage": -54.0
       },
       "coffers": {
-        "gained": 0,
+        "gained": 46,
         "possible": 54,
-        "percentage": 0,
-        "rank": 87
+        "percentage": 85.19,
+        "rank": 86
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8652,10 +8837,10 @@
         "percentage": -55.9
       },
       "coffers": {
-        "gained": 0,
+        "gained": 44,
         "possible": 54,
-        "percentage": 0,
-        "rank": 88
+        "percentage": 81.48,
+        "rank": 91
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8755,10 +8940,10 @@
         "percentage": -56.8
       },
       "coffers": {
-        "gained": 0,
+        "gained": 28,
         "possible": 54,
-        "percentage": 0,
-        "rank": 89
+        "percentage": 51.85,
+        "rank": 99
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8858,10 +9043,10 @@
         "percentage": -56.9
       },
       "coffers": {
-        "gained": 0,
+        "gained": 50,
         "possible": 54,
-        "percentage": 0,
-        "rank": 90
+        "percentage": 92.59,
+        "rank": 69
       },
       "dayAnalysis": {
         "bestDay": {
@@ -8961,10 +9146,10 @@
         "percentage": -58.7
       },
       "coffers": {
-        "gained": 0,
+        "gained": 47,
         "possible": 54,
-        "percentage": 0,
-        "rank": 91
+        "percentage": 87.04,
+        "rank": 82
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9064,10 +9249,10 @@
         "percentage": -58.8
       },
       "coffers": {
-        "gained": 0,
+        "gained": 47,
         "possible": 54,
-        "percentage": 0,
-        "rank": 92
+        "percentage": 87.04,
+        "rank": 83
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9167,10 +9352,10 @@
         "percentage": -59.9
       },
       "coffers": {
-        "gained": 0,
+        "gained": 47,
         "possible": 54,
-        "percentage": 0,
-        "rank": 93
+        "percentage": 87.04,
+        "rank": 84
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9270,10 +9455,10 @@
         "percentage": -64.8
       },
       "coffers": {
-        "gained": 0,
+        "gained": 45,
         "possible": 54,
-        "percentage": 0,
-        "rank": 94
+        "percentage": 83.33,
+        "rank": 88
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9373,10 +9558,10 @@
         "percentage": -65.2
       },
       "coffers": {
-        "gained": 0,
+        "gained": 45,
         "possible": 54,
-        "percentage": 0,
-        "rank": 95
+        "percentage": 83.33,
+        "rank": 89
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9476,10 +9661,10 @@
         "percentage": -66.0
       },
       "coffers": {
-        "gained": 0,
+        "gained": 43,
         "possible": 54,
-        "percentage": 0,
-        "rank": 96
+        "percentage": 79.63,
+        "rank": 92
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9579,10 +9764,10 @@
         "percentage": -67.6
       },
       "coffers": {
-        "gained": 0,
+        "gained": 42,
         "possible": 54,
-        "percentage": 0,
-        "rank": 97
+        "percentage": 77.78,
+        "rank": 95
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9682,10 +9867,10 @@
         "percentage": -67.9
       },
       "coffers": {
-        "gained": 0,
+        "gained": 43,
         "possible": 54,
-        "percentage": 0,
-        "rank": 98
+        "percentage": 79.63,
+        "rank": 93
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9785,10 +9970,10 @@
         "percentage": -70.6
       },
       "coffers": {
-        "gained": 0,
+        "gained": 40,
         "possible": 54,
-        "percentage": 0,
-        "rank": 99
+        "percentage": 74.07,
+        "rank": 97
       },
       "dayAnalysis": {
         "bestDay": {
@@ -9889,7 +10074,7 @@
       },
       "coffers": {
         "gained": 0,
-        "possible": 54,
+        "possible": 0,
         "percentage": 0,
         "rank": 100
       },
